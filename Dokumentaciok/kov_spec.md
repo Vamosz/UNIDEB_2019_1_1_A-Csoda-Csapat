@@ -1,7 +1,7 @@
-**Recept oldal**
+# Recept oldal
 
 Követelményspecifikáció
-
+---
 1. Vezetői összefoglaló 
 
 2. Jelenlegi helyzet
