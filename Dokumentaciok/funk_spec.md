@@ -1,4 +1,4 @@
-#Recept oldal
+#Recept oldal#
 
 Funkcionális specifikáció leirása
 ---
