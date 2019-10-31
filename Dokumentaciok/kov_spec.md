@@ -12,14 +12,14 @@ ezekmellett  fejben tartani a pontos recepteket még több nehézségeket okozha
 Pörgő, felgyorsult világban élünk, az embereknek nincs ideje már olyan apróságokra <br/>
 mint régen, például régen mikor még több szabadidő állt rendelkezésre, egy <br/>
 szomszédtól hallott és kipróbált receptet gyorsan leírtunk egy papírra és már el is <br/>
-tehetünk az utókor számára a többi kis papírlapokra felírt receptünk mellé a receptes
+tehetünk az utókor számára a többi kis papírlapokra felírt receptünk mellé a receptes <br/>
 ládikánkba.<br/>
 Manapság erre nem mindenkinek van ideje. Sokkal gyorsabb megoldást nyújthat <br/>
 egy online “receptes ládika”, ahova minden számunkra megfelelő receptet <br/>
 menthetünk, és ezeket bármikor megtekinthetjük. <br/>
 Amellett, hogy bármikor megtekinthetjük, bárhonnan megtehetjük ezt a bejelentkezés <br/>
 után, így bármilyen váratlan helyzetbe kerülünk, ahol pont egy jól bevált receptre <br/>
-van szükség, ez nem okozhat problémát, hiszen kedvünkre válogathatunk majd <br>
+van szükség, ez nem okozhat problémát, hiszen kedvünkre válogathatunk majd <br/>
 a kedvencek közül.
 
 2. Jelenlegi helyzet
