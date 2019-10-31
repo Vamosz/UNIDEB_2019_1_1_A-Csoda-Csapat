@@ -2,7 +2,7 @@
 
 Követelményspecifikáció
 ---
-1. Bevezetés 
+1. Bevezetés <br/>
 Projektünk célja egy recept oldal létrehozása. Olyan weboldalt álmodtunk meg,<br/>
 amelyet mindenki könnyedén tud használni a mindennapjaiban, segítséget nyújt <br/>
 a főzésben, ötleteket ad.<br/>
