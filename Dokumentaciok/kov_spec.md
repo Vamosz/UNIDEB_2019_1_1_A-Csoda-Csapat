@@ -14,6 +14,9 @@ mint régen, például régen mikor még több szabadidő állt rendelkezésre, 
 szomszédtól hallott és kipróbált receptet gyorsan leírtunk egy papírra és már el is <br/>
 tehetünk az utókor számára a többi kis papírlapokra felírt receptünk mellé a receptes
 ládikánkba.<br/>
+Manapság erre nem mindenkinek van ideje. Sokkal gyorsabb megoldást nyújthat <br/>
+egy online “receptes ládika”, ahova minden számunkra megfelelő receptet <br/>
+menthetünk, és ezeket bármikor megtekinthetjük. <br/>
 
 2. Jelenlegi helyzet
 
