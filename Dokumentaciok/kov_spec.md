@@ -17,6 +17,10 @@ ládikánkba.<br/>
 Manapság erre nem mindenkinek van ideje. Sokkal gyorsabb megoldást nyújthat <br/>
 egy online “receptes ládika”, ahova minden számunkra megfelelő receptet <br/>
 menthetünk, és ezeket bármikor megtekinthetjük. <br/>
+Amellett, hogy bármikor megtekinthetjük, bárhonnan megtehetjük ezt a bejelentkezés <br/>
+után, így bármilyen váratlan helyzetbe kerülünk, ahol pont egy jól bevált receptre <br/>
+van szükség, ez nem okozhat problémát, hiszen kedvünkre válogathatunk majd <br>
+a kedvencek közül.
 
 2. Jelenlegi helyzet
 
