@@ -25,9 +25,10 @@ Funkcionális specifikáció leirása
 
 
 4. Jelenlegi üzelti folyamatok
-
+    Jelenleg nem sok receptoldalt van a interneten, így a háziasszonyok egyik nagy álmát valósítjuk meg ezzel az alkalmazással. 
+    Mivel mi ezt a komolyan csináljuk elég nagy támogatást szeretnénk hozzá adni, amivel a felhasználóknak szeretnénk egy amahabiztos hátteret adni. Ha valami gondba ütköznek vagy valami kérdésük van egy beépitett chaten keresztül eltudják érni a `support`-ot akik mindenben segitenek nekik.
 
 
 
 5. Igényelt üzleti feladatok 
-	
+
