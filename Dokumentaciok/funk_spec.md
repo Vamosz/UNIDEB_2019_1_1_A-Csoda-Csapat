@@ -16,11 +16,18 @@ Funkcionális specifikáció leirása
     A program egy fő oldalból áll aminek a tartalmát cserélgetjük.
 
 3. Vágyálom rendszer
-    
+    Kiindulva abból, hogy a főzés magában is egy hosszadalmas munka, olyan weboldalt álmodtunk meg amiben nem kerül sok időbe egy recept elérése.
+    Tudva azt, hogy nem feltétlen informatikusok fogják használni a programot, egy könnyedén használható alkalmazást szeretnénk megteremteni.
+    A felhasználók azonosítására `MySQL` adatázist fogunk használni. Egy rövid regisztráció után a felhasználót username-el, password-el és DisplayName-el felvisszük az adatbázisba a password-öt titkosítjuk, hogy ne lehessen _'könnyedén'_ feltörni.
+    Reményeink szerint a felhasználók láthatják egymást egymást a rendszerben, keresgélhetnek egymás *PUBLIKUS* receptjei között menthetik a saját tárolójukba.
+
 
 
 
 4. Jelenlegi üzelti folyamatok
-	
+
+
+
+
 5. Igényelt üzleti feladatok 
 	
