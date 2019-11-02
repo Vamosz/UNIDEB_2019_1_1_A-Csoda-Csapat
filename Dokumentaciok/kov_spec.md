@@ -20,7 +20,7 @@ menthetünk, és ezeket bármikor megtekinthetjük. <br/>
 Amellett, hogy bármikor megtekinthetjük, bárhonnan megtehetjük ezt a bejelentkezés <br/>
 után, így bármilyen váratlan helyzetbe kerülünk, ahol pont egy jól bevált receptre <br/>
 van szükség, ez nem okozhat problémát, hiszen kedvünkre válogathatunk majd <br/>
-a kedvencek közül.
+a kedvencek közül. <br/>
 Receptes oldalunk nagy hangsúlyt fordítana ételérzékenységekben szenvedő <br/>
 felhasználóira. Számukra egy megfelelő recept megtalálása ugyanis nagyobb  <br/>
 nehézségeket okozhat, mint másoknak. Ezért szeretnénk a keresést számukra is<br/>
