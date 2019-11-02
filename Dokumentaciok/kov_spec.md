@@ -22,9 +22,10 @@ után, így bármilyen váratlan helyzetbe kerülünk, ahol pont egy jól bevál
 van szükség, ez nem okozhat problémát, hiszen kedvünkre válogathatunk majd <br/>
 a kedvencek közül.
 Receptes oldalunk nagy hangsúlyt fordítana ételérzékenységekben szenvedő <br/>
-felhasználóira. Számukra egy megfelelő recept megtalálása ugyanis nagyobb nehézségeket <br/>
-okozhat, mint másoknak. Ezért szeretnénk a keresést számukra is megkönnyíteni azzal, <br/>
-hogy kizárólag az adott érzékenységnek megfelelő ételeket jelenítjük meg.<br/>
+felhasználóira. Számukra egy megfelelő recept megtalálása ugyanis nagyobb  <br/>
+nehézségeket okozhat, mint másoknak. Ezért szeretnénk a keresést számukra is<br/>
+megkönnyíteni azzal, hogy kizárólag az adott érzékenységnek megfelelő ételeket <br/>
+jelenítjük meg.<br/>
 
 2. Jelenlegi helyzet
 
