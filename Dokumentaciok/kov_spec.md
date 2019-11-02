@@ -21,6 +21,10 @@ Amellett, hogy bármikor megtekinthetjük, bárhonnan megtehetjük ezt a bejelen
 után, így bármilyen váratlan helyzetbe kerülünk, ahol pont egy jól bevált receptre <br/>
 van szükség, ez nem okozhat problémát, hiszen kedvünkre válogathatunk majd <br/>
 a kedvencek közül.
+Receptes oldalunk nagy hangsúlyt fordítana ételérzékenységekben szenvedő <br/>
+felhasználóira. Számukra egy megfelelő recept megtalálása ugyanis nagyobb nehézségeket <br/>
+okozhat, mint másoknak. Ezért szeretnénk a keresést számukra is megkönnyíteni azzal, <br/>
+hogy kizárólag az adott érzékenységnek megfelelő ételeket jelenítjük meg.<br/>
 
 2. Jelenlegi helyzet
 
