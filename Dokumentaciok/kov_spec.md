@@ -3,9 +3,10 @@
 Követelményspecifikáció
 ---
 1. Bevezetés <br/>
-Projektünk célja egy recept oldal létrehozása. Olyan weboldalt álmodtunk meg,<br/>
-amelyet mindenki könnyedén tud használni a mindennapjaiban, segítséget nyújt <br/>
-a főzésben, ötleteket ad.<br/>
+Projektünk célja egy recept oldal létrehozása, amelyet a  Debreceni szakács <br/>
+képző intézet megrendelésére készítünk el. Olyan weboldalt álmodtunk meg, amelyet<br/>
+mindenki könnyedén tud használni a mindennapjaiban, segítséget nyújt a főzésben, <br/>
+ötleteket ad. <br/>
 Az emberek nagy részének a főzés mindennapi tevékenységnek számít. Szinte már <br/>
 naponta egyre több mindent kell észben tartani és ez egyre nehezebbé válik, <br/>
 ezekmellett  fejben tartani a pontos recepteket még több nehézségeket okozhat. <br/>
