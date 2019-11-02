@@ -1,6 +1,6 @@
 # Recept oldal
 
-Funkcionális specifikáció leirása
+Funkcionális specifikáció leírása
 ---
 1. Vezetői összefoglaló (bevezető) <br/>
 A Debreceni szakács képző intézet által megrendelt alkalmazást, <br/>
