@@ -18,6 +18,10 @@ segítségét, hiszen nagyon sok recept megtalálható.
 Egy olyan oldal elkészítését álmodtuk meg, amelyen minden felhasználó a saját, egyedi fiókjában
 mentheti el a saját receptjeit és mellé újakat kereshet más felhasználó receptjei között. 
 
+Jelenleg nem található a megálmodott oldalunknak megfelelő, hiszen a receptes oldalak többsége
+reklámokkal teli, túlzsúfolt és sok felesleges funkcióval ellátott, ami megnehezíti a használatot
+és lassítja is azt.
+
 3. Vágyálom rendszer
 
 4. Jelenlegi üzelti folyamatok
