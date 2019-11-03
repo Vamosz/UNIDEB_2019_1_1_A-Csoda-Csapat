@@ -23,6 +23,11 @@ jólbevált receptjeit, segít olyanoknak akik esetleg még nem elég jártasak 
 konyhában, vagy egy kis segítségre szorulnak. A recepteket elkészítő <br/>
 felhasználók értékelhetik azokat, vagy esetleg ötleteket adhatnak a recept <br/>
 még tökéletesebbé alakításához. <br/>
+<br/>Egy olyan rendszert szeretnénk megvalósítani, amely a felhasználó <br/>
+közösségének segítséget nyújt, mind a főzés szerelmeseinek, mind a <br/>
+főzésben kevésbé jártas kezdő szakácsoknak, és a megfelelő segítségek <br/>
+a felhasználók egymástól kapják meg.<br/>
+
 
 - Projekt terv
     - Projektszerepkörök, felelősségek
