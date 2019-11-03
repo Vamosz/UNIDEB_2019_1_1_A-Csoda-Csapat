@@ -15,7 +15,10 @@ Rendszerterv
     - Ütemterv
         Projektünk elkészítésének kezdete 2019. október 7-e, és elkészítésének határideje 2019. december 8-a. Ezen két hónap alatt legelőször kidolgozásra kerül a munka elosztása, a felelősségek meghatározása, a dokumentáció elkészítése. Ezután minden projekten dolgozó személy elkezdheti a munkát, a projektmunka befejezéséig rendszeresen megbeszéléseket tartunk a jelenlegi feladatok állásáról, valamint folyamatosan kommunikálunk egymással a SLACK céges kommunikációs platform segítségével.  
     - Mérföldkövek
-       
+        Projekt elkészítésének kezdetétől november 4-éig feladatunk a dokumentáció elkészítése és az első prototípus weboldal létrehozása, amelynek tartalmaznia kell egy látványtervet a bejelentkezési és regisztrációs oldalról, melyen minden a későbbiekben funkciókkal ellátott rész megtalálható, funkció mentesen. 
+        November 4-től december 2-ig a projektünk implementálása, és a dokumentáció végső simításait végezzük majd el. December 2-ig a projektünk eléri végső állapotát.
+        December 2-től december 8-ig a weboldalunk tesztelését végezzünk majd el és az esetleges felmerülő hibák javításán dolgozunk majd.  
+        December 9-én reggel 10 órakor történik a projektünk bemutatása.
 - Üzleti folyamatok modellje
   - Üzleti szereplők
   - Üzleti folyamatok
