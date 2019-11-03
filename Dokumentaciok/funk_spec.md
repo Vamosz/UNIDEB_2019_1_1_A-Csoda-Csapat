@@ -3,18 +3,19 @@
 Funkcionális specifikáció leírása
 ---
 
-1. Vezetői összefoglaló (bevezető)
-
-	A Debreceni szakács képző intézet áltált megrendelt alkalmazást,
+1. Vezetői összefoglaló (bevezető) </br>
+   A Debreceni szakács képző intézet áltált megrendelt alkalmazást, <br/>
    melyet webes felületen szeretnénk megvalósítani,előtérbe helyezve az </br>
    egyszerűséget.</br>
-   Minden felhasználói elvárást kielégítő recept oldal létrehozását tervezzük</br>
-   fejlesztő csapatunkkal. Eddigi oldalak megoldásait és saját ötleteinket</br>
-   használva egy minden eddiginél másabb, jobb oldalt szeretnénk megvalósítani. </br>
-   Célunk egy olyan weboldal létrehozása, amelyet minden korosztály szívesen használ. </br>
-   A fiatalabbak könnyedén találhatnak számukra új, de másoknak jólbevált recepteket,</br>
-   és segítséget kérhetnek ha elakadnának. Az idősebb korosztály megoszthatja másokkal</br>
-   saját, az évek alatt tökéletesített, receptjeit, és új praktikákat tanulhat, megismerkedhet új receptekkel.
+   Minden felhasználói elvárást kielégítő recept oldal létrehozását </br>
+   tervezzük fejlesztő csapatunkkal. Eddigi oldalak megoldásait és saját </br>
+   ötleteinket használva egy minden eddiginél másabb, jobb oldalt szeretnénk</br>
+   megvalósítani. <br/>
+   Célunk egy olyan weboldal létrehozása, amelyet minden korosztály szívesen </br>
+   használ. A fiatalabbak könnyedén találhatnak számukra új, de másoknak </br>
+   jólbevált recepteket, és segítséget kérhetnek ha elakadnának. Az idősebb </br>
+   korosztály megoszthatja másokkal saját, az évek alatt tökéletesített, </br>
+   receptjeit, és új praktikákat tanulhat, megismerkedhet új receptekkel.</br>
 
 
    Elképzeléseink szerint mind MacOS-en mind linuxon ugyan úgy nézne ki és</br>
@@ -62,11 +63,13 @@ a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszava
 valamint a chat funkció, mellyel bármikor kérhet bárki segítséget.
 
 Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
-fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba
+fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba </br>
 beléphetnek.<br/>
-Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a felhasználó számára. <br/>
+Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a  </br>
+felhasználó számára. <br/>
 A regisztráció után a felhasználó minden elérhető funkciót használhat majd.<br/>
-Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, chatelés. <br/>
+Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, </br>
+chatelés. <br/>
 
 4. Jelenlegi üzleti folyamatok<br/>
 Jelenleg nem sok receptoldalt van a interneten, így a háziasszonyok <br/>
