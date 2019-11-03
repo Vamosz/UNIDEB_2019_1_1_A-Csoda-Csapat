@@ -1,0 +1,30 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+
+  }
+  #sidenavbar{
+      width: 28%;
+      padding: 2em;
+      -webkit-box-shadow: -16px 6px 23px -16px rgba(153,153,153,1);
+      -moz-box-shadow: -16px 6px 23px -16px rgba(153,153,153,1);
+      box-shadow: -16px 6px 23px -16px rgba(153,153,153,1);
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  .w-10{
+    width: 100% !important;
+  }
+
+  mat-icon{
+      cursor: pointer;
+  }
+  #login_title{
+      font-size:40px;
+  }
