@@ -22,6 +22,11 @@ Jelenleg nem található a megálmodott oldalunknak megfelelő, hiszen a recepte
 reklámokkal teli, túlzsúfolt és sok felesleges funkcióval ellátott, ami megnehezíti a használatot
 és lassítja is azt.
 
+Sokan használnak még hagyományos recept könyveket, családi receptes gyűjteményeket. Ezek tárolása 
+magas helyigényű, használata komplikáltabb, hiszen akár több száz összegyűjtött recept leírás közül
+nehéz lehet megtalálni az éppen keresettet. 
+
+
 3. Vágyálom rendszer
 
 4. Jelenlegi üzelti folyamatok
