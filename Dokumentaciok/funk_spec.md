@@ -63,12 +63,21 @@ majd egy rövid regisztráció után vissza is dobja a bejelentkezéshez. <br/>
 A bejelentkezés után a receptek között bogarászhatunk vagy átmehetünk a<br/>
 recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
 
-* Főoldal kezdeti állapota 
-  * Regisztrációs lehetőség<br/>
-    Új felhasználók számára a regisztráció lehetősége ezen ponton <br/>
-    a _Tovább a regisztráció!_ gombra kattintva lesz lehetőség.
-  * Bejelentkezési lehetőség
-    Már korábban regisztrált felhasználóként ezen a ponton a <br/>
-    _Tovább a bejelentkezéshez!_ gombra kattintva lesz lehetősége a <br/>
-    felhasználónak belépni a saját fiókjába.
+ * Főoldal kezdeti állapota 
+   * Regisztrációs lehetőség<br/>
+     Új felhasználók számára a regisztráció lehetősége ezen ponton <br/>
+     a _Tovább a regisztráció!_ gombra kattintva lesz lehetőség.
+   * Bejelentkezési lehetőség
+     Már korábban regisztrált felhasználóként ezen a ponton <br/>
+     a _Tovább a bejelentkezéshez!_ gombra kattintva lesz lehetősége a <br/>
+     felhasználónak belépni a saját fiókjába.
+ * Sikeres belépés után 
+   * A felhasználó saját receptjeit szerkesztheti
+    * Feltöltött recept megtekintése
+    * Új recept feltöltése
+     * Publikus formában
+     * Rejtett formában
+    * Már feltöltött recept szerkesztése
+    * Már feltöltött recept törlése
+
 
