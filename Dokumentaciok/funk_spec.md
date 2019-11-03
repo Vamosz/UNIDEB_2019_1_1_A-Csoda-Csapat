@@ -56,6 +56,8 @@ Funkcionális specifikáció leirása
     hátteret adni. Ha valami gondba ütköznek vagy valami kérdésük van egy
     beépitett chaten keresztül eltudják érni a `support`-ot akik
     mindenben segitenek nekik.
+	
+	![Bejelentkezes](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/bejelentkezes.png)
 
 
 
