@@ -31,7 +31,7 @@ a felhasználók egymástól kapják meg.<br/>
 
 - Projekt terv
     - Projektszerepkörök, felelősségek
-    - Projektmunkások és felelősségeik
+    - Projektmunkások és felelősségeik <br/>
         A weboldal elkészítésében a Debreceni Egyetem Informatika kar négy <br/>
         programtervező informatikus hallgatója vesz részt.  <br/>
         A résztvevő hallgatók: <br/>
