@@ -79,5 +79,12 @@ recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
           * Rejtett formában
       * Már feltöltött recept szerkesztése
       * Már feltöltött recept törlése
+    * A felhasználó új recepteket kereshet
+      * Megfelelő keresőszót beírva
+      * Kategóriák szerint
+      * Érzékenység szerint
+    * Más felhasználók által feltöltött recepteket értékelhet, kérdéseket tehet fel
+      * 1-től 10-ig tartó pontozással
+      * Hozzászólással
 
 
