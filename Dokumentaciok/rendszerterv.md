@@ -6,19 +6,34 @@ Rendszerterv
 - Projekt terv
     - Projektszerepkörök, felelősségek
     - Projektmunkások és felelősségeik
-        A weboldal elkészítésében a Debreceni Egyetem Informatika kar  négy programtervező informatikus hallgatója vesz részt.  
+        A weboldal elkészítésében a Debreceni Egyetem Informatika kar négy <br/>
+        programtervező informatikus hallgatója vesz részt.  
         A résztvevő hallgatók:
         - Kuczik Anna
         - Vámosi Patrik
         - Tar Zoltán
         - Kertész Patrik
-    - Ütemterv
-        Projektünk elkészítésének kezdete 2019. október 7-e, és elkészítésének határideje 2019. december 8-a. Ezen két hónap alatt legelőször kidolgozásra kerül a munka elosztása, a felelősségek meghatározása, a dokumentáció elkészítése. Ezután minden projekten dolgozó személy elkezdheti a munkát, a projektmunka befejezéséig rendszeresen megbeszéléseket tartunk a jelenlegi feladatok állásáról, valamint folyamatosan kommunikálunk egymással a SLACK céges kommunikációs platform segítségével.  
-    - Mérföldkövek
-        Projekt elkészítésének kezdetétől november 4-éig feladatunk a dokumentáció elkészítése és az első prototípus weboldal létrehozása, amelynek tartalmaznia kell egy látványtervet a bejelentkezési és regisztrációs oldalról, melyen minden a későbbiekben funkciókkal ellátott rész megtalálható, funkció mentesen. 
-        November 4-től december 2-ig a projektünk implementálása, és a dokumentáció végső simításait végezzük majd el. December 2-ig a projektünk eléri végső állapotát.
-        December 2-től december 8-ig a weboldalunk tesztelését végezzünk majd el és az esetleges felmerülő hibák javításán dolgozunk majd.  
-        December 9-én reggel 10 órakor történik a projektünk bemutatása.
+    - Ütemterv<br/>
+Projektünk elkészítésének kezdete 2019. október 7-e, és <br/>
+        elkészítésének határideje 2019. december 8-a. Ezen két hónap alatt <br/>
+        legelőször kidolgozásra kerül a munka elosztása, a felelősségek <br/>
+        meghatározása, a dokumentáció elkészítése. Ezután minden projekten <br/>
+        dolgozó személy elkezdheti a munkát, a projektmunka befejezéséig <br/>
+        rendszeresen megbeszéléseket tartunk a jelenlegi feladatok állásáról,<br/>
+        valamint folyamatosan kommunikálunk egymással a SLACK céges <br/>
+        kommunikációs platform segítségével.  <br/>
+    - Mérföldkövek<br/>
+Projekt elkészítésének kezdetétől november 4-éig feladatunk a <br/>
+dokumentáció elkészítése és az első prototípus weboldal létrehozása, <br/>
+amelynek tartalmaznia kell egy látványtervet a bejelentkezési és <br/>
+regisztrációs oldalról, melyen minden a későbbiekben funkciókkal <br/>
+ellátott rész megtalálható, funkció mentesen. <br/>
+        November 4-től december 2-ig a projektünk implementálása, és a <br/>
+        dokumentáció végső simításait végezzük majd el. December 2-ig a<br/>
+        projektünk eléri végső állapotát.<br/>
+        December 2-től december 8-ig a weboldalunk tesztelését végezzünk<br/>
+        majd el és az esetleges felmerülő hibák javításán dolgozunk majd.  <br/>
+        December 9-én reggel 10 órakor történik a projektünk bemutatása.<br/>
 - Üzleti folyamatok modellje
   - Üzleti szereplők
   - Üzleti folyamatok
@@ -33,22 +48,31 @@ Rendszerterv
   - Határosztályok
   - Menü-hierarchiák
   - Képernyőtervek
-- Fizikai környezet
-    A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény, mi is eleget kívánunk ennek tenné és minden operációs rendszer alatt, minden böngészőből  ugyanolyan kinézetet biztosítani weboldalunknak. 
-    A felhasználók számának növekedésével, növekedni fog azok száma is akik az asztali számítógéptől vagy laptoptól eltérően okostelefonról vagy tabletről keresik majd fel weboldalunkat. Alkalmazkodnunk kell ezekhez az eszközökhöz is, és olyan honlapot készíteni, amely ugyanolyan minőségben jelenik meg más-más eszközökön is.
-    A projektet különválasztva a frontendet a backend től írjuk meg.
-    A frontend, egy mai modern platformon, angulárban készül majd el,
-    ami átláthatóbb kódot, gyorsabb és hatékonyabb alkalmazás készítését teszi lehetővé.
-    Az angular typescript nyelvet használ ami leginkább javascript.
-    A megjelenítést angular-material-val, bootstrap-vel és scss-el oldjuk meg.
-            A backendet egy keretrendszeren keresztül fogjuk megirni, ez nagy
-            valószínűséggel a Slim lesz.A Slim egy modern keretrendszer, nem       
-    tartozik a nagy fiúk közé, de kisebb projektekhez tökéletes.
-    A Slimben objektum orientáltan fogunk PHP-ban programozni amivel
-        a program háttér folyamatait alkotjuk meg.
-        Az adatokat MySQL ben tároljuk, titkosítva a jelszót.
-    A projekt verzió kezelője a github lesz, amin a fejlesztők és a
-            tulajdonosok is végig követhetik a munkafolyamatokat.
+- Fizikai környezet<br/>
+A platformfüggetlen megjelenés egy mai modern weboldal esetében <br/>
+nem extra funkció, hanem már-már követelmény, mi is eleget kívánunk <br/>
+ennek tenné és minden operációs rendszer alatt, minden böngészőből  <br/>
+ugyanolyan kinézetet biztosítani weboldalunknak. <br/>
+<br/>A felhasználók számának növekedésével, növekedni fog azok száma <br/>
+is akik az asztali számítógéptől vagy laptoptól eltérően okostelefonról<br/>
+vagy tabletről keresik majd fel weboldalunkat. Alkalmazkodnunk kell <br/>
+ezekhez az eszközökhöz is, és olyan honlapot készíteni, amely <br/>
+ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
+    <br/>A projektet különválasztva a frontendet a backend től írjuk meg.<br/>
+    A frontend, egy mai modern platformon, angulárban készül majd el,<br/>
+    ami átláthatóbb kódot, gyorsabb és hatékonyabb alkalmazás készítését <br/>
+    teszi lehetővé.<br/>
+    Az angular typescript nyelvet használ ami leginkább javascript.<br/>
+    A megjelenítést angular-material-val, bootstrap-vel és scss-el oldjuk <br/>
+    meg.<br/>
+            A backendet egy keretrendszeren keresztül fogjuk megirni, ez nagy<br/>
+            valószínűséggel a Slim lesz.A Slim egy modern keretrendszer, nem    <br/>   
+    tartozik a nagy fiúk közé, de kisebb projektekhez tökéletes.<br/>
+    A Slimben objektum orientáltan fogunk PHP-ban programozni amivel<br/>
+        a program háttér folyamatait alkotjuk meg.<br/>
+        Az adatokat MySQL ben tároljuk, titkosítva a jelszót.<br/>
+    A projekt verzió kezelője a github lesz, amin a fejlesztők és a<br/>
+            tulajdonosok is végig követhetik a munkafolyamatokat.<br/>
 
   - Vásárolt softwarekomponensek és külső rendszerek
   - Hardver és hálózati topológia
