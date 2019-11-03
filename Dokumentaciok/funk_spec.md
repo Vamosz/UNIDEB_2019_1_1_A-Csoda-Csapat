@@ -52,17 +52,17 @@ felhasználóknak szeretnénk egy amahabiztos hátteret adni. Ha valami <br/>
 gondba ütköznek vagy valami kérdésük van egy beépített chaten keresztül <br/>
 tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 
-Eddigi megadott lehetőségek: <br/>
- * Recept elmentése:
-   * Leírni papírra és elrakni
-   * Begépelni egy dokumentumba és elmenteni a saját <br/>
-     számítógépünkön
-   * Begépelni egy dokumentumba és felhőbe elmenteni
- * Új recept keresése:
-   * Receptkönyv használata
-   * Receptújság használata
-   * Interneten történő böngészés
-   * Tv-s főzőműsor nézése
+  Eddigi megadott lehetőségek: <br/>
+    * Recept elmentése:
+      * Leírni papírra és elrakni
+      * Begépelni egy dokumentumba és elmenteni a saját <br/>
+        számítógépünkön
+      * Begépelni egy dokumentumba és felhőbe elmenteni
+    * Új recept keresése:
+      * Receptkönyv használata
+      * Receptújság használata
+      * Interneten történő böngészés
+      * Tv-s főzőműsor nézése
 
 5. Igényelt üzleti feladatok <br/>
 A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
@@ -75,38 +75,35 @@ majd egy rövid regisztráció után vissza is dobja a bejelentkezéshez. <br/>
 A bejelentkezés után a receptek között bogarászhatunk vagy átmehetünk a<br/>
 recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
 
- * Főoldal kezdeti állapota 
-   * Regisztrációs lehetőség<br/>
-     Új felhasználók számára a regisztráció lehetősége ezen ponton <br/>
-     a _Tovább a regisztráció!_ gombra kattintva lesz lehetőség.
-   * Bejelentkezési lehetőség <br/>
-     Már korábban regisztrált felhasználóként ezen a ponton <br/>
-     a _Tovább a bejelentkezéshez!_ gombra kattintva lesz lehetősége a <br/>
-     felhasználónak belépni a saját fiókjába.
- * Sikeres belépés után 
-   * A felhasználó saját receptjeit szerkesztheti
-      * Feltöltött recept megtekintése
-      * Új recept feltöltése
-          * Publikus formában
-          * Rejtett formában
-      * Már feltöltött recept szerkesztése
-      * Már feltöltött recept törlése
-    * A felhasználó új recepteket kereshet
-      * Megfelelő keresőszót beírva
-      * Kategóriák szerint
-      * Érzékenység szerint
-    * Más felhasználók által feltöltött recepteket értékelhet, <br/>
-      kérdéseket tehet fel
-      * 1-től 10-ig tartó pontozással
-      * Hozzászólással
-    * Chatelést kezdeményezhet
-      * Más felhasználóval
-      * Fejlesztőkkel
-    * A felhasználó szerkesztheti profilját
-      * Új profilkép feltöltése
-      * E-mail cím megváltoztatása
-      * Felhasználónév megváltoztatása
-      * Jelszó megváltoztatása
-
-
-
+  * Főoldal kezdeti állapota 
+     * Regisztrációs lehetőség<br/>
+       Új felhasználók számára a regisztráció lehetősége ezen ponton <br/>
+       a _Tovább a regisztráció!_ gombra kattintva lesz lehetőség.
+     * Bejelentkezési lehetőség <br/>
+       Már korábban regisztrált felhasználóként ezen a ponton <br/>
+       a _Tovább a bejelentkezéshez!_ gombra kattintva lesz lehetősége a <br/>
+       felhasználónak belépni a saját fiókjába.
+  * Sikeres belépés után 
+     * A felhasználó saját receptjeit szerkesztheti
+        * Feltöltött recept megtekintése
+        * Új recept feltöltése
+           * Publikus formában
+           * Rejtett formában
+        * Már feltöltött recept szerkesztése
+        * Már feltöltött recept törlése
+     * A felhasználó új recepteket kereshet
+        * Megfelelő keresőszót beírva
+        * Kategóriák szerint
+        * Érzékenység szerint
+     * Más felhasználók által feltöltött recepteket értékelhet, <br/>
+       kérdéseket tehet fel
+        * 1-től 10-ig tartó pontozással
+        * Hozzászólással
+     * Chatelést kezdeményezhet
+        * Más felhasználóval
+        * Fejlesztőkkel
+     * A felhasználó szerkesztheti profilját
+        * Új profilkép feltöltése
+        * E-mail cím megváltoztatása
+        * Felhasználónév megváltoztatása
+        * Jelszó megváltoztatása
