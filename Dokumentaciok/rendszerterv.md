@@ -4,10 +4,18 @@ Rendszerterv
 ---
 - A rendszer célja
 - Projekt terv
-  - Projektszerepkörök, felelősségek
-  - Projektmunkások és felelősségeik
-  - Ütemterv
-  - Mérföldkövek
+    - Projektszerepkörök, felelősségek
+    - Projektmunkások és felelősségeik
+        A weboldal elkészítésében a Debreceni Egyetem Informatika kar  négy programtervező informatikus hallgatója vesz részt.  
+        A résztvevő hallgatók:
+        - Kuczik Anna
+        - Vámosi Patrik
+        - Tar Zoltán
+        - Kertész Patrik
+    - Ütemterv
+        Projektünk elkészítésének kezdete 2019. október 7-e, és elkészítésének határideje 2019. december 8-a. Ezen két hónap alatt legelőször kidolgozásra kerül a munka elosztása, a felelősségek meghatározása, a dokumentáció elkészítése. Ezután minden projekten dolgozó személy elkezdheti a munkát, a projektmunka befejezéséig rendszeresen megbeszéléseket tartunk a jelenlegi feladatok állásáról, valamint folyamatosan kommunikálunk egymással a SLACK céges kommunikációs platform segítségével.  
+    - Mérföldkövek
+       
 - Üzleti folyamatok modellje
   - Üzleti szereplők
   - Üzleti folyamatok
@@ -23,6 +31,8 @@ Rendszerterv
   - Menü-hierarchiák
   - Képernyőtervek
 - Fizikai környezet
+
+
   - Vásárolt softwarekomponensek és külső rendszerek
   - Hardver és hálózati topológia
   - Fizikai alrendszerek
