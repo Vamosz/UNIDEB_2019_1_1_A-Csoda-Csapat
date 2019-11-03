@@ -2,22 +2,33 @@
 
 Funkcionális specifikáció leírása
 ---
-1. Vezetői összefoglaló (bevezető) <br/>
-A Debreceni szakács képző intézet által megrendelt alkalmazást, <br/>
-melyet webes felületen szeretnénk megvalósítani, előtérbe helyezve <br/>
-az egyszerűséget. Elképzeléseink szerint mind MacOS-en mind linuxon <br/>
-ugyanúgy nézne ki és működne a program mint windowson. <br/>
-Google chrome-on, firefox-on és a explorer-en is ugyanazt a <br/>
-támogatást kapná, így bárki nyugodtan tudja használni, függetlenül <br/>
-a böngészőjétől. <br/>
-A program front-end része angulárban íródna meg, ez egy nagy <br/>
-könnyebbséget tud adni a fejlesztőnek, áttekinthetőbb a kód, a weboldal <br/> 
-modernebb, több és jobb támogatást használhat. A back-end <br/>
-*TODO KERETRENDSZER* keretrendszerben lenne írva, objektumorientált <br/>
-szemléletben, így elkülönítve a metódusokat, áttekinthető kódot kapunk. <br/>
-Ennek köszönhetően könnyen lehet módositani a programot arra amit a <br/>
-felhasználó megkiván.<br/>
 
+1. Vezetői összefoglaló (bevezető)
+	A Debreceni szakács képző intézet áltált megrendelt alkalmazást,
+    melyet webes felületen szeretnénk megvalósítani, előtérbe helyezve az
+    egyszerűséget. Elképzeléseink szerint mind MacOS-en mind linuxon ugyan
+    úgy nézne ki és működne a program mint windowson.
+    Google chrome-on, firefox-on és a explorer-en is ugyanazt a
+    támogatást kapná, így bárki nyugodtan tudja használni, függetlenül a
+    böngészőjétől.
+    A program front end része angulárban íródna meg, ez egy nagy
+    könnyebbséget tud adni a fejlesztőnek, áttekinthetőbb a kód, a
+    weboldal modernebb, több és jobb támogatást használhat.
+    A backend *TODO KERETRENDSZER* keretrendszerben lenne írva, objektum
+    orientált szemléletben, így elkülönitve a metódusokat, áttekinthető
+    kódot kapunk. Ennek köszönhetően könnyen lehet módositani a programot
+    arra amit a felhasználó megkiván.
+    Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság
+    a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak,
+    valamint a chat funkció, mellyel bármikor kérhet bárki segítséget.
+ 
+    Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület
+    fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba
+    beléphetnek.
+    Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a felhasználó számára. 
+    A regisztráció után a felhasználó minden elérhető funkciót használhat majd.
+    Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, chatelés. 
+    
 2. Jelenlegi helyzet<br/>
 A projekttervét elkezdtük kidolgozni, hogy a határidőkre megfelelően be<br/>
 tudjuk fejezni a dokumentációkat. A feladatkörök nagyvonalú kiosztása, <br/>
