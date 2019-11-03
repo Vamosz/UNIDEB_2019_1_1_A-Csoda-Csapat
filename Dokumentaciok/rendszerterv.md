@@ -14,6 +14,15 @@ megalkotni a tökéletes receptes oldalt, amely egyszerűség, praktikusság és
 használhatóság szempontjából megfelelő mindenki számára. <br/>
 Oldalunkat mindenképp olyan funkciókkal szeretnénk ellátni, amelyeket <br/>
 valóban hasznosak találunk mindenki számára.<br/>
+<br/>Fontosnak látjuk, hogy a felhasználóink az általuk jónak ítélt recepteket<br/>
+könnyen megoszthassák másokkal, valamint az általuk szimpatikus <br/>
+ismeretlen recepteket elmenthessék maguknak így a későbbiekben bármikor <br/>
+könnyen elérjék azokat. <br/>
+Egyfajta kölcsönösség alakul ki a felhasználók között, az aki megosztja saját, <br/>
+jólbevált receptjeit, segít olyanoknak akik esetleg még nem elég jártasak a <br/>
+konyhában, vagy egy kis segítségre szorulnak. A recepteket elkészítő <br/>
+felhasználók értékelhetik azokat, vagy esetleg ötleteket adhatnak a recept <br/>
+még tökéletesebbé alakításához. <br/>
 
 - Projekt terv
     - Projektszerepkörök, felelősségek
