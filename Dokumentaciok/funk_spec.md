@@ -57,6 +57,17 @@ Funkcionális specifikáció leirása
     beépitett chaten keresztül eltudják érni a `support`-ot akik
     mindenben segitenek nekik.
 	
+	A bejelentkezés folyamata a következő:
+	A user rákattint a bejelentkezés gombra ezzel elirányítva a bejelentkezési
+	felületre. Ezen a felületen lehetősége van az e-mail címét vagy a felhasználó
+	nevét és a jelszavát megadni. Ha mindezt az előzetesen elmentett SQL adatbázisnak 
+	megfelelően írja be akkor bejelentkezhet. Ha nem akkor feltűnik a lehetőség, 
+	hogy egy jelszó emlékeztető e-mailt küldjön a user magának. Ebben az emlékeztető 
+	emailben vagy a jelszavát változtathatja meg vagy megkapja a jelszavát leírva. 
+	Ha ezen is túl van nagy valószínűséggel tudni fogja a jelszavát és bejelentkezhet.
+	
+	
+	
 	![Bejelentkezes](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/bejelentkezes.png)
 
 
