@@ -17,7 +17,6 @@ Funkcionális specifikáció leírása
    korosztály megoszthatja másokkal saját, az évek alatt tökéletesített, </br>
    receptjeit, és új praktikákat tanulhat, megismerkedhet új receptekkel.</br>
 
-
    Elképzeléseink szerint mind MacOS-en mind linuxon ugyan úgy nézne ki és</br>
    működne a program mint windowson.</br>
    Google chrome-on, firefox-on és a explorer-en is ugyanazt a támogatást </br>
@@ -29,9 +28,6 @@ Funkcionális specifikáció leírása
    orientált szemléletben, így elkülönitve a metódusokat, áttekinthető</br>
    kódot kapunk. Ennek köszönhetően könnyen lehet módositani a programot</br>
    arra amit a felhasználó megkiván.</br>
-
-    
-
     
 2. Jelenlegi helyzet<br/>
 A projekttervét elkezdtük kidolgozni, hogy a határidőkre megfelelően be<br/>
@@ -61,8 +57,7 @@ receptjei között és a nekik szimpatikusakat elmenthetik a saját tárolójukb
 Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság<br/>
 a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak, </br>
 valamint a chat funkció, mellyel bármikor kérhet bárki segítséget. </br>
-
-Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
+</br>Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
 fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba </br>
 beléphetnek.<br/>
 Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a  </br>
