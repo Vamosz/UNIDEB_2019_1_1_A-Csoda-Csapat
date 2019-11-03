@@ -2,7 +2,11 @@
 
 Rendszerterv
 ---
-- A rendszer célja
+- A rendszer célja <br/>
+A rendszerünk célja egy minőségi, könnyen használható recept oldal <br/>
+létrehozása a mindennapi felhasználás érdekében. Weboldalunkkal a <br/>
+mindennapi fáradtságos főzés procedúráját próbáljuk megkönnyíteni az <br/>
+oldalunk felhasználói számára. <br/>
 - Projekt terv
     - Projektszerepkörök, felelősségek
     - Projektmunkások és felelősségeik
