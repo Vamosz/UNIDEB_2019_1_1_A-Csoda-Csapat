@@ -65,7 +65,23 @@ ellátott rész megtalálható, funkció mentesen. <br/>
   - Üzleti folyamatok
   - Üzleti entitások
 - Követelmények
-  - Funkcionális követelmények
+  - Funkcionális követelmények <br/>
+Elsődleges követelmény a regisztráció sikeres végrehajtása. Minden<br/>
+újonnan, új e-mail címmel regisztráló felhasználónak sikeresen kell <br/>
+tudnia regisztrálni. <br/>
+<br/>Regisztrálás után minden alkalommal, bármely különböző eszközről a <br/>
+felhasználónak be kell tudnia jelentkezni a fiókjába.<br/>
+<br/>Bármely felhasználónak bármennyi recept feltöltését biztosítani kell.<br/>
+A recepteket szöveges állományként lehet majd feltölteni. <br/>
+<br/>A korábbi bejelentkezések során feltöltött recepteket a weboldalnak <br/>
+tárolnia kell, és láthatónak kell lenniük minden felhasználó számára. <br/>
+Minden felhasználó csak a saját fiókjába feltöltött recepteket <br/>
+szerkesztheti.<br/>
+<br/>Minden felhasználónak lehetősége lesz más felhasználók receptjeinek <br/>
+megtekintésére. Ezen recepteket értékelheti majd a felhasználó egy<br/>
+1-től 10-ig terjedő osztályozáson, vagy hozzászólást írhat majd a <br/>
+recepthez, amelyet minden felhasználó számára megtekinthető.<br/>
+
   - Nemfunkcionális követelmények
   - Törvényi előírások, szabványok 
 - Funkcionális terv
