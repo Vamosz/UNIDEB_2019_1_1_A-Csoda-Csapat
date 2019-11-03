@@ -5,7 +5,9 @@ import { MatCheckboxModule,
          MatSidenavModule,
          MatFormFieldModule,
          MatInputModule,
-         MatIconModule
+         MatIconModule,
+         MatDatepickerModule,
+         MatNativeDateModule 
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -30,9 +32,13 @@ import { RegisterComponent } from './register/register.component';
     MatSidenavModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatDatepickerModule,
+    MatNativeDateModule 
   ],
-  providers: [],
+  providers: [
+    MatDatepickerModule,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
