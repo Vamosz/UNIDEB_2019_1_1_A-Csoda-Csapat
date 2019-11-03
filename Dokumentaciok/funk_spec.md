@@ -52,6 +52,7 @@ felhasználóknak szeretnénk egy amahabiztos hátteret adni. Ha valami <br/>
 gondba ütköznek vagy valami kérdésük van egy beépített chaten keresztül <br/>
 tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 
+
 5. Igényelt üzleti feladatok <br/>
 A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
 internetre kapcsolódni tudó alkalmazáshoz, internetre és megfelelő <br/>
@@ -67,7 +68,7 @@ recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
    * Regisztrációs lehetőség<br/>
      Új felhasználók számára a regisztráció lehetősége ezen ponton <br/>
      a _Tovább a regisztráció!_ gombra kattintva lesz lehetőség.
-   * Bejelentkezési lehetőség
+   * Bejelentkezési lehetőség <br/>
      Már korábban regisztrált felhasználóként ezen a ponton <br/>
      a _Tovább a bejelentkezéshez!_ gombra kattintva lesz lehetősége a <br/>
      felhasználónak belépni a saját fiókjába.
@@ -83,8 +84,18 @@ recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
       * Megfelelő keresőszót beírva
       * Kategóriák szerint
       * Érzékenység szerint
-    * Más felhasználók által feltöltött recepteket értékelhet, kérdéseket tehet fel
+    * Más felhasználók által feltöltött recepteket értékelhet, <br/>
+      kérdéseket tehet fel
       * 1-től 10-ig tartó pontozással
       * Hozzászólással
+    * Chatelést kezdeményezhet
+      * Más felhasználóval
+      * Fejlesztőkkel
+    * A felhasználó szerkesztheti profilját
+      * Új profilkép feltöltése
+      * E-mail cím megváltoztatása
+      * Felhasználónév megváltoztatása
+      * Jelszó megváltoztatása
+
 
 
