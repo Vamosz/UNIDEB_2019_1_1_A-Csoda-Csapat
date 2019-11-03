@@ -73,11 +73,11 @@ recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
      felhasználónak belépni a saját fiókjába.
  * Sikeres belépés után 
    * A felhasználó saját receptjeit szerkesztheti
-    * Feltöltött recept megtekintése
-    * Új recept feltöltése
-     * Publikus formában
-     * Rejtett formában
-    * Már feltöltött recept szerkesztése
-    * Már feltöltött recept törlése
+      * Feltöltött recept megtekintése
+      * Új recept feltöltése
+          * Publikus formában
+          * Rejtett formában
+      * Már feltöltött recept szerkesztése
+      * Már feltöltött recept törlése
 
 
