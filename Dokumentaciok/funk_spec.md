@@ -4,6 +4,7 @@ Funkcionális specifikáció leírása
 ---
 
 1. Vezetői összefoglaló (bevezető)
+
 	A Debreceni szakács képző intézet áltált megrendelt alkalmazást,
    melyet webes felületen szeretnénk megvalósítani,előtérbe helyezve az </br>
    egyszerűséget.</br>
@@ -29,6 +30,7 @@ Funkcionális specifikáció leírása
    arra amit a felhasználó megkiván.</br>
 
     
+
     
 2. Jelenlegi helyzet<br/>
 A projekttervét elkezdtük kidolgozni, hogy a határidőkre megfelelően be<br/>
