@@ -7,6 +7,14 @@ A rendszerünk célja egy minőségi, könnyen használható recept oldal <br/>
 létrehozása a mindennapi felhasználás érdekében. Weboldalunkkal a <br/>
 mindennapi fáradtságos főzés procedúráját próbáljuk megkönnyíteni az <br/>
 oldalunk felhasználói számára. <br/>
+<br/>Több száz receptes oldal található az interneten, viszont számunkra egyik <br/>
+sem volt a legtökéletesebb. Mindegyikben volt olyan rész, amit hasznosnak <br/>
+találtunk, és amit kevésbé. A sok megtekintett oldal alapján szeretnénk<br/>
+megalkotni a tökéletes receptes oldalt, amely egyszerűség, praktikusság és <br/>
+használhatóság szempontjából megfelelő mindenki számára. <br/>
+Oldalunkat mindenképp olyan funkciókkal szeretnénk ellátni, amelyeket <br/>
+valóban hasznosak találunk mindenki számára.<br/>
+
 - Projekt terv
     - Projektszerepkörök, felelősségek
     - Projektmunkások és felelősségeik
