@@ -4,30 +4,33 @@ Funkcionális specifikáció leírása
 ---
 
 1. Vezetői összefoglaló (bevezető)
-	A Debreceni szakács képző intézet áltált megrendelt alkalmazást, <br/>
-    melyet webes felületen szeretnénk megvalósítani, előtérbe helyezve az <br/>
-    egyszerűséget. Elképzeléseink szerint mind MacOS-en mind linuxon ugyan <br/>
-    úgy nézne ki és működne a program mint windowson. <br/>
-    Google chrome-on, firefox-on és a explorer-en is ugyanazt a <br/>
-    támogatást kapná, így bárki nyugodtan tudja használni, függetlenül a <br/>
-    böngészőjétől. <br/>
-    A program front end része angulárban íródna meg, ez egy nagy <br/>
-    könnyebbséget tud adni a fejlesztőnek, áttekinthetőbb a kód, a <br/>
-    weboldal modernebb, több és jobb támogatást használhat. <br/>
-    A backend *TODO KERETRENDSZER* keretrendszerben lenne írva, objektum <br/>
-    orientált szemléletben, így elkülönitve a metódusokat, áttekinthető <br/>
-    kódot kapunk. Ennek köszönhetően könnyen lehet módositani a programot <br/>
-    arra amit a felhasználó megkiván. <br/>
-    Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság <br/>
-    a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak, <br/>
-    valamint a chat funkció, mellyel bármikor kérhet bárki segítséget. <br/>
- 
-    Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület <br/>
-    fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba <br/>
-    beléphetnek. <br/>
-    Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a felhasználó számára. <br/>
-    A regisztráció után a felhasználó minden elérhető funkciót használhat majd. <br/>
-    Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, chatelés. <br/>
+
+	A Debreceni szakács képző intézet áltált megrendelt alkalmazást,
+   melyet webes felületen szeretnénk megvalósítani,előtérbe helyezve az </br>
+   egyszerűséget.</br>
+   Minden felhasználói elvárást kielégítő recept oldal létrehozását tervezzük</br>
+   fejlesztő csapatunkkal. Eddigi oldalak megoldásait és saját ötleteinket</br>
+   használva egy minden eddiginél másabb, jobb oldalt szeretnénk megvalósítani. </br>
+   Célunk egy olyan weboldal létrehozása, amelyet minden korosztály szívesen használ. </br>
+   A fiatalabbak könnyedén találhatnak számukra új, de másoknak jólbevált recepteket,</br>
+   és segítséget kérhetnek ha elakadnának. Az idősebb korosztály megoszthatja másokkal</br>
+   saját, az évek alatt tökéletesített, receptjeit, és új praktikákat tanulhat, megismerkedhet új receptekkel.
+
+
+   Elképzeléseink szerint mind MacOS-en mind linuxon ugyan úgy nézne ki és</br>
+   működne a program mint windowson.</br>
+   Google chrome-on, firefox-on és a explorer-en is ugyanazt a támogatást </br>
+   kapná, így bárki nyugodtan tudja használni, függetlenül a böngészőjétől.</br>
+   A program front end része angulárban íródna meg, ez egy nagy könnyebbséget</br>
+   tud adni a fejlesztőnek, áttekinthetőbb a kód, a weboldal modernebb, több </br>
+   és jobb támogatást használhat.</br>
+   A backend *TODO KERETRENDSZER* keretrendszerben lenne írva, objektum</br>
+   orientált szemléletben, így elkülönitve a metódusokat, áttekinthető</br>
+   kódot kapunk. Ennek köszönhetően könnyen lehet módositani a programot</br>
+   arra amit a felhasználó megkiván.</br>
+
+    
+
     
 2. Jelenlegi helyzet<br/>
 A projekttervét elkezdtük kidolgozni, hogy a határidőkre megfelelően be<br/>
@@ -54,6 +57,16 @@ DisplayName-mel felvisszük az adatbázisba a password-öt titkosítjuk hogy <br
 ne lehessen _'könnyedén'_ feltörni. Reményeink szerint a felhasználók <br/>
 láthatják egymást egymást a rendszerben, keresgélhetnek egymás *PUBLIKUS* <br/>
 receptjei között és a nekik szimpatikusakat elmenthetik a saját tárolójukba.<br/>
+Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság<br/>
+a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak,
+valamint a chat funkció, mellyel bármikor kérhet bárki segítséget.
+
+Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
+fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba
+beléphetnek.<br/>
+Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a felhasználó számára. <br/>
+A regisztráció után a felhasználó minden elérhető funkciót használhat majd.<br/>
+Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, chatelés. <br/>
 
 4. Jelenlegi üzleti folyamatok<br/>
 Jelenleg nem sok receptoldalt van a interneten, így a háziasszonyok <br/>
