@@ -34,7 +34,21 @@ Rendszerterv
   - Menü-hierarchiák
   - Képernyőtervek
 - Fizikai környezet
-
+    A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény, mi is eleget kívánunk ennek tenné és minden operációs rendszer alatt, minden böngészőből  ugyanolyan kinézetet biztosítani weboldalunknak. 
+    A felhasználók számának növekedésével, növekedni fog azok száma is akik az asztali számítógéptől vagy laptoptól eltérően okostelefonról vagy tabletről keresik majd fel weboldalunkat. Alkalmazkodnunk kell ezekhez az eszközökhöz is, és olyan honlapot készíteni, amely ugyanolyan minőségben jelenik meg más-más eszközökön is.
+    A projektet különválasztva a frontendet a backend től írjuk meg.
+    A frontend, egy mai modern platformon, angulárban készül majd el,
+    ami átláthatóbb kódot, gyorsabb és hatékonyabb alkalmazás készítését teszi lehetővé.
+    Az angular typescript nyelvet használ ami leginkább javascript.
+    A megjelenítést angular-material-val, bootstrap-vel és scss-el oldjuk meg.
+            A backendet egy keretrendszeren keresztül fogjuk megirni, ez nagy
+            valószínűséggel a Slim lesz.A Slim egy modern keretrendszer, nem       
+    tartozik a nagy fiúk közé, de kisebb projektekhez tökéletes.
+    A Slimben objektum orientáltan fogunk PHP-ban programozni amivel
+        a program háttér folyamatait alkotjuk meg.
+        Az adatokat MySQL ben tároljuk, titkosítva a jelszót.
+    A projekt verzió kezelője a github lesz, amin a fejlesztők és a
+            tulajdonosok is végig követhetik a munkafolyamatokat.
 
   - Vásárolt softwarekomponensek és külső rendszerek
   - Hardver és hálózati topológia
