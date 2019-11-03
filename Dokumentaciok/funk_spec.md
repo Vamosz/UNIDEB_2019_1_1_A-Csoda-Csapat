@@ -53,16 +53,16 @@ gondba ütköznek vagy valami kérdésük van egy beépített chaten keresztül 
 tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 
   Eddigi megadott lehetőségek: <br/>
-    * Recept elmentése:
-     * Leírni papírra és elrakni
-     * Begépelni egy dokumentumba és elmenteni a saját <br/>
-        számítógépünkön
-     * Begépelni egy dokumentumba és felhőbe elmenteni
-    * Új recept keresése:
-     * Receptkönyv használata
-     * Receptújság használata
-     * Interneten történő böngészés
-     * Tv-s főzőműsor nézése
+  * Recept elmentése:
+    * Leírni papírra és elrakni
+    * Begépelni egy dokumentumba és elmenteni a saját <br/>
+      számítógépünkön
+    * Begépelni egy dokumentumba és felhőbe elmenteni
+  * Új recept keresése:
+    * Receptkönyv használata
+    * Receptújság használata
+    * Interneten történő böngészés
+    * Tv-s főzőműsor nézése
 
 5. Igényelt üzleti feladatok <br/>
 A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
