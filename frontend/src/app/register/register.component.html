@@ -1,0 +1,58 @@
+<mat-sidenav-container class="example-container" >
+        <mat-sidenav mode="side" position="start" id="sidenavbar" opened>
+          <form class="h-100">
+          <div class="container h-100">
+                    <div class="row h-25">
+                      <div class="col"></div>
+                    </div>
+                    <div class="row w-100 text-center mb-5">
+                        <div class="col" id="login_title">REGISTER</div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                          <mat-form-field class="w-10  align-items-center" appearance="outline">
+                            <mat-label>Username</mat-label>
+                            <input matInput placeholder="Enter your username..">
+                          </mat-form-field>
+                          <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                          <div class="col-md-2"></div>
+                          <div class="col-md-8">
+                          <mat-form-field class="w-10" appearance="outline">
+                            <mat-label>Password</mat-label>
+                            <input matInput placeholder="Enter your password.." [type]="hide ? 'password' : 'text'">
+                            <span mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                            </span>
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-2"></div>
+                  </div>
+                  <div class="row ">
+                      <div class="col-md-2"></div>
+                      <div class="col-md-8 text-center" >
+                      <input type="submit" class="btn btn-outline-dark">
+                      </div>
+                    <div class="col-md-2"></div>
+              </div>
+          </div>
+            </form>
+          </mat-sidenav>
+        <mat-sidenav-content>
+          <div class="container h-100">
+            <div class="row h-25"></div>
+            <div class="row">
+              <div class="col">
+                  <h1 class="text-center">
+                      Welcome to CookBook!
+                    </h1>
+              </div>
+            </div>
+          </div>
+      
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+      
