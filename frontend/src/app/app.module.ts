@@ -7,7 +7,8 @@ import { MatCheckboxModule,
          MatInputModule,
          MatIconModule,
          MatDatepickerModule,
-         MatNativeDateModule 
+         MatNativeDateModule,
+         MatListModule
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -17,6 +18,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 
+import {DragDropModule} from '@angular/cdk/drag-drop';
+import { ReceiptsmanagerComponent } from './receiptsmanager/receiptsmanager.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { ReceiptsComponent } from './receipts/receipts.component';
 
 
 @NgModule({
@@ -24,7 +29,10 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    ReceiptsmanagerComponent,
+    SidenavComponent,
+    ReceiptsComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,9 @@ import { HomeComponent } from './home/home.component';
     MatInputModule,
     MatIconModule,
     MatDatepickerModule,
-    MatNativeDateModule 
+    MatNativeDateModule,
+    DragDropModule,
+    MatListModule 
   ],
   providers: [
     MatDatepickerModule,
