@@ -59,8 +59,8 @@ ne lehessen _'könnyedén'_ feltörni. Reményeink szerint a felhasználók <br/
 láthatják egymást egymást a rendszerben, keresgélhetnek egymás *PUBLIKUS* <br/>
 receptjei között és a nekik szimpatikusakat elmenthetik a saját tárolójukba.<br/>
 Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság<br/>
-a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak,
-valamint a chat funkció, mellyel bármikor kérhet bárki segítséget.
+a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak, </br>
+valamint a chat funkció, mellyel bármikor kérhet bárki segítséget. </br>
 
 Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
 fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba </br>
