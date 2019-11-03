@@ -33,8 +33,8 @@ a felhasználók egymástól kapják meg.<br/>
     - Projektszerepkörök, felelősségek
     - Projektmunkások és felelősségeik
         A weboldal elkészítésében a Debreceni Egyetem Informatika kar négy <br/>
-        programtervező informatikus hallgatója vesz részt.  
-        A résztvevő hallgatók:
+        programtervező informatikus hallgatója vesz részt.  <br/>
+        A résztvevő hallgatók: <br/>
         - Kuczik Anna
         - Vámosi Patrik
         - Tar Zoltán
