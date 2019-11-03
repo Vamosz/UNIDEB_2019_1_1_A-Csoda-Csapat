@@ -48,6 +48,7 @@ Projektünk elkészítésének kezdete 2019. október 7-e, és <br/>
         rendszeresen megbeszéléseket tartunk a jelenlegi feladatok állásáról,<br/>
         valamint folyamatosan kommunikálunk egymással a SLACK céges <br/>
         kommunikációs platform segítségével.  <br/>
+        
     - Mérföldkövek<br/>
 Projekt elkészítésének kezdetétől november 4-éig feladatunk a <br/>
 dokumentáció elkészítése és az első prototípus weboldal létrehozása, <br/>
@@ -60,6 +61,7 @@ ellátott rész megtalálható, funkció mentesen. <br/>
         December 2-től december 8-ig a weboldalunk tesztelését végezzünk<br/>
         majd el és az esetleges felmerülő hibák javításán dolgozunk majd.  <br/>
         December 9-én reggel 10 órakor történik a projektünk bemutatása.<br/>
+        
 - Üzleti folyamatok modellje
   - Üzleti szereplők
   - Üzleti folyamatok
@@ -85,8 +87,17 @@ recepthez, amelyet minden felhasználó számára megtekinthető.<br/>
   - Nemfunkcionális követelmények
   - Törvényi előírások, szabványok 
 - Funkcionális terv
-  - Rendszerszereplők
-  - Rendszerhasználati esetek és lefutásaik
+  - Rendszerszereplők <br/>
+  Weboldalunkat széleskörű használatra készítjük, így nincs <br/>
+  meghatározott célközönségünk. Minden korosztály számára ideális <br/>
+  oldalt szeretnénk létrehozni.<br/>
+
+  - Rendszerhasználati esetek és lefutásaik<br/>
+  Weboldalunkat minden felhasználó egyenlő jogokkal használhatja<br/>
+  majd, mindenki egyaránt tölthet fel recepteket, kereshet a receptek <br/>
+  között, értékelhet recepteket és  kommunikálhat más felhasználókkal <br/>
+  vagy a fejlesztőkkel.<br/>
+
   - Határosztályok
   - Menü-hierarchiák
   - Képernyőtervek
