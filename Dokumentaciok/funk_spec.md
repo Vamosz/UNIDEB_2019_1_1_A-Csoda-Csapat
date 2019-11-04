@@ -76,8 +76,10 @@ Funkcionális specifikáció leirása
 	bejelentkezzen vagy regisztráljon. A regisztrációra kattintva megnyílik
 	egy regisztrációs felület. Ezen a felületen megadhatja felhasználónevét,
 	e-mail címét, jelszavát és jelszó emlékeztetőjét. Egyik adat se egyezhet
-	meg az SQL adatbázisban szereplő bármelyik névvel vagy e-mail címmel.
-	
+	meg az SQL adatbázisban szereplő bármelyik névvel vagy e-mail címmel. A 
+	felhasználónév nem kezdődhet alsóvonással, számmal és nem tartalmazhat 
+	ékezetes betűt. A jelszónak tartalmaznia kell nagybetűt, kisbetűt, számot 
+	de nem számsort és nem lehet a felhasználónév. 
 
 5. Igényelt üzleti feladatok 
     A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy
