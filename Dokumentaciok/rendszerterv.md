@@ -65,6 +65,27 @@ ellátott rész megtalálható, funkció mentesen. <br/>
 - Üzleti folyamatok modellje
   - Üzleti szereplők
   - Üzleti folyamatok
+     * Felhasználók üzleti folyamatai:
+       * Regisztrálás
+       * Bejelentkezés
+       * Recept feltöltés
+       * Recept törlés
+       * Recept keresés
+       * Recept mentés
+       * Recept értékelés
+       * Chatelés
+     * Fejlesztők üzleti folyamatai:
+       * Folyamatos karbantartás
+       * Fejlesztés <br/>
+A felhasználó kezdetben a főoldalon vagy a regisztrációt vagy a <br/>
+bejelentkezést választhatja. A regisztráció választása esetén a <br/>
+_Tovább a regisztrációhoz!_ gombra, a bejelentkezés választása <br/>
+esetén a _Tovább a bejelentkezéshez!_ gombra kattintva érheti el a <br/>
+megfelelőt.<br/>
+A továbbiakban a menüből kiválasztva a megfelelő címszóra kattintva<br/>
+juthat el a kereséshez, a saját receptekhez vagy a főoldalhoz.<br/>
+A megadott menüpontok alatt érhetőek el a további odatartozó funkciók.<br/>
+
   - Üzleti entitások
 - Követelmények
   - Funkcionális követelmények <br/>
