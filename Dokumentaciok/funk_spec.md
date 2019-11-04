@@ -79,7 +79,10 @@ Funkcionális specifikáció leirása
 	meg az SQL adatbázisban szereplő bármelyik névvel vagy e-mail címmel. A 
 	felhasználónév nem kezdődhet alsóvonással, számmal és nem tartalmazhat 
 	ékezetes betűt. A jelszónak tartalmaznia kell nagybetűt, kisbetűt, számot 
-	de nem számsort és nem lehet a felhasználónév. 
+	de nem számsort és nem lehet a felhasználónév. Illetve legalább nyolc karakter
+	hosszúnak kell lennie. A bejelentkezés gombra kattintva leellenőrizzük az 
+	adatokat, hogy megfelelőek-e és ha minden rendben van velük akkor a regisztráció 
+	megtörtént és az adatokat felvesszük az SQL adatbázisba.
 
 5. Igényelt üzleti feladatok 
     A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy
