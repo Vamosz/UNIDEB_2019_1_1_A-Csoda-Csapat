@@ -83,6 +83,8 @@ Funkcionális specifikáció leirása
 	hosszúnak kell lennie. A bejelentkezés gombra kattintva leellenőrizzük az 
 	adatokat, hogy megfelelőek-e és ha minden rendben van velük akkor a regisztráció 
 	megtörtént és az adatokat felvesszük az SQL adatbázisba.
+	
+	![Regisztracio](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/regisztracio.png)
 
 5. Igényelt üzleti feladatok 
     A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy
