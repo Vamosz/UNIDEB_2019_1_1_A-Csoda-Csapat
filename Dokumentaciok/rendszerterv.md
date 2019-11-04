@@ -21,6 +21,14 @@ Rendszerterv
 - Követelmények
   - Funkcionális követelmények
   - Nemfunkcionális követelmények
+  A nem funkcionális céljaink közé tartozik az, hogy egy letisztult 
+  és könnyen értelmezhető, intuitív felhasználói felületet, UI-t 
+  hozzunk létre mely egyértelmű leírásokkal, jelzésekkel és egy 
+  kohézív menü rendszerrel igyekszik lehetővé tenni a userek számára 
+  az egyszerű és könnyen elsajátítható használatát weboldalunknak. 
+  Legördülő menü rendszerekkel és minimalista, igényes designnal 
+  igyekszünk ég kellemesebbé tenni a usereknek a weboldalt.
+
   - Törvényi előírások, szabványok 
 - Funkcionális terv
   - Rendszerszereplők
