@@ -31,7 +31,29 @@ is megkönnyíteni azzal, hogy kizárólag az adott érzékenységnek megfelelő
 
 2. Jelenlegi helyzet<br/>
 
+Saját receptjeiket, családi örökségeket az emberek manapság kézzel írott, nyomtatott,
+papír alapú formában tárolják. Ez a mai világban már elavultnak számít, hiszen már 
+szinte minden elérhető digitális formában. Tárolás szempontjából sem praktikus, könnyen 
+elveszíthető és az évek alatt megfakulhat, elmosódhat. 
+
+Sokan szeretnek kísérletezni a konyhában, új recepteket kipróbálni, esetleg már a meglévőket
+fejleszteni, kicsit megváltoztatni. Új receptek felkeresésére gyakran használják az internet
+segítségét, hiszen nagyon sok recept megtalálható. 
+
+Egy olyan oldal elkészítését álmodtuk meg, amelyen minden felhasználó a saját, egyedi fiókjában
+mentheti el a saját receptjeit és mellé újakat kereshet más felhasználó receptjei között. 
+
+Jelenleg nem található a megálmodott oldalunknak megfelelő, hiszen a receptes oldalak többsége
+reklámokkal teli, túlzsúfolt és sok felesleges funkcióval ellátott, ami megnehezíti a használatot
+és lassítja is azt.
+
+Sokan használnak még hagyományos recept könyveket, családi receptes gyűjteményeket. Ezek tárolása 
+magas helyigényű, használata komplikáltabb, hiszen akár több száz összegyűjtött recept leírás közül
+nehéz lehet megtalálni az éppen keresettet. 
+
+
 3. Vágyálom rendszer<br/>
+
 
 4. Jelenlegi üzelti folyamatok<br/>
 

@@ -64,6 +64,12 @@ ellátott rész megtalálható, funkció mentesen. <br/>
         
 - Üzleti folyamatok modellje
   - Üzleti szereplők
+  A projectünknek két fontosabb üzleti szereplője van. Az elsők a 
+  felhasználók akiknek az igényeik kielégítésére jött létre ez a project.
+  A másik a fejlesztők csapata akik szeretnének betömni egy esetleges
+  piaci rést a projecttel és annak mihamarabbi felhasználókhoz juttatásával.
+  Ezzel elérve a két üzleti szereplő közti együttműködést/ harmóniát.
+
   - Üzleti folyamatok
      * Felhasználók üzleti folyamatai:
        * Regisztrálás
@@ -106,7 +112,28 @@ megtekintésére. Ezen recepteket értékelheti majd a felhasználó egy<br/>
 recepthez, amelyet minden felhasználó számára megtekinthető.<br/>
 
   - Nemfunkcionális követelmények
+  A nem funkcionális céljaink közé tartozik az, hogy egy letisztult 
+  és könnyen értelmezhető, intuitív felhasználói felületet, UI-t 
+  hozzunk létre mely egyértelmű leírásokkal, jelzésekkel és egy 
+  kohézív menü rendszerrel igyekszik lehetővé tenni a userek számára 
+  az egyszerű és könnyen elsajátítható használatát weboldalunknak. 
+  Legördülő menü rendszerekkel és minimalista, igényes designnal 
+  igyekszünk ég kellemesebbé tenni a usereknek a weboldalt.
+
   - Törvényi előírások, szabványok 
+  Weboldalunk és a userek személyes adatainak kezelésében a GDPR-t 
+  szeretnénk követni. Biztosítani szeretnénk felhasználóink számára 
+  a minőséget, kényelmet, átláthatóságot és megbízhatóságot.
+  Mindezt fontosnak találjuk ahhoz, hogy egy sikeres és széles körben 
+  elterjedt, valamint használt weboldalt és adatbázist tudjunk forgalmazni. 
+  Az adatok és információk a cégünk egyik legfontosabb eleme amit a lehető 
+  legkörültekintőbben és óvatosabban védünk esetleges támadások ellen.
+  A userek jelszavát nem adjuk ki senkinek. Hasonlóképpen az e-mail címükkel 
+  is. Egy hash függvénnyel vagy biteltolásos technikával ezek titkosítása 
+  és validálása viszonylag gördülékenyen mehet. Ezekkel a módszerekkel 
+  ellehetetlenítve a harmadik felek hozzáférését, bízunk benne, hogy 
+  megfelelő adatvédelemmel tudunk szolgálni felhasználóink számára. 
+
 - Funkcionális terv
   - Rendszerszereplők <br/>
   Weboldalunkat széleskörű használatra készítjük, így nincs <br/>
@@ -177,5 +204,9 @@ ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
 - Tesztterv
  
 - Telepítési terv
+Mivel projectünk egy webes oldalt foglal magába ezért telepítésre 
+semmi szükség annak használatához. Minden felhasználó pár kattintással 
+élvezheti weboldalunk által nyújtott funkciókat anélkül, hogy egy telepítő 
+képernyőt végig kelljen ülnie.
 
 - Karbantartási terv
