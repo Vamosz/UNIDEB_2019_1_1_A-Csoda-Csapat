@@ -10,6 +10,12 @@ Rendszerterv
   - Mérföldkövek
 - Üzleti folyamatok modellje
   - Üzleti szereplők
+  A projectünknek két fontosabb üzleti szereplője van. Az elsők a 
+  felhasználók akiknek az igényeik kielégítésére jött létre ez a project.
+  A másik a fejlesztők csapata akik szeretnének betömni egy esetleges
+  piaci rést a projecttel és annak mihamarabbi felhasználókhoz juttatásával.
+  Ezzel elérve a két üzleti szereplő közti együttműködést/ harmóniát.
+
   - Üzleti folyamatok
   - Üzleti entitások
 - Követelmények
