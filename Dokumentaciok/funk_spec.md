@@ -70,7 +70,14 @@ Funkcionális specifikáció leirása
 	
 	![Bejelentkezes](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/bejelentkezes.png)
 
-
+	
+	A regisztráció folyamata a következő: 
+	Amikor a user rálép az oldalra fel lesz kínálva neki a lehetőség, hogy 
+	bejelentkezzen vagy regisztráljon. A regisztrációra kattintva megnyílik
+	egy regisztrációs felület. Ezen a felületen megadhatja felhasználónevét,
+	e-mail címét, jelszavát és jelszó emlékeztetőjét. Egyik adat se egyezhet
+	meg az SQL adatbázisban szereplő bármelyik névvel vagy e-mail címmel.
+	
 
 5. Igényelt üzleti feladatok 
     A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy
