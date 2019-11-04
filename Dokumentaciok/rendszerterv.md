@@ -37,6 +37,11 @@ Rendszerterv
   elterjedt, valamint használt weboldalt és adatbázist tudjunk forgalmazni. 
   Az adatok és információk a cégünk egyik legfontosabb eleme amit a lehető 
   legkörültekintőbben és óvatosabban védünk esetleges támadások ellen.
+  A userek jelszavát nem adjuk ki senkinek. Hasonlóképpen az e-mail címükkel 
+  is. Egy hash függvénnyel vagy biteltolásos technikával ezek titkosítása 
+  és validálása viszonylag gördülékenyen mehet. Ezekkel a módszerekkel 
+  ellehetetlenítve a harmadik felek hozzáférését, bízunk benne, hogy 
+  megfelelő adatvédelemmel tudunk szolgálni felhasználóink számára. 
 
 - Funkcionális terv
   - Rendszerszereplők
