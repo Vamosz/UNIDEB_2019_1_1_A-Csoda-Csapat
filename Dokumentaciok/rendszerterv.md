@@ -10,38 +10,38 @@ Rendszerterv
   - Mérföldkövek
 - Üzleti folyamatok modellje
   - Üzleti szereplők
-  A projectünknek két fontosabb üzleti szereplője van. Az elsők a 
-  felhasználók akiknek az igényeik kielégítésére jött létre ez a project.
-  A másik a fejlesztők csapata akik szeretnének betömni egy esetleges
-  piaci rést a projecttel és annak mihamarabbi felhasználókhoz juttatásával.
-  Ezzel elérve a két üzleti szereplő közti együttműködést/ harmóniát.
+  A projectünknek két fontosabb üzleti szereplője van. Az elsők a <br/>
+  felhasználók akiknek az igényeik kielégítésére jött létre ez a project.<br/>
+  A másik a fejlesztők csapata akik szeretnének betömni egy esetleges<br/>
+  piaci rést a projecttel és annak mihamarabbi felhasználókhoz juttatásával.<br/>
+  Ezzel elérve a két üzleti szereplő közti együttműködést/ harmóniát.<br/>
 
   - Üzleti folyamatok
   - Üzleti entitások
 - Követelmények
   - Funkcionális követelmények
   - Nemfunkcionális követelmények
-  A nem funkcionális céljaink közé tartozik az, hogy egy letisztult 
-  és könnyen értelmezhető, intuitív felhasználói felületet, UI-t 
-  hozzunk létre mely egyértelmű leírásokkal, jelzésekkel és egy 
-  kohézív menü rendszerrel igyekszik lehetővé tenni a userek számára 
-  az egyszerű és könnyen elsajátítható használatát weboldalunknak. 
-  Legördülő menü rendszerekkel és minimalista, igényes designnal 
-  igyekszünk ég kellemesebbé tenni a usereknek a weboldalt.
+  A nem funkcionális céljaink közé tartozik az, hogy egy letisztult <br/>
+  és könnyen értelmezhető, intuitív felhasználói felületet, UI-t <br/>
+  hozzunk létre mely egyértelmű leírásokkal, jelzésekkel és egy <br/>
+  kohézív menü rendszerrel igyekszik lehetővé tenni a userek számára <br/>
+  az egyszerű és könnyen elsajátítható használatát weboldalunknak. <br/>
+  Legördülő menü rendszerekkel és minimalista, igényes designnal <br/>
+  igyekszünk ég kellemesebbé tenni a usereknek a weboldalt.<br/>
 
   - Törvényi előírások, szabványok 
-  Weboldalunk és a userek személyes adatainak kezelésében a GDPR-t 
-  szeretnénk követni. Biztosítani szeretnénk felhasználóink számára 
-  a minőséget, kényelmet, átláthatóságot és megbízhatóságot.
-  Mindezt fontosnak találjuk ahhoz, hogy egy sikeres és széles körben 
-  elterjedt, valamint használt weboldalt és adatbázist tudjunk forgalmazni. 
-  Az adatok és információk a cégünk egyik legfontosabb eleme amit a lehető 
-  legkörültekintőbben és óvatosabban védünk esetleges támadások ellen.
-  A userek jelszavát nem adjuk ki senkinek. Hasonlóképpen az e-mail címükkel 
-  is. Egy hash függvénnyel vagy biteltolásos technikával ezek titkosítása 
-  és validálása viszonylag gördülékenyen mehet. Ezekkel a módszerekkel 
-  ellehetetlenítve a harmadik felek hozzáférését, bízunk benne, hogy 
-  megfelelő adatvédelemmel tudunk szolgálni felhasználóink számára. 
+  Weboldalunk és a userek személyes adatainak kezelésében a GDPR-t <br/>
+  szeretnénk követni. Biztosítani szeretnénk felhasználóink számára <br/>
+  a minőséget, kényelmet, átláthatóságot és megbízhatóságot.<br/>
+  Mindezt fontosnak találjuk ahhoz, hogy egy sikeres és széles körben <br/>
+  elterjedt, valamint használt weboldalt és adatbázist tudjunk forgalmazni. <br/>
+  Az adatok és információk a cégünk egyik legfontosabb eleme amit a lehető <br/>
+  legkörültekintőbben és óvatosabban védünk esetleges támadások ellen.<br/>
+  A userek jelszavát nem adjuk ki senkinek. Hasonlóképpen az e-mail címükkel <br/>
+  is. Egy hash függvénnyel vagy biteltolásos technikával ezek titkosítása <br/>
+  és validálása viszonylag gördülékenyen mehet. Ezekkel a módszerekkel <br/>
+  ellehetetlenítve a harmadik felek hozzáférését, bízunk benne, hogy <br/>
+  megfelelő adatvédelemmel tudunk szolgálni felhasználóink számára. <br/>
 
 - Funkcionális terv
   - Rendszerszereplők
@@ -79,9 +79,9 @@ Rendszerterv
 - Tesztterv
  
 - Telepítési terv
-Mivel projectünk egy webes oldalt foglal magába ezért telepítésre 
-semmi szükség annak használatához. Minden felhasználó pár kattintással 
-élvezheti weboldalunk által nyújtott funkciókat anélkül, hogy egy telepítő 
-képernyőt végig kelljen ülnie.
+Mivel projectünk egy webes oldalt foglal magába ezért telepítésre <br/>
+semmi szükség annak használatához. Minden felhasználó pár kattintással <br/>
+élvezheti weboldalunk által nyújtott funkciókat anélkül, hogy egy telepítő <br/>
+képernyőt végig kelljen ülnie.<br/>
 
 - Karbantartási terv
