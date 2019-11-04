@@ -30,6 +30,14 @@ Rendszerterv
   igyekszünk ég kellemesebbé tenni a usereknek a weboldalt.
 
   - Törvényi előírások, szabványok 
+  Weboldalunk és a userek személyes adatainak kezelésében a GDPR-t 
+  szeretnénk követni. Biztosítani szeretnénk felhasználóink számára 
+  a minőséget, kényelmet, átláthatóságot és megbízhatóságot.
+  Mindezt fontosnak találjuk ahhoz, hogy egy sikeres és széles körben 
+  elterjedt, valamint használt weboldalt és adatbázist tudjunk forgalmazni. 
+  Az adatok és információk a cégünk egyik legfontosabb eleme amit a lehető 
+  legkörültekintőbben és óvatosabban védünk esetleges támadások ellen.
+
 - Funkcionális terv
   - Rendszerszereplők
   - Rendszerhasználati esetek és lefutásaik
