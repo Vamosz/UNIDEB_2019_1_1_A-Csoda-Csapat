@@ -63,7 +63,7 @@ ellátott rész megtalálható, funkció mentesen. <br/>
         December 9-én reggel 10 órakor történik a projektünk bemutatása.<br/>
         
 - Üzleti folyamatok modellje
-  - Üzleti szereplők
+  - Üzleti szereplők<br/>
   A projectünknek két fontosabb üzleti szereplője van. Az elsők a <br/>
   felhasználók akiknek az igényeik kielégítésére jött létre ez a project.<br/>
   A másik a fejlesztők csapata akik szeretnének betömni egy esetleges<br/>
@@ -93,7 +93,7 @@ juthat el a kereséshez, a saját receptekhez vagy a főoldalhoz.<br/>
 A megadott menüpontok alatt érhetőek el a további odatartozó funkciók.<br/>
 
   - Üzleti entitások
-- Követelmények
+- Követelmények<br/>
   - Funkcionális követelmények <br/>
 Elsődleges követelmény a regisztráció sikeres végrehajtása. Minden<br/>
 újonnan, új e-mail címmel regisztráló felhasználónak sikeresen kell <br/>
@@ -111,7 +111,7 @@ megtekintésére. Ezen recepteket értékelheti majd a felhasználó egy<br/>
 1-től 10-ig terjedő osztályozáson, vagy hozzászólást írhat majd a <br/>
 recepthez, amelyet minden felhasználó számára megtekinthető.<br/>
 
-  - Nemfunkcionális követelmények
+  - Nemfunkcionális követelmények<br/>
   A nem funkcionális céljaink közé tartozik az, hogy egy letisztult <br/>
   és könnyen értelmezhető, intuitív felhasználói felületet, UI-t <br/>
   hozzunk létre mely egyértelmű leírásokkal, jelzésekkel és egy <br/>
@@ -120,7 +120,7 @@ recepthez, amelyet minden felhasználó számára megtekinthető.<br/>
   Legördülő menü rendszerekkel és minimalista, igényes designnal <br/>
   igyekszünk ég kellemesebbé tenni a usereknek a weboldalt.<br/>
 
-  - Törvényi előírások, szabványok 
+  - Törvényi előírások, szabványok <br/>
   Weboldalunk és a userek személyes adatainak kezelésében a GDPR-t <br/>
   szeretnénk követni. Biztosítani szeretnénk felhasználóink számára <br/>
   a minőséget, kényelmet, átláthatóságot és megbízhatóságot.<br/>
@@ -203,7 +203,7 @@ ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
   
 - Tesztterv
  
-- Telepítési terv
+- Telepítési terv<br/>
 Mivel projectünk egy webes oldalt foglal magába ezért telepítésre <br/>
 semmi szükség annak használatához. Minden felhasználó pár kattintással <br/>
 élvezheti weboldalunk által nyújtott funkciókat anélkül, hogy egy telepítő <br/>
