@@ -79,5 +79,9 @@ Rendszerterv
 - Tesztterv
  
 - Telepítési terv
+Mivel projectünk egy webes oldalt foglal magába ezért telepítésre 
+semmi szükség annak használatához. Minden felhasználó pár kattintással 
+élvezheti weboldalunk által nyújtott funkciókat anélkül, hogy egy telepítő 
+képernyőt végig kelljen ülnie.
 
 - Karbantartási terv
