@@ -165,7 +165,13 @@ ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
   objektumorientáltság melynek köszönhetően könnyedén tudjuk <br/>
   változtatni programunkat, weboldalunkat.
 
-  - Rendszer bővíthetősége
+  - Rendszer bővíthetősége    
+  Projectünket objektumorientált módon szeretnénk megvalósítani ami <br/>
+  lehetővé teszi, hogy bővíthessük rendszerünket a felhasználók <br/>
+  visszajelzései, észrevételei alapján. Több funkció, bővebb menü <br/>
+  nagyobb tárhely. Igyekszünk majd minden igényt kielégíteni a hozam és<br/>
+  az aktív felhasználói adatbázís folyamatos növekedése érdekében.
+
   - Biztonsági funkciók
   
 - Adatbázis terv
