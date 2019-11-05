@@ -179,3 +179,8 @@ ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
 - Telepítési terv
 
 - Karbantartási terv
+A karbantartási tervünk javarészt abból áll, hogy a felhasználók milyen<br/>
+hibákat, funkciónális félrelépéseket jelentenek nekünk. Ezen felül havi<br/>
+rendszerességgel karbantartást indítunk adatbázisunkon, az önmagát <br/>
+törlő userek maradék adatainak törlésével, megsemmisítésével.
+
