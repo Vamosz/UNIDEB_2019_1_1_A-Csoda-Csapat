@@ -173,6 +173,17 @@ ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
   az aktív felhasználói adatbázís folyamatos növekedése érdekében.
 
   - Biztonsági funkciók
+  Biztonsági funkcióink közé tartozik a jelszó és e-mail cím védelem.<br/>
+  A jelszót csakis a regisztrált e-mail címre továbbítjuk, hogy ne <br/>
+  férjen hozzá senki aki nem fér hozzá az e-mail fiókhoz. Mindazonáltal<br/>
+  a jelszót nem direktbe hasonlítjuk össze a bejelentkezésnél, hogy ne<br/>
+  tartalmazza egy az egyben egy token se azt. Ezt hash függvény <br/>
+  használatával szeretnénk kiküszöbölni ami a lekódolt jelszót tárolja<br/>
+  és amikor a felhasználó beírja a jelszavát azt is lekódolja és a két<br/>
+  lekódolt jelszót hasonlítja össze. Ha egyezik a két hash akkor a<br/>
+  beírt jelszó helyes. Ha nem egyezik akkor sajnos nem helyes és újra<br/>
+  kell próbálni vagy jelszó frissítő e-mailen keresztül új jelszót<br/>
+  csinálni.
   
 - Adatbázis terv
   - Logikai adatmodell
