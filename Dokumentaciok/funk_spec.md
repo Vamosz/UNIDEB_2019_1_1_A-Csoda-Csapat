@@ -86,6 +86,36 @@ tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
     * Interneten történő böngészés
     * Tv-s főzőműsor nézése
 
+	
+	A bejelentkezés folyamata a következő:<br/>
+	A user rákattint a bejelentkezés gombra ezzel elirányítva a bejelentkezési<br/>
+	felületre. Ezen a felületen lehetősége van az e-mail címét vagy a felhasználó<br/>
+	nevét és a jelszavát megadni. Ha mindezt az előzetesen elmentett SQL adatbázisnak <br/>
+	megfelelően írja be akkor bejelentkezhet. Ha nem akkor feltűnik a lehetőség, <br/>
+	hogy egy jelszó emlékeztető e-mailt küldjön a user magának. Ebben az emlékeztető <br/>
+	emailben vagy a jelszavát változtathatja meg vagy megkapja a jelszavát leírva. <br/>
+	Ha ezen is túl van nagy valószínűséggel tudni fogja a jelszavát és bejelentkezhet.<br/>
+	
+	
+	
+	![Bejelentkezes](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/bejelentkezes.png)<br/>
+
+	
+	A regisztráció folyamata a következő: <br/>
+	Amikor a user rálép az oldalra fel lesz kínálva neki a lehetőség, hogy <br/>
+	bejelentkezzen vagy regisztráljon. A regisztrációra kattintva megnyílik<br/>
+	egy regisztrációs felület. Ezen a felületen megadhatja felhasználónevét,<br/>
+	e-mail címét, jelszavát és jelszó emlékeztetőjét. Egyik adat se egyezhet<br/>
+	meg az SQL adatbázisban szereplő bármelyik névvel vagy e-mail címmel. A <br/>
+	felhasználónév nem kezdődhet alsóvonással, számmal és nem tartalmazhat <br/>
+	ékezetes betűt. A jelszónak tartalmaznia kell nagybetűt, kisbetűt, számot <br/>
+	de nem számsort és nem lehet a felhasználónév. Illetve legalább nyolc karakter<br/>
+	hosszúnak kell lennie. A bejelentkezés gombra kattintva leellenőrizzük az <br/>
+	adatokat, hogy megfelelőek-e és ha minden rendben van velük akkor a regisztráció <br/>
+	megtörtént és az adatokat felvesszük az SQL adatbázisba.<br/>
+	<br/>
+	![Regisztracio](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/regisztracio.png)<br/>
+
 5. Igényelt üzleti feladatok <br/>
 A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
 internetre kapcsolódni tudó alkalmazáshoz, internetre és megfelelő <br/>
@@ -129,3 +159,4 @@ recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
         * E-mail cím megváltoztatása
         * Felhasználónév megváltoztatása
         * Jelszó megváltoztatása
+
