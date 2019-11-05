@@ -36,3 +36,28 @@ is megkönnyíteni azzal, hogy kizárólag az adott érzékenységnek megfelelő
 4. Jelenlegi üzelti folyamatok<br/>
 
 5. Igényelt üzleti feladatok<br/>
+Mindenki számára lehetőség nyújtunk az oldalra tölténő regisztrálásra,<br/>
+kortól függetlenül. Regisztráció után a felhasználó a megadott belépési<br/>
+azonosítójával könnyedén beléphet saját fiókjába bárhonnan, akár<br/>
+telefonról vagy számítógépről is.
+ 
+Egyre többen küzdenek valamilyen ételérzékenységgel.<br/>
+Számukra egy megfelelő recept megtalálása nagyobb nehézségek okozhat,<br/>
+mint mások számára. Így mindenképpen szeretnénk olyan funkciókat<br/>
+beépíteni a weboldalunkba, amely megkönnyítheti számukra a megfelelő<br/>
+receptek megtalálását.
+ 
+A felhasználók közötti kommunikációt chat funkcióval könnyítjük majd<br/>
+meg. Ha valakinek felmerül egy kérdés egy recepttel kapcsolatban, így<br/>
+könnyedén kapcsolatba tud lépni a recept tulajdonosával, és minél<br/>
+hamarabb választ kaphat a kérdésére.
+ 
+A chat funkció nem csak felhasználók között lesz elérhető. Bármely<br/>
+felhasználó a kérdéseivel kapcsolatban chat ablakban kereshető a<br/>
+fejlesztőket is, ha esetleg az oldal használatával kapcsolatban<br/>
+lenne kérdése. Fontosnak tartjuk a visszajelzés lehetőségét is.<br/>
+Mindenkinek lehetősége lesz más felhasználó receptjeinek értékelésére,<br/>
+ezt megteheti majd egy 1-től 10-ig tartó skálán pontozással, vagy egy<br/>
+rövid szöveges bejegyzés létrehozásával. Ilyen bejegyzésekben akár<br/>
+tanácsot is adhatnak majd egymásnak a felhasználók a receptek <br/>
+tökéletesítése érdekében.
