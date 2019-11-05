@@ -161,6 +161,10 @@ ugyanolyan minőségben jelenik meg más-más eszközökön is. <br/>
   - Egy architekturális tervezési minta (pl. MVC, 3-rétegű alkalmazás, …)
   - Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
   - Változások kezelése
+  A változások könnyedebb kezeléséhez hozzátartozik az <br/>
+  objektumorientáltság melynek köszönhetően könnyedén tudjuk <br/>
+  változtatni programunkat, weboldalunkat.
+
   - Rendszer bővíthetősége
   - Biztonsági funkciók
   
