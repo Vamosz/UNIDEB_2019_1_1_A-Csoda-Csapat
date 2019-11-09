@@ -114,7 +114,7 @@ tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 	adatokat, hogy megfelelőek-e és ha minden rendben van velük akkor a regisztráció <br/>
 	megtörtént és az adatokat felvesszük az SQL adatbázisba.<br/>
 	<br/>
-	![Regisztracio](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/regisztracio.png)<br/>
+	![Regisztracio](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/blob/master/Dokumentaciok/Folyamat_abrak/reg_log.PNG)<br/>
 
 5. Igényelt üzleti feladatok <br/>
 A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
