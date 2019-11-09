@@ -11,7 +11,7 @@ export class HomeComponent{
   filter = " 5";
 
 constructor(){
-  console.log(this.filter);
+
 }
 
   receipts = [
@@ -33,8 +33,9 @@ constructor(){
     moveItemInArray(this.receipts, event.previousIndex, event.currentIndex);
   }
 
-onFilter($event){
-  this.filter=$event;
+onFilter(event){
+  this.filter = event;
+  console.log("home: "+this.filter);
 }
 
 }
