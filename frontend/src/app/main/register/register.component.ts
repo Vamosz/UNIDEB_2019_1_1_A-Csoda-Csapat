@@ -9,4 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class RegisterComponent  {
   hide=true;
 
+
+  myFunction()
+  {}
+
 }
