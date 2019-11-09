@@ -53,6 +53,31 @@ nehéz lehet megtalálni az éppen keresettet. <br/>
 
 
 3. Vágyálom rendszer<br/>
+    * Gyors, egyszerű, könnyen értelmezhető, lényegretörő regisztrációs<br/>
+    felület, amelyen bárki regisztrálhat.<br/>
+    * Gyors, egyszerű bejelentkezési felület, amelyen minden előzőleg regisztrált<br/>
+    felhasználó beléphet a saját fiókjába.<br/>
+    * Igényes, letisztult felhasználói felület biztosítása, a könnyebb<br/>
+     átláthatóság érdekében.
+    * Számítógépen és mobilon is kifogástalanul működő weblap készítése.<br/>
+    * Bármilyen típusú, méretű eszközhöz kompatibilis nézet kialakítása.<br/>
+    * Lehetőség a saját receptjeink feltöltésére:<br/>
+        * Publikus formában
+        * Rejtett formában
+    * Lehetőség a saját receptjeink elmentésére.<br/>
+    * Lehetőség a saját receptjeink megosztására.<br/> 
+    * Más felhasználók receptjeinek megtekintése<br/>
+    * Más felhasználók receptjeinek mentése.<br/>
+    * Más felhasználók receptjeinek értékelése (pontozással, szöveges hozzászólással).<br/>
+    * Más felhasználókkal chatelés. <br/>
+    * Chatelés a fejlesztőkkel.<br/>
+    * Receptek közötti keresés lehetősége <br/>
+        * Megkönnyítése kereső mezővel. Az általunk keress étel nevének beírása után az <br/> 
+        adatbázisban szereplő, korábban feltöltött ételek közül a megfelelőket, amelyeknek<br/>
+        nevében szerepel a beírt étel, előrehozza a weboldal. 
+        * Kategóriák szerinti keresés a receptek között. Például: levesek, azon belül gyümölcslevesek, krémlevesek, stb..
+        * Különböző érzékenységekre létrehozott keresés, amely segítségével kizárólag a kívánt<br/>
+        érzékenységnek/érzékenységeknek megfelelő ételek megjelenítése történne meg. 
 
 
 4. Jelenlegi üzelti folyamatok<br/>
