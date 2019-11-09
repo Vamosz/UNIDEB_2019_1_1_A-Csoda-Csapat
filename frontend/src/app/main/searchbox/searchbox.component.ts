@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-searchbox',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./searchbox.component.scss']
 })
 export class SearchboxComponent implements OnInit {
-
+ @Output() filter= new EventEmitter();
   constructor() { }
 
   ngOnInit() {
   }
 
+
+  searchedFilter($event:any){
+    this.filter=$event.toElement.innerText;
+  }
 }

@@ -8,9 +8,11 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 })
 export class HomeComponent{
   title= 'Vámosi Patrik';
-  filter = "";
+  filter = " 5";
 
-
+constructor(){
+  console.log(this.filter);
+}
 
   receipts = [
     "Sir Patrick Stewart's mole enchiladas",
@@ -31,8 +33,8 @@ export class HomeComponent{
     moveItemInArray(this.receipts, event.previousIndex, event.currentIndex);
   }
 
-  searchedFilter($event:any){
-    this.filter=$event.toElement.innerText;
-  }
+onFilter($event){
+  this.filter=$event;
+}
 
 }
