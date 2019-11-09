@@ -98,7 +98,7 @@ tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 	
 	
 	
-	![Bejelentkezes](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/tree/master/Dokumentaciok/Folyamat_abrak/bejelentkezes.png)<br/>
+	![Bejelentkezes](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/Dokumentaciok/Folyamat_abrak/bejelentkezes.png)<br/>
 
 	
 	A regisztráció folyamata a következő: <br/>
