@@ -14,14 +14,15 @@ import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './main/login/login.component';
+import { RegisterComponent } from './main/register/register.component';
+import { HomeComponent } from './main/home/home.component';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';
-import { ReceiptsmanagerComponent } from './receiptsmanager/receiptsmanager.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { ReceiptsComponent } from './receipts/receipts.component';
+import { ReceiptsmanagerComponent } from './main/receiptsmanager/receiptsmanager.component';
+import { SidenavComponent } from './main/sidenav/sidenav.component';
+import { ReceiptsComponent } from './main/receipts/receipts.component';
+
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ReceiptsComponent } from './receipts/receipts.component';
     HomeComponent,
     ReceiptsmanagerComponent,
     SidenavComponent,
-    ReceiptsComponent
+    ReceiptsComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -69,11 +69,11 @@
         </div>
         <!-- TODO KÖZÉPRE IGAZÍTANI AZ EZ ALATT LEVŐ RÉSZT
          -->
-        <div class="row mt-4">
+        <div class="row mt-4 text-center">
             <div class="col-md-12 text-center">
-                <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
-                    <div class="example-box tex" *ngFor="let receipt of receipts" cdkDrag>
-                        <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
+                <div cdkDropList class="example-list text-center" (cdkDropListDropped)="drop($event)">
+                    <div class="example-box text-center" *ngFor="let receipt of receipts" cdkDrag>
+                        <div class="example-custom-placeholder text-center" *cdkDragPlaceholder></div>
                         {{receipt}} 
                         <div  class="btn btn-outline-dark">
                             view
