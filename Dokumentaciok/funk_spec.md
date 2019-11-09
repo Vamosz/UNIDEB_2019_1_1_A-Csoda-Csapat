@@ -30,49 +30,49 @@ Funkcionális specifikáció leírása
    arra amit a felhasználó megkiván.</br>
     
 2. Jelenlegi helyzet<br/>
-A projekttervét elkezdtük kidolgozni, hogy a határidőkre megfelelően be<br/>
-tudjuk fejezni a dokumentációkat. A feladatkörök nagyvonalú kiosztása, <br/>
-egy megbeszélés keretein belül megtörtént. <br/>
-A feladatok kiosztását a `TRELLO` nevű alkalmazásban vezetjük, a verzió <br/>
-követésért a `GITHUB` a felelős, ide töltjük fel a szoftver _step-by-step_ <br/>
-változatait. Ennek köszönhetően bárhol és bármelyik csapattag tudja <br/>
-módosítani a szoftvert.<br/>
-Ahogy azt már fentebb említettem a projektben külön kezeljük a frontendet<br/>
-a backendtől amit `ANGULAR`-ban irunk meg. <br/>
-A backend a http kérésekkel kommunikál a frontenddel és objktum<br/>
-orientáltan `KERETRENDSZERT IRD IDE` keretrendszerben írunk meg.<br/>
-A program egy fő oldalból áll aminek a tartalmát cserélgetjük.<br/>
+   A projekttervét elkezdtük kidolgozni, hogy a határidőkre megfelelően be<br/>
+   tudjuk fejezni a dokumentációkat. A feladatkörök nagyvonalú kiosztása, <br/>
+   egy megbeszélés keretein belül megtörtént. <br/>
+   A feladatok kiosztását a `TRELLO` nevű alkalmazásban vezetjük, a verzió <br/>
+   követésért a `GITHUB` a felelős, ide töltjük fel a szoftver _step-by-step_ <br/>
+   változatait. Ennek köszönhetően bárhol és bármelyik csapattag tudja <br/>
+   módosítani a szoftvert.<br/>
+   Ahogy azt már fentebb említettem a projektben külön kezeljük a frontendet<br/>
+   a backendtől amit `ANGULAR`-ban irunk meg. <br/>
+   A backend a http kérésekkel kommunikál a frontenddel és objktum<br/>
+   orientáltan `SLIM` keretrendszerben írunk meg.<br/>
+   A program egy fő oldalból áll aminek a tartalmát cserélgetjük.<br/>
 
 3. Vágyálom rendszer <br/>
-Kiindulva abból, hogy a főzés magában is egy hosszadalmas munka, olyan <br/>
-weboldalt álmodtunk meg amiben nem kerül sok időbe egy recept elérése. <br/>
-Tudva azt, hogy nem feltétlen informatikusok fogják használni a programot, <br/>
-egy könnyedén használható alkalmazást szeretnénk megteremteni. <br/>
-A felhasználók azonosítására `MySQL` adatbázist fogunk használni. <br/>
-Egy rövid regisztráció után a felhasználót username-mel, password-mel és <br/>
-DisplayName-mel felvisszük az adatbázisba a password-öt titkosítjuk hogy <br/>
-ne lehessen _'könnyedén'_ feltörni. Reményeink szerint a felhasználók <br/>
-láthatják egymást egymást a rendszerben, keresgélhetnek egymás *PUBLIKUS* <br/>
-receptjei között és a nekik szimpatikusakat elmenthetik a saját tárolójukba.<br/>
-Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság<br/>
-a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak, </br>
-valamint a chat funkció, mellyel bármikor kérhet bárki segítséget. </br>
-</br>Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
-fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba </br>
-beléphetnek.<br/>
-Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a  </br>
-felhasználó számára. <br/>
-A regisztráció után a felhasználó minden elérhető funkciót használhat majd.<br/>
-Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, </br>
-chatelés. <br/>
+   Kiindulva abból, hogy a főzés magában is egy hosszadalmas munka, olyan <br/>
+   weboldalt álmodtunk meg amiben nem kerül sok időbe egy recept elérése. <br/>
+   Tudva azt, hogy nem feltétlen informatikusok fogják használni a programot, <br/>
+   egy könnyedén használható alkalmazást szeretnénk megteremteni. <br/>
+   A felhasználók azonosítására `MySQL` adatbázist fogunk használni. <br/>
+   Egy rövid regisztráció után a felhasználót username-mel, password-mel és <br/>
+   DisplayName-mel felvisszük az adatbázisba a password-öt titkosítjuk hogy <br/>
+   ne lehessen _'könnyedén'_ feltörni. Reményeink szerint a felhasználók <br/>
+   láthatják egymást egymást a rendszerben, keresgélhetnek egymás *PUBLIKUS* <br/>
+   receptjei között és a nekik szimpatikusakat elmenthetik a saját tárolójukba.<br/>
+   Oldalunk megalkotásával minden korosztály számára a könnyen használhatóság<br/>
+   a célunk. Ehhez hozzásegít a letisztult dizájn és az egyértelmű címszavak, </br>
+   valamint a chat funkció, mellyel bármikor kérhet bárki segítséget. </br>
+   </br>Elképzelésünk szerint a weboldalra érkező vendégeket egy olyan felület<br/>
+   fogadja majd amelyen rögtön regisztrálhatnak, vagy a már meglévő fiókjukba </br>
+   beléphetnek.<br/>
+   Bejelentkezés után válnak majd elérhetővé az oldal további funkciói a  </br>
+   felhasználó számára. <br/>
+   A regisztráció után a felhasználó minden elérhető funkciót használhat majd.<br/>
+   Ezen fő funkciók a következők lesznek: recept keresés, saját fiók kezelése, </br>
+   chatelés. <br/>
 
 4. Jelenlegi üzleti folyamatok<br/>
-Jelenleg nem sok receptoldalt van a interneten, így a háziasszonyok <br/>
-egyik nagy álmát valósítjuk meg ezzel az alkalmazással. Mivel mi ezt a <br/>
-komolyan csináljuk elég nagy támogatást szeretnénk hozzá adni, amivel a <br/>
-felhasználóknak szeretnénk egy amahabiztos hátteret adni. Ha valami <br/>
-gondba ütköznek vagy valami kérdésük van egy beépített chaten keresztül <br/>
-tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
+   Jelenleg nem sok receptoldalt van a interneten, így a háziasszonyok <br/>
+   egyik nagy álmát valósítjuk meg ezzel az alkalmazással. Mivel mi ezt a <br/>
+   komolyan csináljuk elég nagy támogatást szeretnénk hozzá adni, amivel a <br/>
+   felhasználóknak szeretnénk egy amahabiztos hátteret adni. Ha valami <br/>
+   gondba ütköznek vagy valami kérdésük van egy beépített chaten keresztül <br/>
+   tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 
   Eddigi megadott lehetőségek: <br/>
   * Recept elmentése:
@@ -117,15 +117,15 @@ tudják elérni a `support`-ot akik mindenben segítenek nekik. <br/>
 	![Regisztracio](https://github.com/Vamosz/UNIDEB_2019_1_1_A-Csoda-Csapat/blob/master/Dokumentaciok/Folyamat_abrak/reg_log.PNG)<br/>
 
 5. Igényelt üzleti feladatok <br/>
-A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
-internetre kapcsolódni tudó alkalmazáshoz, internetre és megfelelő <br/>
-verziójú böngészőre. A program fő oldalán egy login oldal szerepel, ahol<br/>
-egy felhasználó név és jelszó megadása után könnyedén érkezhetünk a <br/>
-receptek oldalra. Amennyiben nem rendelkezik account-tal a felhasználó, <br/>
-egy gomb segitségével a program átnavigálja őt a regisztráció oldalra, <br/>
-majd egy rövid regisztráció után vissza is dobja a bejelentkezéshez. <br/>
-A bejelentkezés után a receptek között bogarászhatunk vagy átmehetünk a<br/>
-recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
+   A program bárki számára elérhet, ehhez nincs máshoz szükség csak egy <br/>
+   internetre kapcsolódni tudó alkalmazáshoz, internetre és megfelelő <br/>
+   verziójú böngészőre. A program fő oldalán egy login oldal szerepel, ahol<br/>
+   egy felhasználó név és jelszó megadása után könnyedén érkezhetünk a <br/>
+   receptek oldalra. Amennyiben nem rendelkezik account-tal a felhasználó, <br/>
+   egy gomb segitségével a program átnavigálja őt a regisztráció oldalra, <br/>
+   majd egy rövid regisztráció után vissza is dobja a bejelentkezéshez. <br/>
+   A bejelentkezés után a receptek között bogarászhatunk vagy átmehetünk a<br/>
+   recept feltöltés fülre vagy a saját receptjeim fülre.<br/>
 
   * Főoldal kezdeti állapota 
      * Regisztrációs lehetőség<br/>
