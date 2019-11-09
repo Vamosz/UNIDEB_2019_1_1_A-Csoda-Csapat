@@ -7,7 +7,6 @@
     background: #eee;
     display: flex;
     flex-direction: column;
-
   }
   #sidenavbar{
     width: 17%;
@@ -73,3 +72,18 @@
   #content{
    padding-left: 5px;
   }
+.search-topics{
+  background-color:rgb(255, 255, 255);
+  border-color:rgb(204, 204, 204);
+  border-style:solid;
+  border-width:1px;
+  text-align:center;
+  height: 3em;
+  
+}
+.search-box{
+  background-color:rgb(255, 255, 255);
+  border-bottom-color:rgb(204, 204, 204);
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+}
