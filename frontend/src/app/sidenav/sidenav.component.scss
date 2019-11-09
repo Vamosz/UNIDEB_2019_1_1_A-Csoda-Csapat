@@ -1,0 +1,16 @@
+  a{
+      
+    color: darkslategray;
+    transition: all .1s ease-in-out;
+    width: 80%;
+  }
+  a:hover{
+      color: black;
+      transform: scale(1.1);
+  }
+  .h64{
+    height: 60px !important;
+  }
+  .btn{
+    cursor: pointer;
+  }
