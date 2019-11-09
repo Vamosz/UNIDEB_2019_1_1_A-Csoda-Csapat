@@ -1,0 +1,27 @@
+.example-box{
+    max-height: 250px;
+    overflow: hidden;
+    overflow-y:scroll;
+    border: 2px solid black;
+}
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+
+  }
+  #sidenavbar{
+    width: 17%;
+    padding: 2em;
+    -webkit-box-shadow: 16px 3px 23px -16px rgba(153,153,153,1);
+    -moz-box-shadow: 16px 3px 23px -16px rgba(153,153,153,1);
+    box-shadow: 16px 3px 23px -16px rgba(153,153,153,1);
+    padding-left: 3px !important;
+    padding-right: 0px !important;
+      
+  }
