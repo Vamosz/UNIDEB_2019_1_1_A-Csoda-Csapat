@@ -4,7 +4,7 @@
 
 </mat-sidenav>
     <mat-sidenav-content id="content">
-        <div class="container-fluid">
+        <div class="container-fluid mx-3 w98">
             <div class="row mt-4 m-4">
                 <div class="col-md-12 text-center">
                     <h3 id="filter">
@@ -17,11 +17,14 @@
                 <div class="col-md-12">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-9 text-center">
-                                <input class="w-100" type="text">
+                            <div class="col-md-9">
+                                <mat-form-field appearance="outline" class="form w-100  my-auto pb-0">
+                                    <mat-label>Search</mat-label>
+                                    <input matInput class="searchfield" placeholder="Type chicken or lamb or..." type="text">
+                                </mat-form-field>
                             </div>
-                            <div class="col-md-3 text-center">
-                                <input type="button" value="Search">
+                            <div class="col-md-3 text-center my-auto" id="searchButtonDiv">
+                                <input class="btn btn-outline-dark" id="searchbutton" type="button" value="Search">
                             </div>
                         </div>
                     </div>
@@ -29,30 +32,36 @@
 
 
                 <!-- TODO: MINDEN EGYES BUTTONNAK ADNI KELL EGY ÉRTÉKET AZ ALAPJÁN HOGY MILYEN TEXT VAN BENNE PÉLDA A LEVES -->
-                <div class="col-md-12 mt-3">
+                <div class="col-md-12 mt-3 ">
                     <div class="container-fluid">
                         <div class="row">
-                            <button class="col-md-4 search-topics" (click)="searchedFilter($event)"  id="soup">
-                               <a> Soup </a>
+                            <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="soup">
+                               <a class="searchfilter"> Soup </a>
                             </button>
-                            <button class="col-md-4 search-topics">
-                              <a>  Vega ételek   </a>  
+                            <button class="col-md-3 search-topics">
+                              <a class="searchfilter">  Vega ételek   </a>  
                             </button>
-                            <button class="col-md-4 search-topics">
-                               <a> Húsos ételek</a>    
+                            <button class="col-md-3 search-topics">
+                               <a class="searchfilter"> Húsos ételek</a>    
                             </button>
+                            <button class="col-md-3 search-topics">
+                                <a class="searchfilter"> Húsos ételek</a>    
+                             </button>
                         </div>
 
                         <div class="row">
-                            <button class="col-md-4 search-topics">
-                               <a> Levesek</a>
+                            <button class="col-md-3 search-topics">
+                               <a class="searchfilter"> Levesek</a>
                             </button>
-                            <button class="col-md-4 search-topics">
-                                <a>Vega ételek</a>     
+                            <button class="col-md-3 search-topics">
+                                <a class="searchfilter">Vega ételek</a>     
                             </button>
-                            <button class="col-md-4 search-topics">
-                               <p>Húsos ételek</p>     
+                            <button class="col-md-3 search-topics">
+                               <a class="searchfilter">Húsos ételek</a>     
                             </button>
+                            <button class="col-md-3 search-topics">
+                                <a class="searchfilter"> Húsos ételek</a>    
+                             </button>
                         </div>
                     </div>
                 </div>
@@ -75,7 +84,7 @@
                     <div class="example-box text-center" *ngFor="let receipt of receipts" cdkDrag>
                         <div class="example-custom-placeholder text-center" *cdkDragPlaceholder></div>
                         {{receipt}} 
-                        <div  class="btn btn-outline-dark">
+                        <div class="btn btn-outline-dark">
                             view
                         </div>
                     </div>

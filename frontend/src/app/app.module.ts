@@ -22,7 +22,7 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 import { ReceiptsmanagerComponent } from './main/receiptsmanager/receiptsmanager.component';
 import { SidenavComponent } from './main/sidenav/sidenav.component';
 import { ReceiptsComponent } from './main/receipts/receipts.component';
-import { ConfigComponent } from './config.component';
+import { ConfigComponent } from './config/config.component';
 
 
 
