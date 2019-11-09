@@ -30,9 +30,7 @@ Rendszerterv
 
 
 - Projekt terv
-    - Projektszerepkörök, felelősségek
-    - Projektmunkások és felelősségeik <br/>
-        A weboldal elkészítésében a Debreceni Egyetem Informatika kar négy <br/>
+    -   A weboldal elkészítésében a Debreceni Egyetem Informatika kar négy <br/>
         programtervező informatikus hallgatója vesz részt.  <br/>
         A résztvevő hallgatók: <br/>
         - Kuczik Anna
@@ -92,7 +90,6 @@ Rendszerterv
     juthat el a kereséshez, a saját receptekhez vagy a főoldalhoz.<br/>
     A megadott menüpontok alatt érhetőek el a további odatartozó funkciók.<br/>
 
-  - Üzleti entitások
 - Követelmények<br/>
   - Funkcionális követelmények <br/>
         Elsődleges követelmény a regisztráció sikeres végrehajtása. Minden<br/>
@@ -145,9 +142,6 @@ Rendszerterv
       majd, mindenki egyaránt tölthet fel recepteket, kereshet a receptek <br/>
       között, értékelhet recepteket és  kommunikálhat más felhasználókkal <br/>
       vagy a fejlesztőkkel.<br/>
-
-  - Határosztályok
-  - Menü-hierarchiák
   - Képernyőtervek
 - Fizikai környezet<br/>
     A platformfüggetlen megjelenés egy mai modern weboldal esetében <br/>
@@ -174,32 +168,21 @@ Rendszerterv
     Az adatokat MySQL ben tároljuk, titkosítva a jelszót.<br/>
     A projekt verzió kezelője a github lesz, amin a fejlesztők és a<br/>
     tulajdonosok is végig követhetik a munkafolyamatokat.<br/>
-
-  - Vásárolt softwarekomponensek és külső rendszerek
-  - Hardver és hálózati topológia
-  - Fizikai alrendszerek
-  - Fejlesztő eszközök
-  - Keretrendszer (pl. Spring)
-- Absztrakt domain modell
-  - Domain specifikáció, fogalmak
-  - Absztrakt komponensek, ezek kapcsolatai
   
 - Architekturális terv
-  - Egy architekturális tervezési minta (pl. MVC, 3-rétegű alkalmazás, …)
-  - Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
-  - Változások kezelése
+  - Változások kezelése<br/>
       A változások könnyedebb kezeléséhez hozzátartozik az <br/>
       objektumorientáltság melynek köszönhetően könnyedén tudjuk <br/>
       változtatni programunkat, weboldalunkat.
 
-  - Rendszer bővíthetősége    
+  - Rendszer bővíthetősége  <br/> 
       Projectünket objektumorientált módon szeretnénk megvalósítani ami <br/>
       lehetővé teszi, hogy bővíthessük rendszerünket a felhasználók <br/>
       visszajelzései, észrevételei alapján. Több funkció, bővebb menü <br/>
       nagyobb tárhely. Igyekszünk majd minden igényt kielégíteni a hozam és<br/>
       az aktív felhasználói adatbázís folyamatos növekedése érdekében.
 
-  - Biztonsági funkciók
+  - Biztonsági funkciók<br/>
       Biztonsági funkcióink közé tartozik a jelszó és e-mail cím védelem.<br/>
       A jelszót csakis a regisztrált e-mail címre továbbítjuk, hogy ne <br/>
       férjen hozzá senki aki nem fér hozzá az e-mail fiókhoz. Mindazonáltal<br/>
@@ -212,17 +195,31 @@ Rendszerterv
       kell próbálni vagy jelszó frissítő e-mailen keresztül új jelszót<br/>
       csinálni.
   
-- Adatbázis terv
-  - Logikai adatmodell
-  - Tárolt eljárások
-  - Fizikai adatmodellt legeneráló SQL szkript
-  
-- Implementációs terv
-  - Perzisztencia-osztályok
-  - Üzleti logika osztályai
-  - Kliensoldal osztályai
-  
-- Tesztterv
+- Adatbázis terv <br/>
+   - A projektünk adatbázisa öt táblát fog tartalmazni:<br/>
+      - User - felhasználó tábla
+        - e-mail - felhasználó e-mail címét fogja tartalmazni
+        - password - a felhasználó jelszavát fogja tartalmazni
+      - Author - szerző tábla
+        - name - recept szerzőjének a nevét fogja tartalmazni 
+        - joinedOn - a szerző csatlakozásának a dátumát fogja <br/>
+          tartalmazni 
+        - birth - a szerző születési dátumát fogja tartalmazni
+      - Recipe - recept tábla
+         - title - recept nevét fogja tartalmazni
+         - summary - rövid összegzést fog tartalmazni
+         - description - hosszabb leírást fog tartalmazni
+         - preparationTime - recept elkészítési idejét fogja <br/>
+           tartalmazni
+         - createdOn - recept feltöltésének idejét fogja tartalmazni
+         - tags - recepthez tartozó címkéket fogja tartalmazni
+       - Ingredients - hozzávalók tábla
+         - name - hozzávaló nevét fogja tartalmazni
+         - amount - a recepthez szükséges mennyiség ebből a<br/>
+           hozzávalóból
+         - unit - a megadott mennyiség egységét fogja tartalmazni
+       - Image - kép tábla 
+         - src 
  
 - Telepítési terv<br/>
     Mivel projectünk egy webes oldalt foglal magába ezért telepítésre <br/>
@@ -230,7 +227,7 @@ Rendszerterv
     élvezheti weboldalunk által nyújtott funkciókat anélkül, hogy egy telepítő <br/>
     képernyőt végig kelljen ülnie.<br/>
 
-- Karbantartási terv
+- Karbantartási terv <br/>
     A karbantartási tervünk javarészt abból áll, hogy a felhasználók milyen<br/>
     hibákat, funkciónális félrelépéseket jelentenek nekünk. Ezen felül havi<br/>
     rendszerességgel karbantartást indítunk adatbázisunkon, az önmagát <br/>
