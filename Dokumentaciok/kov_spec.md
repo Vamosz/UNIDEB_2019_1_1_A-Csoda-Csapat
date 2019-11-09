@@ -81,6 +81,19 @@ nehéz lehet megtalálni az éppen keresettet. <br/>
 
 
 4. Jelenlegi üzelti folyamatok<br/>
+    Ha a felhasználó egy saját receptjét szeretné eltenni, megörökíteni,<br/>
+    elővesz egy lapot és leírja azt, majd ezt a többi feljegyzett receptjével<br/>
+    együtt tárolja, teheti ezt még digitális formában egy dokumentumba,<br/>
+    jegyzetbe leírva és így saját gépen elmentheti, vagy felhőben is tárolhatja. <br/>
+ 
+    Új recept felkeresése érdekében elővehet egy otthonában megtalálható<br/>
+    receptkönyvet vagy receptújságot és megteheti abban a keresést, vagy <br/>
+    az internetet segítségül használva kereshet új recepteket.<br/>
+    Esetleg televíziós műsorokból is meríthet új recept ötletet,<br/>
+    hiszen manapság külön tv csatornák is fókuszálnak a főzés<br/>
+    témájára, viszont ebben az esetben a műsor felvétele vagy<br/>
+    gyorsan a hallottak leírása szükséges lehet.<br/>
+
 
 5. Igényelt üzleti feladatok<br/>
 Mindenki számára lehetőség nyújtunk az oldalra tölténő regisztrálásra,<br/>
