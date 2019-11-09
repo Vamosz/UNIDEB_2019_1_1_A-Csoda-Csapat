@@ -3,30 +3,30 @@
 Rendszerterv
 ---
 - A rendszer célja <br/>
-    A rendszerünk célja egy minőségi, könnyen használható recept oldal <br/>
-    létrehozása a mindennapi felhasználás érdekében. Weboldalunkkal a <br/>
-    mindennapi fáradtságos főzés procedúráját próbáljuk megkönnyíteni az <br/>
-    oldalunk felhasználói számára. <br/>
-    <br/>Több száz receptes oldal található az interneten, viszont számunkra egyik <br/>
-    sem volt a legtökéletesebb. Mindegyikben volt olyan rész, amit hasznosnak <br/>
-    találtunk, és amit kevésbé. A sok megtekintett oldal alapján szeretnénk<br/>
-    megalkotni a tökéletes receptes oldalt, amely egyszerűség, praktikusság és <br/>
-    használhatóság szempontjából megfelelő mindenki számára. <br/>
-    Oldalunkat mindenképp olyan funkciókkal szeretnénk ellátni, amelyeket <br/>
-    valóban hasznosak találunk mindenki számára.<br/>
-    <br/>Fontosnak látjuk, hogy a felhasználóink az általuk jónak ítélt recepteket<br/>
-    könnyen megoszthassák másokkal, valamint az általuk szimpatikus <br/>
-    ismeretlen recepteket elmenthessék maguknak így a későbbiekben bármikor <br/>
-    könnyen elérjék azokat. <br/>
-    Egyfajta kölcsönösség alakul ki a felhasználók között, az aki megosztja saját, <br/>
-    jólbevált receptjeit, segít olyanoknak akik esetleg még nem elég jártasak a <br/>
-    konyhában, vagy egy kis segítségre szorulnak. A recepteket elkészítő <br/>
-    felhasználók értékelhetik azokat, vagy esetleg ötleteket adhatnak a recept <br/>
-    még tökéletesebbé alakításához. <br/>
-    <br/>Egy olyan rendszert szeretnénk megvalósítani, amely a felhasználó <br/>
-    közösségének segítséget nyújt, mind a főzés szerelmeseinek, mind a <br/>
-    főzésben kevésbé jártas kezdő szakácsoknak, és a megfelelő segítségek <br/>
-    a felhasználók egymástól kapják meg.<br/>
+        A rendszerünk célja egy minőségi, könnyen használható recept oldal <br/>
+        létrehozása a mindennapi felhasználás érdekében. Weboldalunkkal a <br/>
+        mindennapi fáradtságos főzés procedúráját próbáljuk megkönnyíteni az <br/>
+        oldalunk felhasználói számára. <br/>
+        <br/>Több száz receptes oldal található az interneten, viszont számunkra egyik <br/>
+        sem volt a legtökéletesebb. Mindegyikben volt olyan rész, amit hasznosnak <br/>
+        találtunk, és amit kevésbé. A sok megtekintett oldal alapján szeretnénk<br/>
+        megalkotni a tökéletes receptes oldalt, amely egyszerűség, praktikusság és <br/>
+        használhatóság szempontjából megfelelő mindenki számára. <br/>
+        Oldalunkat mindenképp olyan funkciókkal szeretnénk ellátni, amelyeket <br/>
+        valóban hasznosak találunk mindenki számára.<br/>
+        <br/>Fontosnak látjuk, hogy a felhasználóink az általuk jónak ítélt recepteket<br/>
+        könnyen megoszthassák másokkal, valamint az általuk szimpatikus <br/>
+        ismeretlen recepteket elmenthessék maguknak így a későbbiekben bármikor <br/>
+        könnyen elérjék azokat. <br/>
+        Egyfajta kölcsönösség alakul ki a felhasználók között, az aki megosztja saját, <br/>
+        jólbevált receptjeit, segít olyanoknak akik esetleg még nem elég jártasak a <br/>
+        konyhában, vagy egy kis segítségre szorulnak. A recepteket elkészítő <br/>
+        felhasználók értékelhetik azokat, vagy esetleg ötleteket adhatnak a recept <br/>
+        még tökéletesebbé alakításához. <br/>
+        <br/>Egy olyan rendszert szeretnénk megvalósítani, amely a felhasználó <br/>
+        közösségének segítséget nyújt, mind a főzés szerelmeseinek, mind a <br/>
+        főzésben kevésbé jártas kezdő szakácsoknak, és a megfelelő segítségek <br/>
+        a felhasználók egymástól kapják meg.<br/>
 
 
 - Projekt terv
