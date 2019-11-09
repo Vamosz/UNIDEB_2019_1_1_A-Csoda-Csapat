@@ -1,0 +1,25 @@
+    <mat-sidenav-container class="example-container" >
+            <mat-sidenav  mode="side" position="start" id="sidenavbar" opened>
+                    <app-sidenav [title]="title"></app-sidenav>
+            </mat-sidenav>
+                <mat-sidenav-content id="content">
+                        <div class="row">
+                                <div class="col-md-8">
+                                    <div class="example-box">
+                                        <mat-selection-list #shoes>
+                                            <mat-list-option *ngFor="let receipt of receipts">
+                                                {{receipt}}
+                                            </mat-list-option>
+                                        </mat-selection-list>      
+
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <p>
+                                Options selected: {{shoes.selectedOptions.selected.length}}
+                            </p>
+                </mat-sidenav-content>
+            
+            </mat-sidenav-container>
+            

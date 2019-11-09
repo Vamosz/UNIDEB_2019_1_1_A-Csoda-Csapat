@@ -1,10 +1,10 @@
-import { ReceiptsmanagerComponent } from './receiptsmanager/receiptsmanager.component';
-import { HomeComponent } from './home/home.component';
-import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './login/login.component';
+import { ReceiptsmanagerComponent } from './main/receiptsmanager/receiptsmanager.component';
+import { HomeComponent } from './main/home/home.component';
+import { RegisterComponent } from './main/register/register.component';
+import { LoginComponent } from './main/login/login.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ReceiptsComponent } from './receipts/receipts.component';
+import { ReceiptsComponent } from './main/receipts/receipts.component';
 
 
 const routes: Routes = [

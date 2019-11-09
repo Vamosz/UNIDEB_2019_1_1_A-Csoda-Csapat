@@ -13,7 +13,7 @@
                   <div class="col-md-8">
                     <mat-form-field class="w-10  align-items-center" appearance="outline">
                       <mat-label>Username</mat-label>
-                      <input matInput placeholder="Enter your username..">
+                      <input matInput placeholder="Enter your username.." name="username">
                     </mat-form-field>
                     <div class="col-md-2"></div>
                   </div>
@@ -23,7 +23,7 @@
                     <div class="col-md-8">
                     <mat-form-field class="w-10" appearance="outline">
                       <mat-label>Password</mat-label>
-                      <input matInput placeholder="Enter your password.." [type]="hide ? 'password' : 'text'">
+                      <input matInput placeholder="Enter your password.." [type]="hide ? 'password' : 'text'" name="password">
                       <span mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
                         <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
                       </span>
