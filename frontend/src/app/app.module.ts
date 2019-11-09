@@ -23,6 +23,7 @@ import { ReceiptsmanagerComponent } from './main/receiptsmanager/receiptsmanager
 import { SidenavComponent } from './main/sidenav/sidenav.component';
 import { ReceiptsComponent } from './main/receipts/receipts.component';
 import { ConfigComponent } from './config/config.component';
+import { SearchboxComponent } from './main/searchbox/searchbox.component';
 
 
 
@@ -36,6 +37,7 @@ import { ConfigComponent } from './config/config.component';
     SidenavComponent,
     ReceiptsComponent,
     ConfigComponent,
+    SearchboxComponent,
 
   ],
   imports: [
