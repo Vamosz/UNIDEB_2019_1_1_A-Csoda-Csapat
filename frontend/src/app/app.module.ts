@@ -24,6 +24,7 @@ import { SidenavComponent } from './main/sidenav/sidenav.component';
 import { ReceiptsComponent } from './main/receipts/receipts.component';
 import { ConfigComponent } from './config/config.component';
 import { SearchboxComponent } from './main/searchbox/searchbox.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 
@@ -38,6 +39,7 @@ import { SearchboxComponent } from './main/searchbox/searchbox.component';
     ReceiptsComponent,
     ConfigComponent,
     SearchboxComponent,
+    WelcomeComponent,
 
   ],
   imports: [
