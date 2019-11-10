@@ -78,8 +78,8 @@ Funkcionális specifikáció leírása
   * Recept elmentése:
     * Leírni papírra és elrakni
     ![Recept papírra](Folyamat_abrak/recept_papirra.jpg)<br/>
-    * Begépelni egy dokumentumba és elmenteni a saját <br/>
-      számítógépünkön
+    * Begépelni egy dokumentumba és elmenteni a saját számítógépünkön
+    ![Recept saját számítógépen](Folyamat_abrak/recept_sajat_gepen.jpg)<br/>
     * Begépelni egy dokumentumba és felhőbe elmenteni
   * Új recept keresése:
     * Receptkönyv használata
