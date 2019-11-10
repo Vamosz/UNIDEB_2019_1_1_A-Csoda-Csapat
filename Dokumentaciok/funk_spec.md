@@ -77,6 +77,7 @@ Funkcionális specifikáció leírása
   Eddigi megadott lehetőségek: <br/>
   * Recept elmentése:
     * Leírni papírra és elrakni
+    ![Recept papírra](Folyamat_abrak/recept_papírra.jpg)<br/>
     * Begépelni egy dokumentumba és elmenteni a saját <br/>
       számítógépünkön
     * Begépelni egy dokumentumba és felhőbe elmenteni
