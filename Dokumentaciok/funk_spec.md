@@ -81,6 +81,7 @@ Funkcionális specifikáció leírása
     * Begépelni egy dokumentumba és elmenteni a saját számítógépünkön
     ![Recept saját számítógépen](Folyamat_abrak/recept_sajat_gepen.jpg)<br/>
     * Begépelni egy dokumentumba és felhőbe elmenteni
+    ![Recept felhőben](Folyamat_abrak/recept_felhoben.jpg)<br/>
   * Új recept keresése:
     * Receptkönyv használata
     * Receptújság használata
