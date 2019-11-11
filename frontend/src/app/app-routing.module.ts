@@ -5,9 +5,11 @@ import { LoginComponent } from './main/login/login.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ReceiptsComponent } from './main/receipts/receipts.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 const routes: Routes = [
+  {path:"", component: WelcomeComponent },
   {path:"login", component: LoginComponent },
   {path:"register", component: RegisterComponent },
   {path:"home", component: HomeComponent },

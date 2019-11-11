@@ -1,3 +1,4 @@
+import { ConfigComponent } from './../../config/config.component';
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 
@@ -9,9 +10,12 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 export class HomeComponent{
   title= 'Vámosi Patrik';
   filter = " 5";
-
-constructor(){
-
+users;
+constructor(private config: ConfigComponent){
+  // this.config.getData('http://localhost:8080/users').subscribe(rest => {
+  //   this.users = rest;
+  //   console.log(this.users.data[0].id)
+  // });
 }
 
   receipts = [
@@ -35,7 +39,7 @@ constructor(){
 
 onFilter(event){
   this.filter = event;
-  console.log("home: "+this.filter);
+  
 }
 
 }
