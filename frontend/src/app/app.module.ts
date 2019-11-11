@@ -24,8 +24,9 @@ import { SidenavComponent } from './main/sidenav/sidenav.component';
 import { ReceiptsComponent } from './main/receipts/receipts.component';
 import { ConfigComponent } from './config/config.component';
 import { SearchboxComponent } from './main/searchbox/searchbox.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { WelcomeComponent } from './main/welcome/welcome.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SettingsComponent } from './main/settings/settings.component';
 
 
 
@@ -41,6 +42,7 @@ import { HttpClientModule } from '@angular/common/http';
     ConfigComponent,
     SearchboxComponent,
     WelcomeComponent,
+    SettingsComponent,
 
   ],
   imports: [
