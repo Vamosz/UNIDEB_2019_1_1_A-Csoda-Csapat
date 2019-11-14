@@ -18,7 +18,7 @@ constructor(private config: ConfigComponent){
   // });
 }
 
-  receipts = [
+  recipes = [
     "Sir Patrick Stewart's mole enchiladas",
     "Tom Walker's chicken & hot sauce gravy",
     "Grilled chicken with charred pineapple salad",
@@ -34,11 +34,12 @@ constructor(private config: ConfigComponent){
 
 
   drop(event: CdkDragDrop<string[]>) {
-    moveItemInArray(this.receipts, event.previousIndex, event.currentIndex);
+    moveItemInArray(this.recipes, event.previousIndex, event.currentIndex);
   }
 
 onFilter(event){
   this.filter = event;
+  console.log(this.filter);
   
 }
 

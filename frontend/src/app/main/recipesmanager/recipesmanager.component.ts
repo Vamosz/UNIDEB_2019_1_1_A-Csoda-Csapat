@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-receiptsmanager',
-  templateUrl: './receiptsmanager.component.html',
-  styleUrls: ['./receiptsmanager.component.scss']
+  selector: 'app-recipesmanager',
+  templateUrl: './recipesmanager.component.html',
+  styleUrls: ['./recipesmanager.component.scss']
 })
-export class ReceiptsmanagerComponent{
+export class recipesmanagerComponent{
   title="Vámosi Patrik";
-  receipts = [
+  recipes = [
     "Sir Patrick Stewart's mole enchiladas",
     "Tom Walker's chicken & hot sauce gravy",
     "Grilled chicken with charred pineapple salad",

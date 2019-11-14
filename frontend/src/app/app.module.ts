@@ -19,9 +19,9 @@ import { RegisterComponent } from './main/register/register.component';
 import { HomeComponent } from './main/home/home.component';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';
-import { ReceiptsmanagerComponent } from './main/receiptsmanager/receiptsmanager.component';
+import { recipesmanagerComponent } from './main/recipesmanager/recipesmanager.component';
 import { SidenavComponent } from './main/sidenav/sidenav.component';
-import { ReceiptsComponent } from './main/receipts/receipts.component';
+import { recipesComponent } from './main/recipes/recipes.component';
 import { ConfigComponent } from './config/config.component';
 import { SearchboxComponent } from './main/searchbox/searchbox.component';
 import { WelcomeComponent } from './main/welcome/welcome.component';
@@ -36,9 +36,9 @@ import { SettingsComponent } from './main/settings/settings.component';
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    ReceiptsmanagerComponent,
+    recipesmanagerComponent,
     SidenavComponent,
-    ReceiptsComponent,
+    recipesComponent,
     ConfigComponent,
     SearchboxComponent,
     WelcomeComponent,

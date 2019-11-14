@@ -8,7 +8,7 @@
             <div class="row mt-4 m-4">
                 <div class="col-md-12 text-center">
                     <h3 id="filter">
-                        Search in your receipts
+                        Search in your recipes
                     </h3>
                 </div>
             </div>
@@ -18,7 +18,7 @@
          <div class="row mt-4">
             <div class="col-md-12 text-center">
                 <h1 id="cim">
-                    Your receipts
+                    Your recipes
                 </h1>
             </div>
 
@@ -28,9 +28,9 @@
         <div class="row mt-4 text-center">
             <div class="col-md-12 text-center">
                 <div cdkDropList class="example-list text-center" (cdkDropListDropped)="drop($event)">
-                    <div class="example-box text-center" *ngFor="let receipt of receipts" cdkDrag>
+                    <div class="example-box text-center" *ngFor="let recipe of recipes" cdkDrag>
                         <div class="example-custom-placeholder text-center" *cdkDragPlaceholder></div>
-                        {{receipt}} 
+                        {{recipe}} 
                         <div class="btn btn-outline-dark">
                             view
                         </div>
