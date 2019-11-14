@@ -7,4 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReceiptsComponent{
   title="Vámosi Patrik";
+  filter;
+
+  onFilter(event){
+    this.filter = event;
+    console.log(this.filter);
+    
+  }
 }
