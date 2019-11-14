@@ -1,4 +1,3 @@
-<div class="container w98">
 <div class="row mt-4 search-box py-4">
         <div class="col-md-12">
             <div class="container-fluid">
@@ -21,36 +20,49 @@
         <div class="col-md-12 mt-3 ">
             <div class="container-fluid">
                 <div class="row">
+                    <button class="col-md-3 search-topics"(click)="searchedFilter($event)" id="appetizer">
+                        <a class="searchfilter"> Appetizer <hr> </a>
+                     </button>
                     <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="soup">
                        <a class="searchfilter"> Soup <hr> </a>
                     </button>
-                    <button class="col-md-3 search-topics"  (click)="searchedFilter($event)" id="Vega"> <!-- Ezt a vegát is javitsd-->
-                      <a class="searchfilter">  Vega ételek <hr>  </a>
+                    <button class="col-md-3 search-topics"  (click)="searchedFilter($event)" id="main_course">
+                      <a class="searchfilter">  Main course <hr>  </a>
                     </button>
-                    <button class="col-md-3 search-topics">
-                       <a class="searchfilter"> Húsos ételek <hr> </a>
+                    <button class="col-md-3 search-topics" (click)="searchedFilter($event)" id="dessert">
+                       <a class="searchfilter"> Dessert <hr> </a>
                     </button>
-                    <button class="col-md-3 search-topics">
-                        <a class="searchfilter"> Húsos ételek <hr> </a>
-                     </button>
                 </div>
 
                 <div class="row">
-                    <button class="col-md-3 search-topics">
-                       <a class="searchfilter"> Levesek <hr> </a>
-                    </button>
-                    <button class="col-md-3 search-topics">
-                        <a class="searchfilter">Vega ételek <hr> </a>
-                    </button>
-                    <button class="col-md-3 search-topics">
-                       <a class="searchfilter">Húsos ételek <hr> </a>
-                    </button>
-                    <button class="col-md-3 search-topics">
-                        <a class="searchfilter"> Húsos ételek <hr> </a>
-                     </button>
+                    <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="chicken">
+                        <a class="searchfilter"> Chicken <hr> </a>
+                        </button>
+                        <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="duck">
+                        <a class="searchfilter"> Duck <hr> </a>
+                        </button>
+                        <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="turkey">
+                        <a class="searchfilter"> Turkey <hr> </a>
+                        </button>
+                        <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="goose">
+                        <a class="searchfilter"> Goose <hr> </a>
+                        </button>
+                </div>
+                <div class="row">
+                    <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="fish">
+                        <a class="searchfilter"> Fish <hr> </a>
+                        </button>
+                        <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="beef">
+                        <a class="searchfilter"> Beef <hr> </a>
+                        </button>
+                        <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="pig">
+                        <a class="searchfilter"> Pig <hr> </a>
+                        </button>
+                        <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="venison">
+                        <a class="searchfilter"> Venison <hr> </a>
+                        </button>
                 </div>
             </div>
         </div>
 
     </div>
-</div>
