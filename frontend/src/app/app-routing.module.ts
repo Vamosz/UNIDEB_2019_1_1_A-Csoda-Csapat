@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:"home", component: HomeComponent },
   {path:"recipesmanager", component: recipesmanagerComponent },
   {path:"recipes", component: recipesComponent },
-  {path:"settings", component: SettingsComponent },
+  {path:"profile", component: SettingsComponent },
 ];
 
 @NgModule({
