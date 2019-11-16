@@ -8,7 +8,8 @@ import { MatCheckboxModule,
          MatIconModule,
          MatDatepickerModule,
          MatNativeDateModule,
-         MatListModule
+         MatListModule,
+         MatExpansionModule
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -58,7 +59,8 @@ import { SettingsComponent } from './main/settings/settings.component';
     MatNativeDateModule,
     DragDropModule,
     MatListModule,
-    HttpClientModule 
+    HttpClientModule,
+    MatExpansionModule
   ],
   providers: [
     MatDatepickerModule,
