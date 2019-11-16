@@ -18,15 +18,24 @@
 
         <!-- TODO: MINDEN EGYES BUTTONNAK ADNI KELL EGY ÉRTÉKET AZ ALAPJÁN HOGY MILYEN TEXT VAN BENNE PÉLDA A LEVES -->
         <div class="col-md-12 mt-3 ">
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Filter by tags
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            {{panelOpenState ? 'Select tags to filter results' : 'Currently filtering for: active tags'}}
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
             <div class="container-fluid">
                 <div class="row">
-                    <button class="col-md-3 search-topics"(click)="searchedFilter($event)" id="appetizer">
+                    <button class="col-md-3 search-topics" (click)="searchedFilter($event)" id="appetizer">
                         <a class="searchfilter"> Appetizer <hr> </a>
                      </button>
                     <button class="col-md-3 search-topics" (click)="searchedFilter($event)"  id="soup">
                        <a class="searchfilter"> Soup <hr> </a>
                     </button>
-                    <button class="col-md-3 search-topics"  (click)="searchedFilter($event)" id="main_course">
+                    <button class="col-md-3 search-topics" (click)="searchedFilter($event)" id="main_course">
                       <a class="searchfilter">  Main course <hr>  </a>
                     </button>
                     <button class="col-md-3 search-topics" (click)="searchedFilter($event)" id="dessert">
@@ -63,6 +72,7 @@
                         </button>
                 </div>
             </div>
+         </mat-expansion-panel>
         </div>
 
     </div>
