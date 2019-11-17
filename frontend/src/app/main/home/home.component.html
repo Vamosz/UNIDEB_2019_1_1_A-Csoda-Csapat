@@ -31,9 +31,9 @@
                     <div class="example-box text-center" *ngFor="let recipe of recipes" cdkDrag>
                         <div class="example-custom-placeholder text-center" *cdkDragPlaceholder></div>
                         {{recipe}} 
-                        <div class="btn btn-outline-dark">
+                        <button (click)="openDialog()" class="btn btn-outline-dark">
                             view
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>

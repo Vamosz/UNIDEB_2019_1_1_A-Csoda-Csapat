@@ -9,7 +9,9 @@ import { MatCheckboxModule,
          MatDatepickerModule,
          MatNativeDateModule,
          MatListModule,
-         MatExpansionModule
+         MatExpansionModule,
+         MatDialogModule,
+         MatDialog
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -29,6 +31,7 @@ import { WelcomeComponent } from './main/welcome/welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SettingsComponent } from './main/settings/settings.component';
 import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
+import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.component';
 
 
 
@@ -46,6 +49,7 @@ import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
     WelcomeComponent,
     SettingsComponent,
     TagfilterComponent,
+    ReceipeDialogComponent,
 
   ],
   imports: [
@@ -62,8 +66,14 @@ import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
     DragDropModule,
     MatListModule,
     HttpClientModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDialogModule
   ],
+  
+  entryComponents: [
+    ReceipeDialogComponent
+  ],
+
   providers: [
     MatDatepickerModule,
     ConfigComponent,

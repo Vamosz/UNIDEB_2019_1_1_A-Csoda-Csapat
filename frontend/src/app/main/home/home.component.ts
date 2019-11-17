@@ -1,6 +1,8 @@
+import { ReceipeDialogComponent } from './../receipe-dialog/receipe-dialog.component';
 import { ConfigComponent } from './../../config/config.component';
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
+import {MatDialog} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-home',
@@ -9,14 +11,26 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 })
 export class HomeComponent{
   title= 'Vámosi Patrik';
-  filter = " 5";
-users;
-constructor(private config: ConfigComponent){
+  filter = "";
+  users;
+  
+constructor(private config: ConfigComponent, public dialog: MatDialog){
   // this.config.getData('http://localhost:8080/users').subscribe(rest => {
   //   this.users = rest;
   //   console.log(this.users.data[0].id)
   // });
 }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(ReceipeDialogComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+
+
 
   recipes = [
     "Sir Patrick Stewart's mole enchiladas",
