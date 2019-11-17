@@ -11,7 +11,8 @@ import { MatCheckboxModule,
          MatListModule,
          MatExpansionModule,
          MatDialogModule,
-         MatDialog
+         MatSortModule,
+         MatTableModule
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -67,7 +68,9 @@ import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.com
     MatListModule,
     HttpClientModule,
     MatExpansionModule,
-    MatDialogModule
+    MatDialogModule,
+    MatSortModule,
+    MatTableModule
   ],
   
   entryComponents: [
