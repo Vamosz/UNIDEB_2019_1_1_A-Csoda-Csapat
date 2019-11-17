@@ -7,7 +7,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class SearchboxComponent implements OnInit {
  @Output() filter = new EventEmitter();
-  constructor() { }
+ panelOpenState: boolean = false; 
+ constructor() { 
+  }
 
   ngOnInit() {
   }
