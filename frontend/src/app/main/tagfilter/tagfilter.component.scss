@@ -1,0 +1,47 @@
+.search-topics{
+    background-color:rgb(255, 255, 255);
+    border-color:rgb(204, 204, 204);
+    border-style:solid;
+    border-width:1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border: none;
+    text-align:center;
+    height: 3em;
+    
+  }
+  hr {
+   width: 80%;
+    background: black;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .search-topics:hover{
+    cursor: pointer;
+    background: #343a40;
+    color:white;
+  }
+  .tag{
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+  }
+  .tag:hover {
+    cursor: inherit;
+  }
+  .selected {
+      font-style: italic;
+      background: #777;
+      color: white;
+  }
+
+
+  .w98{
+    width: 98% !important;
+  }

@@ -28,6 +28,7 @@ import { SearchboxComponent } from './main/searchbox/searchbox.component';
 import { WelcomeComponent } from './main/welcome/welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SettingsComponent } from './main/settings/settings.component';
+import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
 
 
 
@@ -44,6 +45,7 @@ import { SettingsComponent } from './main/settings/settings.component';
     SearchboxComponent,
     WelcomeComponent,
     SettingsComponent,
+    TagfilterComponent,
 
   ],
   imports: [
