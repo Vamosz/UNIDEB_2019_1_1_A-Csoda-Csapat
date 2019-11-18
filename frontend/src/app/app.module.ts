@@ -10,6 +10,7 @@ import { MatCheckboxModule,
          MatNativeDateModule,
          MatListModule,
          MatExpansionModule,
+         MatCardModule
          MatDialogModule,
          MatSortModule,
          MatTableModule
@@ -32,7 +33,9 @@ import { WelcomeComponent } from './main/welcome/welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SettingsComponent } from './main/settings/settings.component';
 import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
+import { RecipelistComponent } from './main/recipelist/recipelist.component';
 import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.component';
+
 
 
 
@@ -50,7 +53,9 @@ import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.com
     WelcomeComponent,
     SettingsComponent,
     TagfilterComponent,
+    RecipelistComponent,
     ReceipeDialogComponent,
+
 
   ],
   imports: [
@@ -68,6 +73,7 @@ import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.com
     MatListModule,
     HttpClientModule,
     MatExpansionModule,
+    MatCardModule
     MatDialogModule,
     MatSortModule,
     MatTableModule
