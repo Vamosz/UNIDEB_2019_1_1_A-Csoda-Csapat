@@ -11,6 +11,9 @@ import { MatCheckboxModule,
          MatListModule,
          MatExpansionModule,
          MatCardModule
+         MatDialogModule,
+         MatSortModule,
+         MatTableModule
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -31,6 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { SettingsComponent } from './main/settings/settings.component';
 import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
 import { RecipelistComponent } from './main/recipelist/recipelist.component';
+import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.component';
+
 
 
 
@@ -49,6 +54,8 @@ import { RecipelistComponent } from './main/recipelist/recipelist.component';
     SettingsComponent,
     TagfilterComponent,
     RecipelistComponent,
+    ReceipeDialogComponent,
+
 
   ],
   imports: [
@@ -67,7 +74,15 @@ import { RecipelistComponent } from './main/recipelist/recipelist.component';
     HttpClientModule,
     MatExpansionModule,
     MatCardModule
+    MatDialogModule,
+    MatSortModule,
+    MatTableModule
   ],
+  
+  entryComponents: [
+    ReceipeDialogComponent
+  ],
+
   providers: [
     MatDatepickerModule,
     ConfigComponent,
