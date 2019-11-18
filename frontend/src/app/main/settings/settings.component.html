@@ -3,14 +3,35 @@
         <app-sidenav [title]="title"></app-sidenav>
     </mat-sidenav>
         <mat-sidenav-content id="content">
-            <p>
-                <mat-form-field appearance="outline">
-                  <mat-label>Name</mat-label>
-                  <input matInput placeholder="Full name">
-                  <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-                </mat-form-field>
-              </p>
+                
+            <div class="container-fluid mt-4 w98">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <img class=" rounded-circle" height="150px" width="150px" src="assets/img/john_doe.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                    <div class="col-md-12 text-center">
+                
+                    <mat-form-field  appearance="legacy">
+                    <mat-label>Old password</mat-label>
+                    <input matInput placeholder="Please type your old password">
+                    </mat-form-field>
+             
+                     </div>
+                      </div> 
 
+                    <div class="row">
+                    <div class="col-md-12 text-center">
+               
+                    <mat-form-field  appearance="legacy">
+                    <mat-label>New password</mat-label>
+                    <input matInput placeholder="Please type your New password">
+                    </mat-form-field>
+             
+                     </div>
+                      </div> 
+            </div>
 
         </mat-sidenav-content>
 
