@@ -10,7 +10,7 @@ import { MatCheckboxModule,
          MatNativeDateModule,
          MatListModule,
          MatExpansionModule,
-         MatCardModule
+         MatCardModule,
          MatDialogModule,
          MatSortModule,
          MatTableModule
@@ -35,6 +35,7 @@ import { SettingsComponent } from './main/settings/settings.component';
 import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
 import { RecipelistComponent } from './main/recipelist/recipelist.component';
 import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.component';
+import { RecipeService } from './service/recipeservice/recipe-service.service';
 
 
 
@@ -56,7 +57,6 @@ import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.com
     RecipelistComponent,
     ReceipeDialogComponent,
 
-
   ],
   imports: [
     BrowserModule,
@@ -73,7 +73,7 @@ import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.com
     MatListModule,
     HttpClientModule,
     MatExpansionModule,
-    MatCardModule
+    MatCardModule,
     MatDialogModule,
     MatSortModule,
     MatTableModule
@@ -86,6 +86,7 @@ import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.com
   providers: [
     MatDatepickerModule,
     ConfigComponent,
+    RecipeService
   ],
   bootstrap: [AppComponent]
 })

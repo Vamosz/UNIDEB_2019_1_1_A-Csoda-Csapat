@@ -27,19 +27,7 @@
          <app-recipelist [recipes]="recipes"></app-recipelist>
         <!-- TODO KÖZÉPRE IGAZÍTANI AZ EZ ALATT LEVŐ RÉSZT
          -->
-        <div class="row mt-4 text-center">
-            <div class="col-md-12 text-center">
-                <div cdkDropList class="example-list text-center" (cdkDropListDropped)="drop($event)">
-                    <div class="example-box text-center" *ngFor="let recipe of recipes" cdkDrag>
-                        <div class="example-custom-placeholder text-center" *cdkDragPlaceholder></div>
-                        {{recipe}} 
-                        <button (click)="openDialog()" class="btn btn-outline-dark">
-                            view
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
        
 

@@ -25,7 +25,8 @@
                                         <a href="/home#" class="badge badge-secondary align-middle text-center">{{ tag }}</a>
                                     </small>
                                     </ng-template>
-                                    <div class="btn btn-outline-dark float-right">View</div>
+                                    <button  *ngIf="editable" class="btn btn-outline-danger float-right">Delete</button>
+                                    <button (click)="openDialog()" class="btn btn-outline-dark float-right mx-2">View</button>
                                 </div>
                             </div>
                         </div>

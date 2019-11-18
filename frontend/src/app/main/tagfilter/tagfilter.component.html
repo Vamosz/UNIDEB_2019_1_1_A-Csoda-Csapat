@@ -13,7 +13,8 @@
                 <ng-template ngFor let-tag [ngForOf]="tags" let-i="index" [ngForTrackBy]="trackByFn">
             
                 <div class="col-md-3 search-topics" id="{{tag}}" (click)="filter(tag)">
-                    <div class="tag">{{tag}}</div><hr>
+                    <div class="tag">{{tag}}</div>
+                    <hr>
                 </div>
             
                  </ng-template>
