@@ -36,7 +36,7 @@ import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
 import { RecipelistComponent } from './main/recipelist/recipelist.component';
 import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.component';
 import { RecipeService } from './service/recipeservice/recipe-service.service';
-
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -56,6 +56,7 @@ import { RecipeService } from './service/recipeservice/recipe-service.service';
     TagfilterComponent,
     RecipelistComponent,
     ReceipeDialogComponent,
+  
 
   ],
   imports: [
@@ -76,7 +77,9 @@ import { RecipeService } from './service/recipeservice/recipe-service.service';
     MatCardModule,
     MatDialogModule,
     MatSortModule,
-    MatTableModule
+    MatTableModule,
+    FormsModule
+
   ],
   
   entryComponents: [
@@ -86,7 +89,8 @@ import { RecipeService } from './service/recipeservice/recipe-service.service';
   providers: [
     MatDatepickerModule,
     ConfigComponent,
-    RecipeService
+    RecipeService,
+
   ],
   bootstrap: [AppComponent]
 })
