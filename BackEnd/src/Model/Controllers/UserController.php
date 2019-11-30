@@ -1,8 +1,8 @@
 <?php
 
-namespace src\Service;
+namespace src\Model\Controller;
 
-require_once('../databaseConnection.php');
+
 
 class UserController{
 
@@ -11,29 +11,27 @@ class UserController{
         }
 
         public static function UserExists(){
-            if ($stmt = $mysqli->prepare("SELECT * FROM TÁBLA WHERE Name=?")) {
+           
+            require_once('../../databaseConnection.php');
 
-                /* bind parameters for markers */
-                $stmt->bind_param("s", $city);
-            
-                /* execute query */
-                $stmt->execute();
-            
-                /* bind result variables */
-                $stmt->bind_result($district);
-            
-                /* fetch value */
-                $stmt->fetch();
-            
-                printf("%s is in district %s\n", $city, $district);
-            
-                /* close statement */
-                $stmt->close();
+            $sql = "SELECT * FROM users";
+
+            $result = $conn->query($sql);
+
+            while($row = $result->fetch_assoc())
+            {
+                if($row['email'] == 'test@test.com')
+                {
+                   return null;
+                }
+                                      
             }
 
+            
+            $conn->close();
+            return "yes";
         }
         
-
-
-
 }
+
+// UserController::UserExists();

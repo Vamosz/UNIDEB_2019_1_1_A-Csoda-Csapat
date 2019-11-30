@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = 'Cookbook';
+$dbname = 'cookbook';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
