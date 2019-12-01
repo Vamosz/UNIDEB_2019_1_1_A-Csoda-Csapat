@@ -8,11 +8,13 @@ import {MatTableDataSource} from '@angular/material/table';
   templateUrl: './recipesmanager.component.html',
   styleUrls: ['./recipesmanager.component.scss']
 })
-export class recipesmanagerComponent {
+export class recipesmanagerComponent implements OnInit {
   title="Vámosi Patrik";
   recipes : Recipe[];
-  constructor(recipeService : RecipeService) {
-    this.recipes = recipeService.getAllRecipes();
+  constructor(private recipeService : RecipeService) {
   }
 
+  ngOnInit() {
+    this.recipeService.getAllRecipes().subscribe(recipes => this.recipes = recipes);
+  }
 }

@@ -14,36 +14,14 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
     provide: RecipeService, useClass: RecipeService
   }]
 })
-export class HomeComponent{
+export class HomeComponent implements OnInit {
   title= 'Vámosi Patrik';
   recipes : Recipe[];
-  filter;
-  
 
-  constructor(private config: ConfigComponent, private recipeService: RecipeService){
-    // this.config.getData('http://localhost:8080/users').subscribe(rest => {
-    //   this.users = rest;
-    //   console.log(this.users.data[0].id)
-    // });
+  constructor(private recipeService: RecipeService) {}
 
-
-  
-
-
- 
-
-
-
-
-
-
-    this.recipes = this.recipeService.getAllRecipes();
-  }
-
-  onFilter(event){
-    this.filter = event;
-    console.log(this.filter);
-    
+  ngOnInit() {
+    this.recipeService.getAllRecipes().subscribe(recipes => this.recipes = recipes);
   }
 
 }
