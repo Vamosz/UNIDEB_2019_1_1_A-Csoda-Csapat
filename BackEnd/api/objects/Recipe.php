@@ -130,6 +130,30 @@ class Recipe {
         return false;
     }
 
+    public function search($keywords) {
+        $query = "SELECT recipes.* FROM recipes
+                    LEFT JOIN tags_recipes tr on tr.recipe_id=recipes.id
+                    LEFT JOIN tags on tags.id=tr.tag_id
+                    LEFT JOIN ingredients_recipes ir on ir.recipe_id=recipes.id
+                    LEFT JOIN ingredients on ingredients.id=ir.ingredient_id
+                    WHERE title LIKE ? OR summary LIKE ? OR description LIKE ? OR ingredients.name LIKE ?
+                    ORDER BY created_on DESC";
+ 
+        $stmt = $this->conn->prepare($query);
+
+        $keywords=htmlspecialchars(strip_tags($keywords));
+        $keywords = "%{$keywords}%";
+    
+        $stmt->bindParam(1, $keywords);
+        $stmt->bindParam(2, $keywords);
+        $stmt->bindParam(3, $keywords);
+        $stmt->bindParam(4, $keywords);
+    
+        $stmt->execute();
+    
+        return $stmt;
+    }
+
     private function deleteRecipe() {
         $query = "DELETE FROM recipes WHERE id=" . $this->id;
         $stmt = $this->conn->prepare($query);
