@@ -219,8 +219,6 @@ class Recipe {
         return $stmt;
     }
 
-    
-
     private function updateRecipe($data) {
         $query = "UPDATE recipes
                   SET 

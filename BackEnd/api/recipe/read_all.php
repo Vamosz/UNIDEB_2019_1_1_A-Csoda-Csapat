@@ -17,7 +17,6 @@ $num = $stmt->rowCount();
 if ($num > 0) {
 
     $recipes_arr = array();
-    $recipes_arr["records"] = array();
 
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
         extract($row);
@@ -44,7 +43,7 @@ if ($num > 0) {
             "tags" => $tags
         );
 
-        array_push($recipes_arr["records"], $recipe_item);
+        array_push($recipes_arr, $recipe_item);
     }
 
     http_response_code(200);
