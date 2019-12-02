@@ -5,17 +5,29 @@
         <mat-sidenav-content id="content">
                 
             <div class="container-fluid mt-4 w98">
+                        
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <img class=" rounded-circle" height="150px" width="150px" src="assets/img/john_doe.png" alt="">
                         </div>
                     </div>
+                    <div class="row">
+                            <div class="col-md-3">
+                                   <mat-list >
+                                           <mat-list-item class="font-weight-bold">Vámosi Patrik</mat-list-item>
+                                           <mat-divider></mat-divider>
+                                           <mat-list-item>patrika.kiraly@gmail.com</mat-list-item>
+                                           <mat-divider></mat-divider>
+                                           <mat-list-item>2001-09-11</mat-list-item>
+                                         </mat-list>
+                            </div>
+                        </div>
                     <div class="row mt-3">
                     <div class="col-md-12 text-center">
                 
                     <mat-form-field  appearance="legacy">
                     <mat-label>Old password</mat-label>
-                    <input matInput placeholder="Please type your old password">
+                    <input matInput placeholder="Type old password">
                     </mat-form-field>
              
                      </div>
@@ -26,11 +38,26 @@
                
                     <mat-form-field  appearance="legacy">
                     <mat-label>New password</mat-label>
-                    <input matInput placeholder="Please type your New password">
+                    <input matInput placeholder="Type new password">
                     </mat-form-field>
              
                      </div>
                       </div> 
+                      <div class="row">
+                        <div class="col-md-12 text-center">
+                   
+                        <mat-form-field  appearance="legacy">
+                        <mat-label>Confirm password</mat-label>
+                        <input matInput placeholder="New password again">
+                        </mat-form-field>
+                       
+                         </div>
+                          </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                    <button class="btn btn-outline-dark mx-2">Save</button>
+                            </div>
+                        </div>
             </div>
 
         </mat-sidenav-content>

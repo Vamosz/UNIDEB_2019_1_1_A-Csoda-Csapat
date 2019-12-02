@@ -14,8 +14,6 @@ export interface Recipe {
 
 export class RecipeService {
 
-  
-
   getAllRecipes() {
     const recipes : Recipe[]= [
       {
