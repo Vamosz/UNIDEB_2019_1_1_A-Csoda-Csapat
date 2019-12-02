@@ -13,7 +13,8 @@ import { MatCheckboxModule,
          MatCardModule,
          MatDialogModule,
          MatSortModule,
-         MatTableModule
+         MatTableModule, 
+         MAT_DIALOG_DATA 
         } from '@angular/material';
 import { NgModule } from '@angular/core';
 import {} from '@angular/material/sidenav';
@@ -34,9 +35,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { SettingsComponent } from './main/settings/settings.component';
 import { TagfilterComponent } from './main/tagfilter/tagfilter.component';
 import { RecipelistComponent } from './main/recipelist/recipelist.component';
-import { ReceipeDialogComponent } from './main/receipe-dialog/receipe-dialog.component';
-import { RecipeService } from './service/recipeservice/recipe-service.service';
+import { RecipeDialogComponent } from './main/recipe-dialog/recipe-dialog.component';
+import { RecipeService } from './service/recipeservice/recipe.service';
 import { FormsModule } from '@angular/forms';
+import { RecipeDialogCreateComponent } from './main/recipe-dialog-create/recipe-dialog-create.component';
+import { RecipeDialogEditComponent } from './main/recipe-dialog-edit/recipe-dialog-edit.component';
+import { RecipeDialogDeleteComponent } from './main/recipe-dialog-delete/recipe-dialog-delete.component';
 
 
 
@@ -55,9 +59,10 @@ import { FormsModule } from '@angular/forms';
     SettingsComponent,
     TagfilterComponent,
     RecipelistComponent,
-    ReceipeDialogComponent,
-  
-
+    RecipeDialogComponent,
+    RecipeDialogCreateComponent,
+    RecipeDialogEditComponent,
+    RecipeDialogDeleteComponent
   ],
   imports: [
     BrowserModule,
@@ -79,11 +84,13 @@ import { FormsModule } from '@angular/forms';
     MatSortModule,
     MatTableModule,
     FormsModule
-
   ],
   
   entryComponents: [
-    ReceipeDialogComponent
+    RecipeDialogCreateComponent,
+    RecipeDialogComponent,
+    RecipeDialogEditComponent,
+    RecipeDialogDeleteComponent
   ],
 
   providers: [

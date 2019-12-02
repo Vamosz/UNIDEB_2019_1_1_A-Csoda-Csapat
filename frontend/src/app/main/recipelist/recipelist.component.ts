@@ -1,7 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Recipe } from 'src/app/service/recipeservice/recipe-service.service';
-import {MatDialog} from '@angular/material/dialog';
-import { ReceipeDialogComponent } from './../receipe-dialog/receipe-dialog.component';
+import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
+import { MatDialog } from '@angular/material/dialog';
+import { RecipeDialogComponent } from '../recipe-dialog/recipe-dialog.component';
+
+import { Recipe } from '../../model/Recipe';
+import { RecipeDialogCreateComponent } from '../recipe-dialog-create/recipe-dialog-create.component';
+
 @Component({
   selector: 'app-recipelist',
   templateUrl: './recipelist.component.html',
@@ -9,19 +13,36 @@ import { ReceipeDialogComponent } from './../receipe-dialog/receipe-dialog.compo
 })
 export class RecipelistComponent implements OnInit {
   @Input() editable=false;
-  @Input() recipes: Recipe[];
+  recipes : Recipe[];
 
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog, private recipeService: RecipeService) { }
 
   ngOnInit() {
+    this.fetchRecipes();
   }
 
+  fetchRecipes() {
+    this.recipeService.getAllRecipes().subscribe(recipes => this.recipes = recipes)
+  }
 
-  openDialog() {
-    const dialogRef = this.dialog.open(ReceipeDialogComponent);
+  viewRecipe(id: number) {
+    let recipe : Recipe;
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
+    for(let rec of this.recipes) {
+      if (rec.id === id) {
+        recipe = rec;
+      }
+    }
+    
+    this.dialog.open(RecipeDialogComponent, {maxHeight: '90vh', data : recipe});
+  }
+
+  createRecipe() {
+    this.dialog.open(RecipeDialogCreateComponent, {width: '90%'});
+  }
+
+  deleteRecipe(id: number) {
+    this.recipeService.deleteRecipe(id);
+    this.fetchRecipes();
   }
 }

@@ -1,0 +1,64 @@
+<h1 mat-dialog-title>Create new recipe</h1>
+<mat-dialog-content class="mat-typography form-container">
+    <mat-form-field class="mx-5">
+        <input matInput
+                placeholder="Delicious recipe title"
+                [(ngModel)]="recipe.title">
+    </mat-form-field>
+    <mat-form-field class="mx-5">
+        <input matInput
+                placeholder="A short summary of the food"
+                [(ngModel)]="recipe.summary">
+    </mat-form-field>
+    <mat-form-field class="mx-5">
+        <textarea matInput
+            rows="10"
+            placeholder="Detailed description of the recipe"
+            [(ngModel)]="recipe.description"></textarea>
+    </mat-form-field>
+    <mat-form-field class="mx-5">
+        <input matInput
+                type="time"
+                placeholder="Preparation time"
+                [(ngModel)]="recipe.preparation_time">
+    </mat-form-field>
+    <h3>Ingredients</h3>
+    <div class="ingredients-container mx-5">
+        <div class="ingredient-container" *ngFor="let ingredient of ingredients; let i = index; trackBy: trackByItems">
+            <mat-form-field class="mx-3">
+            <input matInput
+                    placeholder="Ingredient"
+                    [(ngModel)]="ingredient.name">
+            </mat-form-field>
+            <mat-form-field class="mx-3">
+            <input matInput
+                    placeholder="Amount"
+                    [(ngModel)]="ingredient.amount">
+            </mat-form-field>
+            <mat-form-field class="mx-3">
+            <input matInput
+                    placeholder="Unit"
+                    [(ngModel)]="ingredient.unit">
+            </mat-form-field>
+            <button mat-raised-button color="warn" (click)="removeIngredient(i)">X</button>
+        </div>
+    </div>
+    <button (click)="addIngredient()" class="btn btn-outline-success">Add ingredient</button>
+    <h4>Tags</h4>
+    <div class="tags-container mx-5">
+        <ng-template ngFor let-tag [ngForOf]="tags" let-i="index" [ngForTrackBy]="trackByItems">
+        <span class="px-5">{{ tag }}<button (click)="removeTag(tag)" class="btn btn-outline-danger">X</button></span>
+        </ng-template>
+        <mat-form-field>
+            <input matInput
+                    placeholder="New tag"
+                    [(ngModel)]="tag">
+        </mat-form-field>
+        <button (click)="addTag(tag)" class="btn btn-outline-success">+</button>
+    </div>
+            
+      
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button (click)="create()" class="btn btn-outline-success">Create!</button>
+</mat-dialog-actions>

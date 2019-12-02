@@ -1,0 +1,15 @@
+<h1 mat-dialog-title> {{ recipe.title }}</h1>
+<mat-dialog-content class="mat-typography">
+  <h3>{{ recipe.summary }}</h3>
+  <img mat-card-image [src]="recipe.img_src != null ? recipe.img_src : 'assets/img/food_placeholder.jpg'" />
+  Ingredeints:
+  <ul>
+    <li *ngFor="let ingredient of recipe.ingredients">
+      {{ ingredient.amount }} {{ ingredient.unit }} of {{ ingredient.name }} 
+    </li>
+  </ul>
+  <p>{{ recipe.description }}</p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button class="btn btn-outline-dark" mat-dialog-close>Close</button>
+</mat-dialog-actions>

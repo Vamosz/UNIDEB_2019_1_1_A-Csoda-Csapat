@@ -2,7 +2,6 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
 import {MatDialog} from '@angular/material/dialog';
-import { ReceipeDialogComponent } from './../receipe-dialog/receipe-dialog.component';
 
 export interface PeriodicElement {
   name: string;
@@ -41,14 +40,7 @@ export class recipesComponent implements OnInit  {
   ngOnInit() {
     this.dataSource.sort = this.sort;
   }
-  openDialog() {
-    const dialogRef = this.dialog.open(ReceipeDialogComponent);
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
-  }
-
+  
   onFilter(event){
     this.filter = event;
     console.log(this.filter);
