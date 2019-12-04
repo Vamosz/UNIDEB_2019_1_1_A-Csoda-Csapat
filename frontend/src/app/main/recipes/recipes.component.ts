@@ -27,7 +27,6 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./recipes.component.scss']
 })
 export class recipesComponent implements OnInit  {
-  title="Vámosi Patrik";
   filter;
   displayedColumns: string[] = ['position', 'name'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);

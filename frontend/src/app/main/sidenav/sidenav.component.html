@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col ">
-                <h2 class="text-center pl-0 pb-5">{{title}}</h2>
+            <h2 class="text-center pl-0 pb-5">{{title}}</h2>
         </div>
     </div>
 </div>
@@ -12,41 +12,39 @@
                 <a class="nav-link" routerLink="/home">Home
                     <hr>
                 </a>
-                
+
             </div>
         </div>
         <div class="row h64 mt-4">
             <div class="col">
-                <a class="nav-link" routerLink="/recipesmanager" >Recipe Manager
+                <a class="nav-link" routerLink="/recipesmanager">Recipe Manager
                     <hr>
                 </a>
-                
+
             </div>
         </div>
         <div class="row h64 mt-4">
             <div class="col">
-                <a class="nav-link" routerLink="/recipes" >Others recipes
-                    <hr> 
+                <a class="nav-link" routerLink="/recipes">Others recipes
+                    <hr>
                 </a>
-                      
+
             </div>
         </div>
         <div class="row h64 mt-4">
             <div class="col">
-                <a class="nav-link" routerLink="/profile" >My Profile
-                    <hr> 
+                <a class="nav-link" routerLink="/profile">My Profile
+                    <hr>
                 </a>
-                      
+
             </div>
         </div>
         <div class="row h64 mt-4">
-                <div class="col">
-                    <a class="nav-link " routerLink="/login">Log out
-                        <hr>
-                    </a>
-                </div>
+            <div class="col">
+                <a class="nav-link " (click)="logout()" routerLink="/login">Log out
+                    <hr>
+                </a>
             </div>
+        </div>
     </nav>
 </div>
-
-

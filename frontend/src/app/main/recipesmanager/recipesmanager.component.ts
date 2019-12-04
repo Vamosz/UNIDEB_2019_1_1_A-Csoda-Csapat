@@ -8,5 +8,4 @@ import {MatTableDataSource} from '@angular/material/table';
   styleUrls: ['./recipesmanager.component.scss']
 })
 export class recipesmanagerComponent {
-  title="Vámosi Patrik";
 }

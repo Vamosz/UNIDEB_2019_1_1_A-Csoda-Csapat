@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatCheckboxModule,
   MatSidenavModule,
@@ -15,7 +14,6 @@ import {
   MatDialogModule,
   MatSortModule,
   MatTableModule,
-  MAT_DIALOG_DATA,
   MatSnackBar,
   MatSnackBarContainer,
   MatSnackBarModule
@@ -48,8 +46,7 @@ import { RecipeDialogDeleteComponent } from './main/recipe-dialog-delete/recipe-
 import { RecipeComponent } from './main/recipe/recipe.component';
 import { UserService } from './service/UserService/user.service';
 import { AuthService } from './service/authservice/auth.service';
-
-
+import { JwtHelperService, JwtModule, JWT_OPTIONS } from '@auth0/angular-jwt';
 
 @NgModule({
   declarations: [
@@ -92,7 +89,8 @@ import { AuthService } from './service/authservice/auth.service';
     MatSortModule,
     MatTableModule,
     FormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    JwtModule
   ],
 
   entryComponents: [
@@ -109,7 +107,9 @@ import { AuthService } from './service/authservice/auth.service';
     RecipeService,
     UserService,
     AuthService,
-    MatSnackBar
+    MatSnackBar,
+    {provide: JWT_OPTIONS, useValue: JWT_OPTIONS},
+    JwtHelperService
   ],
   bootstrap: [AppComponent]
 })

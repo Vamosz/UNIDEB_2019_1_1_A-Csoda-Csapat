@@ -10,7 +10,4 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  title= 'Vámosi Patrik';
- 
-
 }

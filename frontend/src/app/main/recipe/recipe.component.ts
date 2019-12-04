@@ -27,7 +27,7 @@ export class RecipeComponent implements OnInit {
   deleteRecipe() {
     this.recipeService.deleteRecipe(this.recipe.id)
       .then(response => {
-        let message = response.body.message;
+        let message = response.body.toString();
         this.snackBar.open(message, "OK", { duration: 2000 });
         this.onChange.emit(true);
       }).catch(response => {

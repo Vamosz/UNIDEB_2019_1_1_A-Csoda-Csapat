@@ -7,16 +7,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { recipesComponent } from './main/recipes/recipes.component';
 import { WelcomeComponent } from './main/welcome/welcome.component';
 import { SettingsComponent } from './main/settings/settings.component';
+import { AuthGuardService } from './service/authguard/auth-guard.service';
 
 
 const routes: Routes = [
   {path:"", component: WelcomeComponent },
   {path:"login", component: LoginComponent },
   {path:"register", component: RegisterComponent },
-  {path:"home", component: HomeComponent },
-  {path:"recipesmanager", component: recipesmanagerComponent },
-  {path:"recipes", component: recipesComponent },
-  {path:"profile", component: SettingsComponent },
+  {path:"home", component: HomeComponent, canActivate: [AuthGuardService] },
+  {path:"recipesmanager", component: recipesmanagerComponent, canActivate: [AuthGuardService] },
+  {path:"recipes", component: recipesComponent, canActivate: [AuthGuardService] },
+  {path:"profile", component: SettingsComponent, canActivate: [AuthGuardService] },
 ];
 
 @NgModule({

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders} from '@angular/common/http'
-import { Observable } from 'rxjs';
+import { HttpClient, HttpHeaders} from '@angular/common/http';
+import { Router } from '@angular/router';
 
 import { User } from '../../model/User';
 
@@ -11,15 +11,11 @@ export class UserService {
 
   userUrl: string = 'http://localhost/cookbook/api/user/';
   
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   register(user : User) {
     let json = JSON.stringify(user);
-    const response = this.http.post(`${this.userUrl}register.php`, json, {observe: 'response'}).toPromise()
-    response.then(response => {
-      let json = JSON.parse(response.body.toString());
-      const jwt = json.jwt;
-    }).catch();
+    return this.http.post(`${this.userUrl}register.php`, json, {observe: 'response'}).toPromise()
   }
 
   login(email: string, password: string) {
