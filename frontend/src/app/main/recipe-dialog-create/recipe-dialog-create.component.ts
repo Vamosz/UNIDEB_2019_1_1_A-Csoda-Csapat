@@ -2,21 +2,22 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Recipe } from 'src/app/model/Recipe';
 import { Ingredient } from 'src/app/model/Ingredient';
 import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
-import { Author } from 'src/app/model/Author';
+import { User } from 'src/app/model/User';
+import { MatDialogRef } from '@angular/material';
 
 @Component({
   selector: 'app-recipe-dialog-create',
   templateUrl: './recipe-dialog-create.component.html',
-  styleUrls: ['./recipe-dialog-create.component.scss']
+  styleUrls: ['./recipe-dialog-create.component.scss'],
 })
 export class RecipeDialogCreateComponent implements OnInit {
 
   recipe: Recipe = new Recipe();
   ingredients: Ingredient[] = [];
-  tags : Set<string>= new Set();
+  tags: Set<string> = new Set();
 
 
-  constructor(private recipeService : RecipeService) { }
+  constructor(private recipeService: RecipeService, private dialogRef: MatDialogRef<RecipeDialogCreateComponent>) { }
 
   ngOnInit() {
   }
@@ -26,7 +27,7 @@ export class RecipeDialogCreateComponent implements OnInit {
   }
 
   removeIngredient(index: number) {
-      this.ingredients.splice(index, 1);   
+    this.ingredients.splice(index, 1);
   }
 
   addTag(tag: string) {
@@ -39,17 +40,24 @@ export class RecipeDialogCreateComponent implements OnInit {
 
   create() {
     this.recipe.img_src = "null";
-    this.recipe.author = new Author;
-    this.recipe.author.user_id = 1;
+    this.recipe.author = new User();
+    this.recipe.author.id = 1;
     this.recipe.ingredients = this.ingredients;
     this.recipe.tags = Array.from(this.tags.values());
-          
-    this.recipeService.createRecipe(this.recipe);
+
+    this.recipeService.createRecipe(this.recipe)
+    .then(response => {
+      let message = response.body.message;
+      this.dialogRef.close(message);
+    }).catch(response => {
+      
+    });
+
   }
 
-  validIngredients() : boolean {
+  validateIngredients(): boolean {
     for (let ing of this.ingredients) {
-      if(ing.amount == null || ing.name == null || ing.unit == null) {
+      if (ing.amount == null || ing.name == null || ing.unit == null) {
         console.log(ing.name);
         return false;
       }

@@ -1,6 +1,6 @@
 import { Time } from '@angular/common';
-import { Author } from './Author';
 import { Ingredient } from './Ingredient';
+import { User } from './User';
 
 export class Recipe {
     id: number;
@@ -8,7 +8,7 @@ export class Recipe {
     summary: string;
     preparation_time: Time;
     description: string;
-    author: Author;
+    author: User;
     img_src: string;
     created_on: Date;
     ingredients: Ingredient[];

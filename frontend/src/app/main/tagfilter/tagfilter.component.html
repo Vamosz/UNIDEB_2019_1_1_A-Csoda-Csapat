@@ -1,4 +1,4 @@
-<div class="col-md-12 mt-3 mx-auto">
+<div class="col-md-12 mt-3">
     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
         <mat-expansion-panel-header>
             <mat-panel-title>
@@ -8,17 +8,17 @@
                 {{panelOpenState ? 'Select tags to filter results' : activeTags.length > 0 ? 'Currently filtering for: ' + activeTags : 'No filters selected' }}
             </mat-panel-description>
         </mat-expansion-panel-header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <ng-template ngFor let-tag [ngForOf]="tags" let-i="index" [ngForTrackBy]="trackByFn">
-            
-                <div class="col-md-3 search-topics" id="{{tag}}" (click)="filter(tag)">
-                    <div class="tag">{{tag}}</div>
-                    <hr>
-                </div>
-            
-                 </ng-template>
+
+                    <div class="col-md-3 search-topics" id="{{tag}}" (click)="filter(tag)">
+                        <div class="tag">{{tag}}</div>
+                        <hr>
+                    </div>
+
+                </ng-template>
             </div>
         </div>
-    </mat-expansion-panel>  
+    </mat-expansion-panel>
 </div>

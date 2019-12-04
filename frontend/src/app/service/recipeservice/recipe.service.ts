@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpResponse} from '@angular/common/http'
+import { HttpClient, HttpHeaders} from '@angular/common/http'
 import { Observable } from 'rxjs';
 
 import { Recipe } from '../../model/Recipe';
@@ -13,8 +13,8 @@ export class RecipeService {
 
   constructor(private http: HttpClient) { }
 
-  getAllRecipes() : Observable<Recipe[]> {
-    return this.http.get<Recipe[]>(`${this.recipesUrl}read_all.php`);
+  getAllRecipes() {
+    return this.http.get<Recipe[]>(`${this.recipesUrl}read_all.php`, {observe: 'response'}).toPromise();
   }
 
   getRecipe(id: number) : Observable<any> {
@@ -22,26 +22,40 @@ export class RecipeService {
   }
   
   createRecipe(recipe: Recipe) {
-    let json = JSON.stringify(recipe);
-    console.log(json);
-    let response;
-    this.http.post(`${this.recipesUrl}create.php`, json, {observe: 'response'}).subscribe(resp => response = resp);
-    
-    return response;
+    let recipe_json = JSON.stringify(recipe);
+    let json = JSON.parse(recipe_json);
+    json.author_id = json.author.id;
+    delete json.author;
+    json = JSON.stringify(json);
+
+    return this.http.post(`${this.recipesUrl}create.php`, json, {
+      headers: new HttpHeaders({
+        'Content-Type': 'text/plain'
+      }),
+      observe: 'response'
+    }).toPromise();
   }
 
   deleteRecipe(id: number) {
     let json = `{ "id": ${id} }`;
-    let response;
-    this.http.post(`${this.recipesUrl}delete.php`, json, {observe: 'response'}).subscribe(resp => response = resp);
-
-    return response;
+   
+    return this.http.post(`${this.recipesUrl}delete.php`, json, {
+      headers: new HttpHeaders({
+        'Content-Type': 'text/plain'
+      }),
+      observe: 'response'
+    }).toPromise();
   }
 
   updateRecipe(recipe: Recipe) {
     let json = JSON.stringify(recipe);
     let response;
-    this.http.post(`${this.recipesUrl}update.php`, json, {observe: 'response'}).subscribe(resp => response = resp);
+    this.http.post(`${this.recipesUrl}update.php`, json, {
+      headers: new HttpHeaders({
+        'Content-Type': 'text/plain'
+      }),
+      observe: 'response'
+    }).subscribe(response => response = response);
     
     return response;
   }

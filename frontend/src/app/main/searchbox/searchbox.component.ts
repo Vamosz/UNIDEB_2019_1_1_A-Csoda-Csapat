@@ -6,16 +6,16 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./searchbox.component.scss']
 })
 export class SearchboxComponent implements OnInit {
- @Output() filter = new EventEmitter();
- panelOpenState: boolean = false; 
- constructor() { 
+  @Output() filter = new EventEmitter();
+  panelOpenState: boolean = false;
+  
+  constructor() {
   }
 
   ngOnInit() {
   }
 
-
-  searchedFilter(event:any){
+  searchedFilter(event: any) {
     this.filter.emit(event.toElement.innerText);
   }
 }

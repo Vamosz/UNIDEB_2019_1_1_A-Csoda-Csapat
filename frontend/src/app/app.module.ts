@@ -1,30 +1,34 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {NoopAnimationsModule} from '@angular/platform-browser/animations';
-import { MatCheckboxModule, 
-         MatSidenavModule,
-         MatFormFieldModule,
-         MatInputModule,
-         MatIconModule,
-         MatDatepickerModule,
-         MatNativeDateModule,
-         MatListModule,
-         MatExpansionModule,
-         MatCardModule,
-         MatDialogModule,
-         MatSortModule,
-         MatTableModule, 
-         MAT_DIALOG_DATA 
-        } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {
+  MatCheckboxModule,
+  MatSidenavModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatIconModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatListModule,
+  MatExpansionModule,
+  MatCardModule,
+  MatDialogModule,
+  MatSortModule,
+  MatTableModule,
+  MAT_DIALOG_DATA,
+  MatSnackBar,
+  MatSnackBarContainer,
+  MatSnackBarModule
+} from '@angular/material';
 import { NgModule } from '@angular/core';
-import {} from '@angular/material/sidenav';
+import { } from '@angular/material/sidenav';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './main/login/login.component';
 import { RegisterComponent } from './main/register/register.component';
 import { HomeComponent } from './main/home/home.component';
 
-import {DragDropModule} from '@angular/cdk/drag-drop';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 import { recipesmanagerComponent } from './main/recipesmanager/recipesmanager.component';
 import { SidenavComponent } from './main/sidenav/sidenav.component';
 import { recipesComponent } from './main/recipes/recipes.component';
@@ -41,6 +45,9 @@ import { FormsModule } from '@angular/forms';
 import { RecipeDialogCreateComponent } from './main/recipe-dialog-create/recipe-dialog-create.component';
 import { RecipeDialogEditComponent } from './main/recipe-dialog-edit/recipe-dialog-edit.component';
 import { RecipeDialogDeleteComponent } from './main/recipe-dialog-delete/recipe-dialog-delete.component';
+import { RecipeComponent } from './main/recipe/recipe.component';
+import { UserService } from './service/UserService/user.service';
+import { AuthService } from './service/authservice/auth.service';
 
 
 
@@ -62,7 +69,8 @@ import { RecipeDialogDeleteComponent } from './main/recipe-dialog-delete/recipe-
     RecipeDialogComponent,
     RecipeDialogCreateComponent,
     RecipeDialogEditComponent,
-    RecipeDialogDeleteComponent
+    RecipeDialogDeleteComponent,
+    RecipeComponent
   ],
   imports: [
     BrowserModule,
@@ -83,21 +91,25 @@ import { RecipeDialogDeleteComponent } from './main/recipe-dialog-delete/recipe-
     MatDialogModule,
     MatSortModule,
     MatTableModule,
-    FormsModule
+    FormsModule,
+    MatSnackBarModule
   ],
-  
+
   entryComponents: [
     RecipeDialogCreateComponent,
     RecipeDialogComponent,
     RecipeDialogEditComponent,
-    RecipeDialogDeleteComponent
+    RecipeDialogDeleteComponent,
+    MatSnackBarContainer
   ],
 
   providers: [
     MatDatepickerModule,
     ConfigComponent,
     RecipeService,
-
+    UserService,
+    AuthService,
+    MatSnackBar
   ],
   bootstrap: [AppComponent]
 })

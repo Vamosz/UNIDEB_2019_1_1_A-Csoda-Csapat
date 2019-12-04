@@ -1,22 +1,39 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { HttpClient, HttpHeaders} from '@angular/common/http'
+import { Observable } from 'rxjs';
+
+import { User } from '../../model/User';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  params;
-  constructor(
-          private http: HttpClient,
-  ){ }
 
-  PostData( user_name, email, password) {
-      this.params = "user_name|" + user_name + "|email|" + email + "|password|" + password;
-      return this.http.post('http://localhost/Sulis_Cuccok/UNIDEB_2019_1_1_A-Csoda-Csapat/Backend/src/Services/registration.php', this.params).subscribe(value => {
-        console.log( value);
-      });
+  userUrl: string = 'http://localhost/cookbook/api/user/';
+  
+  constructor(private http: HttpClient) { }
+
+  register(user : User) {
+    let json = JSON.stringify(user);
+    const response = this.http.post(`${this.userUrl}register.php`, json, {observe: 'response'}).toPromise()
+    response.then(response => {
+      let json = JSON.parse(response.body.toString());
+      const jwt = json.jwt;
+    }).catch();
   }
 
+  login(email: string, password: string) {
+    let user = new User();
+    user.email = email;
+    user.password = password;
+    let json = JSON.stringify(user);
 
+    return this.http.post(`${this.userUrl}login.php`, json, {observe: 'response'}).toPromise();
+  }
+
+  update(user : User) {
+    let json = JSON.stringify(user);
+    return this.http.post(`${this.userUrl}update.php`, json, {observe: 'response'}).toPromise();
+  }
 
 }

@@ -1,12 +1,12 @@
-<mat-sidenav-container class="example-container" >
-<mat-sidenav  mode="side" position="start" id="sidenavbar" opened>
-    <app-sidenav [title]="title"></app-sidenav>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" position="start" id="sidenavbar" opened>
+        <app-sidenav [title]="title"></app-sidenav>
 
-</mat-sidenav>
+    </mat-sidenav>
     <mat-sidenav-content id="content">
-        <div class="container-fluid w98">
-            <div class="row mt-4 m-4">
-                <div class="col-md-12 text-center">
+        <div class="container-fluid mx-auto justify-content-center">
+            <div class="row my-4 justify-content-center container-fluid">
+                <div class="col-md-6 text-center">
                     <h3 id="filter">
                         Search in your recipes
                     </h3>
@@ -14,23 +14,13 @@
             </div>
 
             <app-searchbox (filter)='onFilter($event)'></app-searchbox>
-            
-         <div class="row mt-4">
-            <div class="col-md-12 text-center">
-                <h1 id="cim">
-                    Your recipes
-                </h1>
+
+            <div class="row my-4 justify-content-center container-fluid">
+                <div class="col-md-6 text-center">
+                    <h1>Your recipes</h1>
+                </div>
             </div>
-
+            <app-recipelist></app-recipelist>
         </div>
-
-         <app-recipelist></app-recipelist>
-        <!-- TODO KÖZÉPRE IGAZÍTANI AZ EZ ALATT LEVŐ RÉSZT
-         -->
-
-    </div>
-       
-
     </mat-sidenav-content>
-
 </mat-sidenav-container>

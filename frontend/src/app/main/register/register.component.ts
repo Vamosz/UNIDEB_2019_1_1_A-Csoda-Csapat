@@ -1,5 +1,7 @@
 import { UserService } from './../../service/UserService/user.service';
 import { Component, OnInit } from '@angular/core';
+import { User } from 'src/app/model/User';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -7,16 +9,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss']
 })
-export class RegisterComponent  {
+export class RegisterComponent implements OnInit {
   hide=true;
-  birthday;
-password;
-email;
-username;
-constructor(private UserService:UserService){}
+  user : User;
 
-  send(){
-   this.UserService.PostData(this.username, this.email, this.password);
+  constructor(private userService: UserService, private router : Router){}
+
+  ngOnInit() {
+    this.user = new User();
+  }
+
+  register() {
+    this.userService.register(this.user).then(() => {this.router.navigate(["/login"])}).catch();
   }
 
 }
