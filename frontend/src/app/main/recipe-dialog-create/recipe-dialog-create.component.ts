@@ -41,7 +41,7 @@ export class RecipeDialogCreateComponent implements OnInit {
   create() {
     this.recipe.img_src = "null";
     this.recipe.author = new User();
-    this.recipe.author.id = 1;
+    this.recipe.author.user_id = +localStorage.getItem('user_id');
     this.recipe.ingredients = this.ingredients;
     this.recipe.tags = Array.from(this.tags.values());
 
@@ -58,7 +58,6 @@ export class RecipeDialogCreateComponent implements OnInit {
   validateIngredients(): boolean {
     for (let ing of this.ingredients) {
       if (ing.amount == null || ing.name == null || ing.unit == null) {
-        console.log(ing.name);
         return false;
       }
     }

@@ -17,16 +17,17 @@ export class RecipeService {
     return this.http.get<Recipe[]>(`${this.recipesUrl}read_all.php`, {observe: 'response'}).toPromise();
   }
 
+  getAllRecipesForAuthor() {
+    let id = localStorage.getItem('user_id');
+    return this.http.get<Recipe[]>(`${this.recipesUrl}read_all_user.php?user_id=${id}`, {observe: 'response'}).toPromise();
+  }
+
   getRecipe(id: number) : Observable<any> {
     return this.http.get(`${this.recipesUrl}read_one.php?id=${id}`);
   }
   
   createRecipe(recipe: Recipe) {
-    let recipe_json = JSON.stringify(recipe);
-    let json = JSON.parse(recipe_json);
-    json.author_id = json.author.id;
-    delete json.author;
-    json = JSON.stringify(json);
+    let json = JSON.stringify(recipe);
 
     return this.http.post(`${this.recipesUrl}create.php`, json, {
       headers: new HttpHeaders({
@@ -49,7 +50,7 @@ export class RecipeService {
 
   updateRecipe(recipe: Recipe) {
     let json = JSON.stringify(recipe);
-    let response;
+    let response: any;
     this.http.post(`${this.recipesUrl}update.php`, json, {
       headers: new HttpHeaders({
         'Content-Type': 'text/plain'

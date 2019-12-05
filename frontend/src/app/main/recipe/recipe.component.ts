@@ -14,10 +14,12 @@ export class RecipeComponent implements OnInit {
   @Output() onChange = new EventEmitter<boolean>();
   @Input() recipe: Recipe;
   @Input() editable: boolean;
+  user_id = localStorage.getItem('user_id');
 
   constructor(public dialog: MatDialog, private recipeService: RecipeService, private snackBar: MatSnackBar) { }
 
   ngOnInit() {
+    this.editable = this.editable && this.recipe.author.user_id == +this.user_id;
   }
 
   viewRecipe() {

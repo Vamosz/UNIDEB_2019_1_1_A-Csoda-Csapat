@@ -17,7 +17,6 @@ export class AuthService {
     if (token != null) {
       const json = JSON.stringify({ jwt: token });
 
-      console.log(authenticated);
       const response = this.http.post(this.validateUrl, json, { observe: 'response' }).toPromise();
       response.then(response => {
         let data = response.body.data;
@@ -25,7 +24,7 @@ export class AuthService {
         localStorage.setItem('user_id', data.id);
       }).catch(response => {
         localStorage.clear();
-        console.log(response.error.message);
+        console.log(response);
       });
 
       authenticated = localStorage.getItem('token') != null;

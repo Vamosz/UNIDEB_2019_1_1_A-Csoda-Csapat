@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
 import { MatDialog } from '@angular/material/dialog';
 
@@ -12,10 +12,9 @@ import { MatSnackBar } from '@angular/material';
   styleUrls: ['./recipelist.component.scss']
 })
 export class RecipelistComponent implements OnInit {
-  @Input() editable = false;
-  recipes: Recipe[];
-  err: boolean;
-  msg: string;
+  @Input() recipes: Recipe[];
+  @Input() editable: boolean;
+  @Output() emitter: EventEmitter<boolean> = new EventEmitter();
 
   constructor(public dialog: MatDialog, private recipeService: RecipeService, private snackBar: MatSnackBar) { }
 
@@ -24,15 +23,8 @@ export class RecipelistComponent implements OnInit {
   }
 
   fetchRecipes(event?) {
-    this.recipeService.getAllRecipes().then(
-      response => {
-        this.recipes = response.body
-      }).catch(
-        response => {
-          this.recipes = [];
-          this.err = true;
-          this.msg = response.error.message;
-        });
+    this.emitter.emit(true);
+
   }
 
   viewRecipe(id: number) {
@@ -46,10 +38,11 @@ export class RecipelistComponent implements OnInit {
   }
 
   createRecipe() {
-    let result;
-    this.dialog.open(RecipeDialogCreateComponent, { width: '90%' }).afterClosed().subscribe(res => { result = res });
-    this.fetchRecipes();
-    this.snackBar.open(result, "OK", { duration: 20000 });
+    this.dialog.open(RecipeDialogCreateComponent, { width: '90%' }).afterClosed()
+    .subscribe(res => {
+       this.fetchRecipes();
+       this.snackBar.open(res, "OK", { duration: 20000 });
+     });
   }
 
   deleteRecipe(id: number) {

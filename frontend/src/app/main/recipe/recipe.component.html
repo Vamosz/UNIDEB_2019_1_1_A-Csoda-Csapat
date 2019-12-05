@@ -23,10 +23,10 @@
                     </small>
                 </ng-template>
                 <button (click)="viewRecipe()" class="btn btn-outline-primary float-right mx-2">View</button>
-                <button *ngIf="editable" (click)="editRecipe()"
-                    class="btn btn-outline-warning float-right mx-2">Edit</button>
-                <button *ngIf="editable" (click)="deleteRecipe()"
-                    class="btn btn-outline-danger float-right mx-2">Delete</button>
+                <ng-template [ngIf]="editable">
+                    <button (click)="editRecipe()" class="btn btn-outline-warning float-right mx-2">Edit</button>
+                    <button (click)="deleteRecipe()" class="btn btn-outline-danger float-right mx-2">Delete</button>
+                </ng-template>
             </div>
         </div>
     </div>
