@@ -2,12 +2,13 @@
     <div *ngIf="recipes == null" class="col-md-6 text-center">
         <h3>No recipes found.</h3>
     </div>
+    <div class="col-md-4 text-center">
+            <button *ngIf="editable" (click)="createRecipe()" class="btn btn-outline-info btn-lg my-5 create-button">Add new recipe!</button>
+        </div>
     <div class="col-md-12">
         <div class="card md-3 my-3" *ngFor="let recipe of recipes">
-            <app-recipe [recipe]="recipe" (onChange)="fetchRecipes($event)"></app-recipe>
+            <app-recipe [recipe]="recipe" [editable]="editableTo" (onChange)="fetchRecipes($event)"></app-recipe>
         </div>
     </div>
-    <div class="col-md-4 text-center">
-        <button *ngIf="editable" (click)="createRecipe()" class="btn btn-outline-info btn-lg my-5 create-button">Add new recipe!</button>
-    </div>
+
 </div>

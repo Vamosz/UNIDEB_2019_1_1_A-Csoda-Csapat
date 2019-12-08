@@ -12,22 +12,27 @@
                     {{ ing.name + (last ? "" : ", ")}}
                 </span>
             </p>
-            <div class="card-footer">
-                <small class="text-muted">
-                    <i class="material-icons px-1 align-middle">av_timer</i>
-                    <span class="align-middle">{{ recipe.preparation_time }}</span>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">
+                <i class="material-icons px-1 align-middle">av_timer</i>
+                <span class="align-middle">{{ recipe.preparation_time }}</span>
+            </small>
+            <span *ngFor="let tag of recipe.tags">
+                <!-- </div>ngFor let-tag [ngForOf]="recipe.tags"> -->
+                <small class="text-muted px-2 py-0 my-0">
+                    <a href="/home#" class="badge badge-secondary align-middle text-center">{{ tag }}</a>
                 </small>
-                <ng-template ngFor let-tag [ngForOf]="recipe.tags">
-                    <small class="text-muted px-2 py-0 my-0">
-                        <a href="/home#" class="badge badge-secondary align-middle text-center">{{ tag }}</a>
-                    </small>
-                </ng-template>
-                <button (click)="viewRecipe()" class="btn btn-outline-primary float-right mx-2">View</button>
-                <ng-template [ngIf]="editable">
-                    <button (click)="editRecipe()" class="btn btn-outline-warning float-right mx-2">Edit</button>
-                    <button (click)="deleteRecipe()" class="btn btn-outline-danger float-right mx-2">Delete</button>
-                </ng-template>
-            </div>
+            </span>
+
+            <button (click)="viewRecipe()" class="btn btn-outline-primary float-right mx-2">View</button>
+
+            <button *ngIf="editable" (click)="editRecipe()"
+                class="btn btn-outline-warning float-right mx-2">Edit</button>
+            <button *ngIf="editable" (click)="deleteRecipe()"
+                class="btn btn-outline-danger float-right mx-2">Delete</button>
+
+
         </div>
     </div>
 </div>

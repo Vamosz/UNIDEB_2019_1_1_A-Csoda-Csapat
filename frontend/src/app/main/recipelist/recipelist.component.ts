@@ -14,12 +14,15 @@ import { MatSnackBar } from '@angular/material';
 export class RecipelistComponent implements OnInit {
   @Input() recipes: Recipe[];
   @Input() editable: boolean;
+  @Output() editableTo:  boolean;
   @Output() emitter: EventEmitter<boolean> = new EventEmitter();
 
   constructor(public dialog: MatDialog, private recipeService: RecipeService, private snackBar: MatSnackBar) { }
 
   ngOnInit() {
     this.fetchRecipes();
+    this.editableTo = this.editable;
+    // console.log(this.editableTo); true
   }
 
   fetchRecipes(event?) {

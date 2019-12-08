@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
 import {MatDialog} from '@angular/material/dialog';
@@ -6,6 +6,7 @@ import {MatDialog} from '@angular/material/dialog';
 export interface PeriodicElement {
   name: string;
   position: number;
+  
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
@@ -30,8 +31,6 @@ export class recipesComponent implements OnInit  {
   filter;
   displayedColumns: string[] = ['position', 'name'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
-
-
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
   constructor(public dialog: MatDialog){}

@@ -14,12 +14,14 @@ export class RecipeComponent implements OnInit {
   @Output() onChange = new EventEmitter<boolean>();
   @Input() recipe: Recipe;
   @Input() editable: boolean;
+
   user_id = localStorage.getItem('user_id');
 
   constructor(public dialog: MatDialog, private recipeService: RecipeService, private snackBar: MatSnackBar) { }
 
   ngOnInit() {
-    this.editable = this.editable && this.recipe.author.user_id == +this.user_id;
+    // this.editable = this.editable && this.recipe.author.user_id == +this.user_id;
+    console.log('recipe ',this.editable);
   }
 
   viewRecipe() {
@@ -36,6 +38,10 @@ export class RecipeComponent implements OnInit {
         let message = response.error.message;
         this.snackBar.open(message, "OK", { duration: 2000 });
       });
+  }
+  editRecipe(){
+    this.snackBar.open("Ez a funkció nem elérhető jelenleg.", "OK", { duration: 2000 });
+   
   }
 
 

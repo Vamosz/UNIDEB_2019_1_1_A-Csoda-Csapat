@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { Recipe } from 'src/app/model/Recipe';
 import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
 
@@ -11,9 +11,14 @@ export class recipesmanagerComponent {
   recipes: Recipe[];
   err: boolean;
   msg: string;
+  @Output() editable ;
 
   constructor(private recipeService: RecipeService) { }
 
+  ngOnInit(){
+    this.editable = true;
+  }
+  
   fetchRecipes(event?) {
     this.recipeService.getAllRecipesForAuthor().then(
       response => {

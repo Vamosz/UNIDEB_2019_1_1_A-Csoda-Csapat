@@ -3,7 +3,7 @@
                     <app-sidenav></app-sidenav>
             </mat-sidenav>
                 <mat-sidenav-content id="content">
-                        <app-recipelist [recipes]="recipes" [editable]="true" (emitter)="fetchRecipes($event)"></app-recipelist>
+                        <app-recipelist [recipes]="recipes" [editable]="editable" (emitter)="fetchRecipes($event)"></app-recipelist>
                 </mat-sidenav-content>
             
             </mat-sidenav-container>
