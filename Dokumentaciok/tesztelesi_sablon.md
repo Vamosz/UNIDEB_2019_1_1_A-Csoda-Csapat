@@ -35,3 +35,40 @@ Elvárt kimenő adatok: Unable to create user. </br>
 Eredmény:  Unable to create user.</br>
  </br>
 Megjegyzés:  Sikeres teszt </br>
+
+---
+
+Megnevezés: Regisztráció tesztelése </br>
+ </br>
+Vizsgáló: Patrik</br>
+ </br>
+Bemenő adatok: Email: a </br>
+                Password: Patrik  </br>
+                Username: Patrik Vámosi  </br>
+                Birthday: 05/05/2000  </br>
+
+ </br>
+Elvárt kimenő adatok: Unable to create user. </br>
+ </br>
+Eredmény:  Unable to create user.</br>
+ </br>
+Megjegyzés:  Sikeres teszt </br>
+
+
+---
+
+Megnevezés: Regisztráció tesztelése </br>
+ </br>
+Vizsgáló: Patrik</br>
+ </br>
+Bemenő adatok: Email: a </br>
+                Password: a  </br>
+                Username: a  </br>
+                Birthday: a  </br>
+
+ </br>
+Elvárt kimenő adatok: Unable to create user. </br>
+ </br>
+Eredmény:  Unable to create user.</br>
+ </br>
+Megjegyzés:  Sikeres teszt </br>

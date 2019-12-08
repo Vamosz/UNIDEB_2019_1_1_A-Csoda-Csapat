@@ -30,10 +30,11 @@ export class RegisterComponent implements OnInit {
       .then(response => {
         // let jwt = response.body['jwt'];
         // localStorage.setItem('token', jwt);
+        this.snackBar.open("User was created.", "Dismiss", { duration: 20000 });
         this.router.navigate(['login']);
       }).catch(response => {
-        
-        this.snackBar.open("Hibás regisztráció.", "Dismiss", { duration: 20000 });
+
+        this.snackBar.open(" Unable to create user.", "Dismiss", { duration: 20000 });
       });
   }
 
