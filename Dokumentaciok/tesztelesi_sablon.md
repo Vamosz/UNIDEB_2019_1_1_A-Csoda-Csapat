@@ -6,7 +6,8 @@ Megnevezés: Regisztráció tesztelése </br>
  </br>
 Vizsgáló: Patrik</br>
  </br>
-Bemenő adatok: Email: vamosipatrik@gmail.com </br>
+Bemenő adatok: </br>
+Email: vamosipatrik@gmail.com </br>
                 Password: Patrik  </br>
                 Username: Patrik Vámosi  </br>
                 Birthday: 5/9/1998  </br>
@@ -24,7 +25,8 @@ Megnevezés: Regisztráció tesztelése </br>
  </br>
 Vizsgáló: Patrik</br>
  </br>
-Bemenő adatok: Email: vamosipatrik@gmail.com </br>
+Bemenő adatok: </br>
+Email: vamosipatrik@gmail.com </br>
                 Password: Patrik  </br>
                 Username: Patrik Vámosi  </br>
                 Birthday: bablaba  </br>
@@ -42,7 +44,8 @@ Megnevezés: Regisztráció tesztelése </br>
  </br>
 Vizsgáló: Patrik</br>
  </br>
-Bemenő adatok: Email: a </br>
+Bemenő adatok:</br>
+Email: a </br>
                 Password: Patrik  </br>
                 Username: Patrik Vámosi  </br>
                 Birthday: 05/05/2000  </br>
@@ -61,7 +64,8 @@ Megnevezés: Regisztráció tesztelése </br>
  </br>
 Vizsgáló: Patrik</br>
  </br>
-Bemenő adatok: Email: a </br>
+Bemenő adatok:</br>
+Email: a </br>
                 Password: a  </br>
                 Username: a  </br>
                 Birthday: a  </br>
