@@ -12,10 +12,26 @@ Bemenő adatok: Email: vamosipatrik@gmail.com </br>
                 Birthday: 5/9/1998  </br>
 
  </br>
-Elvárt kimenő adatok: User create successfully. </br>
+Elvárt kimenő adatok: User was created. </br>
  </br>
-Eredmény:  User create successfully.</br>
+Eredmény:  User was created.</br>
  </br>
 Megjegyzés:  Sikeres teszt </br>
 
 ---
+
+Megnevezés: Regisztráció tesztelése </br>
+ </br>
+Vizsgáló: Patrik</br>
+ </br>
+Bemenő adatok: Email: vamosipatrik@gmail.com </br>
+                Password: Patrik  </br>
+                Username: Patrik Vámosi  </br>
+                Birthday: bablaba  </br>
+
+ </br>
+Elvárt kimenő adatok: Unable to create user. </br>
+ </br>
+Eredmény:  Unable to create user.</br>
+ </br>
+Megjegyzés:  Sikeres teszt </br>
