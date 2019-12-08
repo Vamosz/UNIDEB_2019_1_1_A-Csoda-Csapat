@@ -1,7 +1,9 @@
+import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
 import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
 import {MatDialog} from '@angular/material/dialog';
+import { Recipe } from 'src/app/model/Recipe';
 
 export interface PeriodicElement {
   name: string;
@@ -29,14 +31,24 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class recipesComponent implements OnInit  {
   filter;
+  recipes: Recipe[];
   displayedColumns: string[] = ['position', 'name'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
-  constructor(public dialog: MatDialog){}
+  constructor(public dialog: MatDialog,
+              private recipeservice : RecipeService){}
   
   ngOnInit() {
     this.dataSource.sort = this.sort;
+    this.recipeservice.getAllRecipes().then(
+      response => {
+        this.recipes = response.body
+        console.log(response.body);
+      }).catch(
+        response => {
+          this.recipes = [];
+        });
   }
   
   onFilter(event){
