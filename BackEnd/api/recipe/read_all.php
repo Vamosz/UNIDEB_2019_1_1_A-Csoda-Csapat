@@ -22,7 +22,7 @@ if ($num > 0) {
         extract($row);
 
         $author_stmt = $recipe->read_author($author_id);
-        $author = $author_stmt->fetchAll(PDO::FETCH_ASSOC)[0];
+        $author = $author_stmt->fetchAll(PDO::FETCH_ASSOC); //$author = $author_stmt->fetchAll(PDO::FETCH_ASSOC)[0];
 
         $tags_stmt = $recipe->read_tags($id);
         $tags = $tags_stmt->fetchAll(PDO::FETCH_COLUMN);

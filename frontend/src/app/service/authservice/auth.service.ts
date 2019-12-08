@@ -23,6 +23,7 @@ export class AuthService {
         let data = response.body['data'];;
         localStorage.setItem('name', data.name);
         localStorage.setItem('user_id', data.user_id);
+        localStorage.setItem('email', data.email);
       }).catch(response => {
         localStorage.clear();
         console.log(response);

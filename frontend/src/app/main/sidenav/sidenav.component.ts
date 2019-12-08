@@ -6,14 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent implements OnInit {
-  title: string;
+  title: string = localStorage.getItem('name');
   constructor() { }
 
   ngOnInit() {
   }
 
   logout()  {
-    localStorage.clear();
+    localStorage.clear(); 
   }
 
 }
