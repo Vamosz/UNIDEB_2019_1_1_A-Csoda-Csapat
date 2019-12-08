@@ -48,7 +48,7 @@ export class RecipelistComponent implements OnInit {
   deleteRecipe(id: number) {
     this.recipeService.deleteRecipe(id)
       .then(response => {
-        let message = response.body.message;
+        let message = response.body['message'];
         this.snackBar.open(message, "OK", { duration: 2000 });
       }).catch(response => {
         let message = response.error.message;

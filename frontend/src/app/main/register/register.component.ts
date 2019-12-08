@@ -28,7 +28,7 @@ export class RegisterComponent implements OnInit {
   register() {
     this.userService.register(this.user)
       .then(response => {
-        let jwt = response.body.jwt;
+        let jwt = response.body['jwt'];
         localStorage.setItem('token', jwt);
         this.router.navigate(['/home']);
       }).catch(response => {

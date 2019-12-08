@@ -9,7 +9,8 @@ export class AuthService {
 
   constructor(public jwtHelper: JwtHelperService, private http: HttpClient) { }
 
-  validateUrl: string = "http://localhost/cookbook/api/user/validate_token.php";
+  // validateUrl: string = "http://localhost/cookbook/api/user/validate_token.php";
+  validateUrl: string = "http://localhost/api/user/validate_token.php";
 
   public isAuthenticated(): boolean {
     const token = localStorage.getItem('token');
@@ -19,7 +20,7 @@ export class AuthService {
 
       const response = this.http.post(this.validateUrl, json, { observe: 'response' }).toPromise();
       response.then(response => {
-        let data = response.body.data;
+        let data = response.body['data'];
         localStorage.setItem('name', data.name);
         localStorage.setItem('user_id', data.id);
       }).catch(response => {

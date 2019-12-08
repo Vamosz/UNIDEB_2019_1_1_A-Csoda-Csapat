@@ -23,9 +23,10 @@ export class LoginComponent {
   login() {
     this.userService.login(this.email, this.password)
       .then(response => {
-        localStorage.setItem('token', response.body.jwt);
+        console.log(localStorage);
+        localStorage.setItem('token', response.body['jwt']);
         this.snackBar.open("Login successful.", "Dismiss", { duration: 2000 })
-        this.router.navigate(["/home"]);
+        this.router.navigate(["home"]);
       }).catch(response => {
         this.snackBar.open(response.error.message, "Dismiss", { duration: 20000 });
       });

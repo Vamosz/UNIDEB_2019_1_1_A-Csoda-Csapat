@@ -47,7 +47,7 @@ export class RecipeDialogCreateComponent implements OnInit {
 
     this.recipeService.createRecipe(this.recipe)
     .then(response => {
-      let message = response.body.message;
+      let message = response.body['message'];
       this.dialogRef.close(message);
     }).catch(response => {
       

@@ -9,7 +9,8 @@ import { Recipe } from '../../model/Recipe';
 })
 export class RecipeService {
 
-  recipesUrl: string = 'http://localhost/cookbook/api/recipe/';
+  // recipesUrl: string = 'http://localhost/cookbook/api/recipe/';
+  recipesUrl: string = 'http://localhost/api/recipe/';
 
   constructor(private http: HttpClient) { }
 
