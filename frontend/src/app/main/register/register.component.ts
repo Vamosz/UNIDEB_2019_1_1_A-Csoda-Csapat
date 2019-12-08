@@ -30,7 +30,7 @@ export class RegisterComponent implements OnInit {
       .then(response => {
         let jwt = response.body['jwt'];
         localStorage.setItem('token', jwt);
-        this.router.navigate(['/home']);
+        this.router.navigate(['login']);
       }).catch(response => {
         console.log(response.error);
         this.snackBar.open(response.error.message, "Dismiss", { duration: 20000 });

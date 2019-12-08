@@ -49,10 +49,10 @@ class Recipe {
         $this->createTags($recipe_id);
 
         if ($this->exists()) {
-            return true;
+            return false;
         }
 
-        return false;
+        return true;
     }
 
     public function read() {

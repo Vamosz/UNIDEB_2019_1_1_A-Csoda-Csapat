@@ -33,7 +33,6 @@ if (
     $recipe->author = $data->author;
     $recipe->ingredients = $data->ingredients;
     $recipe->tags = $data->tags;
-    
     if($recipe->create()) {
         http_response_code(201);
         echo json_encode(array("message" => "Recipe was created."));
