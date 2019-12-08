@@ -69,7 +69,9 @@ class User {
     public function emailExists(){
         $query = "SELECT *
                 FROM users
-                WHERE email = ?
+                INNER JOIN authors
+                on users.id = authors.user_id
+                WHERE users.email = ?
                 LIMIT 0,1";
      
         $stmt = $this->conn->prepare( $query );
@@ -82,13 +84,12 @@ class User {
         $num = $stmt->rowCount();
      
         if($num>0){
-     
+            
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
-     
             $this->id = $row['id'];
             $this->email = $row['email'];
             $this->password_hash = $row['password_hash'];
-     
+            $this->name = $row['name'];
             return true;
         }
      

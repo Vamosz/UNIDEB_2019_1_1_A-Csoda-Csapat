@@ -20,9 +20,9 @@ export class AuthService {
 
       const response = this.http.post(this.validateUrl, json, { observe: 'response' }).toPromise();
       response.then(response => {
-        let data = response.body['data'];
+        let data = response.body['data'];;
         localStorage.setItem('name', data.name);
-        localStorage.setItem('user_id', data.id);
+        localStorage.setItem('user_id', data.user_id);
       }).catch(response => {
         localStorage.clear();
         console.log(response);

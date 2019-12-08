@@ -27,7 +27,7 @@ include_once '../php-jwt/JWT.php';
 use \Firebase\JWT\JWT;
 
 if($email_exists && password_verify($data->password, $user->password_hash)){
- 
+    
     $token = array(
        "iss" => $iss,
        "aud" => $aud,
@@ -35,7 +35,8 @@ if($email_exists && password_verify($data->password, $user->password_hash)){
        "nbf" => $nbf,
        "data" => array(
            "user_id" => $user->id,
-           "email" => $user->email
+           "email" => $user->email,
+           "name" => $user->name
        )
     );
  

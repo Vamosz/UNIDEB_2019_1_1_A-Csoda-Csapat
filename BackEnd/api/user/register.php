@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: http://localhost/rest-api-authentication-example/");
+header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
@@ -20,6 +20,7 @@ $user->email = $data->email;
 $user->password_hash = password_hash($data->password, PASSWORD_DEFAULT);
 $user->name = $data->name;
 $user->birth = $data->birth;
+
 
 if( !empty($user->name) &&
     !empty($user->birth) &&
