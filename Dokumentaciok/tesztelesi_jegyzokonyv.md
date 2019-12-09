@@ -143,20 +143,20 @@ Megjegyzés:  Sikeres teszt. A recept feltöltődik, viszont az egység nélkül
 ---------------------------------------------
 Megnevezés: Regisztráció tesztelése
 
-Vizsgáló: Kertész Patrik
+Vizsgáló: Kertész Patrik</br>
 
-Bemenő adatok:
-Email: kertpat2@gmail.com
-Password: asdasdasd
-Username: csillagpatrik
-Birthday: 23/4/1998
+Bemenő adatok:</br>
+Email: kertpat2@gmail.com</br>
+Password: asdasdasd</br>
+Username: csillagpatrik</br>
+Birthday: 23/4/1998</br>
 
 
-Elvárt kimenő adatok: User was created.
+Elvárt kimenő adatok: User was created.</br>
 
-Eredmény: User was created.
+Eredmény: User was created.</br>
 
-Megjegyzés: Sikeres teszt
+Megjegyzés: Sikeres teszt</br>
 
 -------------------------------------
 Megnevezés: Új recept feltöltés tesztelése </br>
