@@ -76,3 +76,28 @@ Elvárt kimenő adatok: Unable to create user. </br>
 Eredmény:  Unable to create user.</br>
  </br>
 Megjegyzés:  Sikeres teszt </br>
+
+---
+
+Megnevezés: Új recept feltöltés tesztelése </br>
+ </br>
+Vizsgáló: Anna</br>
+ </br>
+Bemenő adatok: </br>
+Delicious recipe title: Anna </br>
+                A short summary of the food: AnnaAnnaAnnaAnnaAnnaAnna AnnaAnnaAnna  </br>
+                Detailed description of the recipe: AnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnnaAnna</br>
+                Preparation time: 23:59  </br>
+                Ingredients: Anna 1 kg </br>
+                Ingredients: AnnaAnna 2 kg </br>
+                Ingredients: AnnaAnna 3 kg </br>
+                Tags Chicken </br>
+
+ </br>
+Elvárt kimenő adatok: Recipe was created. </br>
+ </br>
+Eredmény:   Recipe was created.</br>
+ </br>
+Megjegyzés:  Sikeres teszt </br>
+
+---
