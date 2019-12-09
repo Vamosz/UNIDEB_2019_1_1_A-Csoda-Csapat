@@ -91,7 +91,7 @@ Delicious recipe title: Anna </br>
                 Ingredients: Anna 1 kg </br>
                 Ingredients: AnnaAnna 2 kg </br>
                 Ingredients: AnnaAnna 3 kg </br>
-                Tags Chicken </br>
+                Tags: Chicken </br>
 
  </br>
 Elvárt kimenő adatok: Recipe was created. </br>
@@ -114,5 +114,31 @@ Elvárt kimenő adatok: Feltöltött adatok pontos megjelenése. </br>
 Eredmény: A receptben megadott hozzávalók többször megjelennek az elvártnál..</br>
  </br>
 Megjegyzés:  Sikertelen teszt </br>
+
+---
+
+Megnevezés: Recept feltöltés tesztelése </br>
+ </br>
+Vizsgáló: Anna</br>
+ </br>
+Bemenő adatok: </br>
+Delicious recipe title: Rántott hús
+ A short summary of the food: Fincsi bundában kisütött husi.  </br>
+                Detailed description of the recipe: A csirkemellet felszeleteljük.
+A szeletek mindkét oldalát sózzuk, borsozzuk.
+A szeleteket először lisztbe, majd tojásba és végül zsemlemorzsába forgatjuk.
+Forró olajban kisütjük.</br>
+                Preparation time: 00:30  </br>
+                Ingredients: Chicken breast 1 </br>
+                Ingredients: Egg 3 </br>
+                Ingredients: Flour 30 dkg </br>
+                Ingredients: Bread crumbs 30 dkg</br>
+                Tags: Chicken, Egg</br>
+ </br>
+Elvárt kimenő adatok: Recipe was created. </br>
+ </br>
+Eredmény: Recipe was created.</br>
+ </br>
+Megjegyzés:  Sikeres teszt. A recept feltöltődik, viszont az egység nélkül megadott hozzávalók feltöltése nélkül.  </br>
 
 ---
