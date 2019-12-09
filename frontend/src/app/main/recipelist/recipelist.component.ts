@@ -27,7 +27,6 @@ export class RecipelistComponent implements OnInit {
 
   fetchRecipes(event?) {
     this.emitter.emit(true);
-
   }
 
   viewRecipe(id: number) {

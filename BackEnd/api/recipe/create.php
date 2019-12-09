@@ -22,7 +22,7 @@ if (
     !empty($data->summary) &&
     !empty($data->preparation_time) &&
     !empty($data->description) &&
-    !empty($data->author) &&
+    !empty($data->author->user_id) &&
     !empty($data->ingredients) &&
     !empty($data->tags)
 ) {
@@ -30,9 +30,10 @@ if (
     $recipe->summary = $data->summary;
     $recipe->preparation_time = $data->preparation_time;
     $recipe->description = $data->description;
-    $recipe->author = $data->author;
+    $recipe->author_id = $data->author->user_id;
     $recipe->ingredients = $data->ingredients;
     $recipe->tags = $data->tags;
+    
     if($recipe->create()) {
         http_response_code(201);
         echo json_encode(array("message" => "Recipe was created."));

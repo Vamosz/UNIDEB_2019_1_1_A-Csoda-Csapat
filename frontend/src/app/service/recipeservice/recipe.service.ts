@@ -21,7 +21,7 @@ export class RecipeService {
 
   getAllRecipesForAuthor() {
     let id = localStorage.getItem('user_id');
-    return this.http.get<Recipe[]>(`${this.recipesUrl}read_all.php?user_id=${id}`, {observe: 'response'}).toPromise();
+    return this.http.get<Recipe[]>(`${this.recipesUrl}read_all_user.php?user_id=${id}`, {observe: 'response'}).toPromise();
   }
 
   getRecipe(id: number) : Observable<any> {

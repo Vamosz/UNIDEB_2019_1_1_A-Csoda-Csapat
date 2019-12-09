@@ -20,7 +20,8 @@ export class RecipeComponent implements OnInit {
   constructor(public dialog: MatDialog, private recipeService: RecipeService, private snackBar: MatSnackBar) { }
 
   ngOnInit() {
-    // this.editable = this.editable && this.recipe.author.user_id == +this.user_id;
+    this.user_id = localStorage.getItem('user_id');
+    this.editable = this.editable && this.recipe.author.user_id == +this.user_id;
     console.log('recipe ',this.editable);
   }
 
@@ -31,7 +32,7 @@ export class RecipeComponent implements OnInit {
   deleteRecipe() {
     this.recipeService.deleteRecipe(this.recipe.id)
       .then(response => {
-        let message = response.body.toString();
+        let message = response.body['message'];
         this.snackBar.open(message, "OK", { duration: 2000 });
         this.onChange.emit(true);
       }).catch(response => {

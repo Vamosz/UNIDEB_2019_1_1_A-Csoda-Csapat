@@ -11,7 +11,10 @@ $db = $database->getConnection();
 $recipe = new Recipe();
 $recipe->connect($db);
 
-$stmt = $recipe->read();
+$id = isset($_GET['user_id']) ? $_GET['user_id'] : -1;
+$recipe->author_id = $id;
+
+$stmt = $recipe->readForAuthor();
 $num = $stmt->rowCount();
 
 if ($num > 0) {
