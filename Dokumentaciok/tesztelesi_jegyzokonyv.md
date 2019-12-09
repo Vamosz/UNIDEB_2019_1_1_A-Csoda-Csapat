@@ -192,3 +192,16 @@ Elvárt kimenő adatok: Rántott hús was deleted. </br>
 Eredmény: Rántott hús was deleted. </br>
 
 Megjegyzés:  Sikeres teszt </br>
+
+------------------------------------
+Megnevezés: Recipe manager tesztelése </br>
+ </br>
+Vizsgáló: Tar Zoltán</br>
+ </br>
+Bemenő adatok: Meglévő receptek lekérdezése session user_id alapján. </br>
+
+Elvárt kimenő adatok: Csak azok a receptek amiknek az author_id-je megegyezik a küldött user_id-vel. </br>
+
+Eredmény: Csak azok a receptek melyekkel a felhasználó rendelkezik. </br>
+
+Megjegyzés:  Sikeres teszt </br>
