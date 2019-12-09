@@ -8,7 +8,7 @@ class Recipe {
     public $summary;
     public $preparation_time;
     public $description;
-    public $author;
+    public $author_id;
     public $img_src;
     public $created_on;
     public $ingredients;
@@ -19,13 +19,15 @@ class Recipe {
     }
     
     private function exists() {
-        $query = "SELECT * FROM recipes WHERE id=".$this->id;
+        $query = "SELECT * FROM recipes WHERE id=:id";
         $stmt = $this->conn->prepare($query);
+        $stmt->bindParam("id", $this->id);
         $stmt->execute();
 
         if($stmt->rowCount() == 0) {
             return false;
         }
+        $this->title = $stmt->fetch(PDO::FETCH_ASSOC)["title"];
         return true;
     }
 
@@ -39,20 +41,20 @@ class Recipe {
         $stmt->bindParam(":summary", $this->summary);
         $stmt->bindParam(":preparation_time", $this->preparation_time);
         $stmt->bindParam(":description", $this->description);
-        $stmt->bindParam(":author_id", $this->author->user_id);
+        $stmt->bindParam(":author_id", $this->author_id);
 
         $stmt->execute();
 
         $recipe_id = $this->getLastId("recipes");
-        
+        $this->id = $recipe_id;
+
         $this->createIngredients($recipe_id);
         $this->createTags($recipe_id);
 
         if ($this->exists()) {
-            return false;
+            return true;
         }
-
-        return true;
+        return false;
     }
 
     public function read() {
@@ -60,6 +62,15 @@ class Recipe {
 
         $stmt = $this->conn->prepare($query);
 
+        $stmt->execute();
+
+        return $stmt;
+    }
+
+    public function readForAuthor() {
+        $query = "SELECT * FROM recipes WHERE author_id = ?";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(1, $this->author_id);
         $stmt->execute();
 
         return $stmt;

@@ -22,7 +22,7 @@ if($recipe->delete()) {
  
     http_response_code(200);
  
-    echo json_encode(array("message" => "Recipe was deleted."));
+    echo json_encode(array("message" => $recipe->title. " was deleted."));
 }
  
 else {

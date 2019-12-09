@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: * ");
+header("Access-Control-Allow-Origin: http://localhost:4200");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
@@ -27,14 +27,15 @@ include_once '../php-jwt/JWT.php';
 use \Firebase\JWT\JWT;
 
 if($email_exists && password_verify($data->password, $user->password_hash)){
-    
+ 
     $token = array(
        "iss" => $iss,
        "aud" => $aud,
        "iat" => $iat,
        "nbf" => $nbf,
+       "exp" => $exp,
        "data" => array(
-           "user_id" => $user->id,
+           "id" => $user->id,
            "email" => $user->email,
            "name" => $user->name
        )
