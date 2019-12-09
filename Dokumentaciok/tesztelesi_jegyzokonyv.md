@@ -140,5 +140,42 @@ Elvárt kimenő adatok: Recipe was created. </br>
 Eredmény: Recipe was created.</br>
  </br>
 Megjegyzés:  Sikeres teszt. A recept feltöltődik, viszont az egység nélkül megadott hozzávalók feltöltése nélkül.  </br>
+---------------------------------------------
+Megnevezés: Regisztráció tesztelése
 
----
+Vizsgáló: Kertész Patrik
+
+Bemenő adatok:
+Email: kertpat2@gmail.com
+Password: asdasdasd
+Username: csillagpatrik
+Birthday: 23/4/1998
+
+
+Elvárt kimenő adatok: User was created.
+
+Eredmény: User was created.
+
+Megjegyzés: Sikeres teszt
+
+-------------------------------------
+Megnevezés: Új recept feltöltés tesztelése </br>
+ </br>
+Vizsgáló: Kertész Patrik</br>
+ </br>
+Bemenő adatok: </br>
+Delicious recipe title: Baba </br>
+                A short summary of the food: lalalala  </br>
+                Detailed description of the recipe: lalalalalalalala</br>
+                Preparation time: 02:20  </br>
+                Ingredients: cica 1 kg </br>
+                Ingredients: kutya 2 kg </br>
+                Ingredients: matka 3 kg </br>
+                Tags: helooooo </br>
+
+ </br>
+Elvárt kimenő adatok: Recipe was created. </br>
+ </br>
+Eredmény:   Recipe was created.</br>
+ </br>
+Megjegyzés:  Sikeres teszt </br>
