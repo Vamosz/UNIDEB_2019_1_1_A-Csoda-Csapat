@@ -1,10 +1,9 @@
     <mat-sidenav-container class="example-container" >
             <mat-sidenav  mode="side" position="start" id="sidenavbar" opened>
-                    <app-sidenav [title]="title"></app-sidenav>
+                    <app-sidenav></app-sidenav>
             </mat-sidenav>
                 <mat-sidenav-content id="content">
-                        <app-recipelist [recipes]="recipes"></app-recipelist>
-
+                        <app-recipelist [recipes]="recipes" [editable]="editable" (emitter)="fetchRecipes($event)"></app-recipelist>
                 </mat-sidenav-content>
             
             </mat-sidenav-container>

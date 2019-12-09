@@ -12,15 +12,15 @@
     
   }
   hr {
-   width: 80%;
+    width: 80%;
     background: black;
     display: block;
-    margin-top: 0.5em;
+    // margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    // border-width: 1px;
   }
   .search-topics:hover{
     cursor: pointer;
@@ -37,8 +37,9 @@
   }
   .selected {
       font-style: italic;
-      background: #777;
+      background: #343a40;
       color: white;
+
   }
 
 

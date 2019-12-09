@@ -1,0 +1,24 @@
+* {
+    font-size: 1em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+}

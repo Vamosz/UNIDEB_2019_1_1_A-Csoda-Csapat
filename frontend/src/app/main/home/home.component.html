@@ -1,12 +1,12 @@
-<mat-sidenav-container class="example-container" >
-<mat-sidenav  mode="side" position="start" id="sidenavbar" opened>
-    <app-sidenav [title]="title"></app-sidenav>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" position="start" id="sidenavbar" opened>
+        <app-sidenav></app-sidenav>
 
-</mat-sidenav>
+    </mat-sidenav>
     <mat-sidenav-content id="content">
-        <div class="container-fluid w98">
-            <div class="row mt-4 m-4">
-                <div class="col-md-12 text-center">
+        <div class="container-fluid mx-auto justify-content-center">
+            <div class="row my-4 justify-content-center container-fluid">
+                <div class="col-md-6 text-center">
                     <h3 id="filter">
                         Search in your recipes
                     </h3>
@@ -14,35 +14,13 @@
             </div>
 
             <app-searchbox (filter)='onFilter($event)'></app-searchbox>
-            
-         <div class="row mt-4">
-            <div class="col-md-12 text-center">
-                <h1 id="cim">
-                    Your recipes
-                </h1>
-            </div>
 
-        </div>
-
-         <app-recipelist [recipes]="recipes"></app-recipelist>
-        <!-- TODO KÖZÉPRE IGAZÍTANI AZ EZ ALATT LEVŐ RÉSZT
-         -->
-        <div class="row mt-4 text-center">
-            <div class="col-md-12 text-center">
-                <div cdkDropList class="example-list text-center" (cdkDropListDropped)="drop($event)">
-                    <div class="example-box text-center" *ngFor="let recipe of recipes" cdkDrag>
-                        <div class="example-custom-placeholder text-center" *cdkDragPlaceholder></div>
-                        {{recipe}} 
-                        <button (click)="openDialog()" class="btn btn-outline-dark">
-                            view
-                        </button>
-                    </div>
+            <div class="row my-4 justify-content-center container-fluid">
+                <div class="col-md-6 text-center">
+                    <h1>Your recipes</h1>
                 </div>
             </div>
+            <app-recipelist [recipes]="recipes" [editable]="false" ></app-recipelist>
         </div>
-    </div>
-       
-
     </mat-sidenav-content>
-
 </mat-sidenav-container>

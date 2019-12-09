@@ -1,9 +1,6 @@
-
-import { Component, OnInit } from '@angular/core';
-import { RecipeService, Recipe } from 'src/app/service/recipeservice/recipe-service.service';
-import { Component, OnInit, ViewChild } from '@angular/core';
-import {MatSort} from '@angular/material/sort';
-import {MatTableDataSource} from '@angular/material/table';
+import { Component, Output } from '@angular/core';
+import { Recipe } from 'src/app/model/Recipe';
+import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
 
 @Component({
   selector: 'app-recipesmanager',
@@ -11,10 +8,28 @@ import {MatTableDataSource} from '@angular/material/table';
   styleUrls: ['./recipesmanager.component.scss']
 })
 export class recipesmanagerComponent {
-  title="Vámosi Patrik";
-  recipes : Recipe[];
-  constructor(recipeService : RecipeService) {
-    this.recipes = recipeService.getAllRecipes();
+  recipes: Recipe[];
+  err: boolean;
+  msg: string;
+  @Output() editable ;
+
+  constructor(private recipeService: RecipeService) { }
+
+  ngOnInit(){
+    this.editable = true;
+  }
+  
+  fetchRecipes(event?) {
+    this.recipeService.getAllRecipesForAuthor().then(
+      response => {
+        this.recipes = response.body
+        this.err = false;
+      }).catch(
+        response => {
+          this.recipes = [];
+          this.err = true;
+          this.msg = response.error.message;
+        });
   }
 
 }

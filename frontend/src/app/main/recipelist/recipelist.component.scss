@@ -14,7 +14,16 @@
     width: 100%;
 }
 
+button {
+    font-weight: bold;
+}
+
+.create-button {
+    border-width: medium;
+}
+
 .card-footer small {
+    font-size: 1.2em;
     vertical-align: middle;
 }
 

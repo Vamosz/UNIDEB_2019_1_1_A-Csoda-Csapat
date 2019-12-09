@@ -1,19 +1,10 @@
-<div class="container search-box py-4">
-        <div class="col-md-12">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-10">
-                        <mat-form-field appearance="outline" class="form w-100">
-                            <mat-label>Search</mat-label>
-                            <input matInput class="searchfield w-100" placeholder="Type chicken or lamb or..." type="text">
-                        </mat-form-field>
-                    </div>
-                    <div class="col-md-2" id="searchButtonDiv">
-                        <input class="text-center btn btn-outline-dark w-100" id="searchbutton" type="button" value="Search">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <app-tagfilter></app-tagfilter>
+<div class="row my-4 justify-content-center align-items-center mx-auto search-box p-4 container-fluid">
+    <mat-form-field class="col-md-6 mt-3" appearance="outline">
+        <mat-label>Search</mat-label>
+        <input matInput placeholder="Type chicken or lamb or..." type="text">
+    </mat-form-field>
+    <div class="col-md-2">
+        <input class="btn btn-outline-dark text-center" type="button" (click)="search()" value="Search">
     </div>
+    <app-tagfilter></app-tagfilter>
+</div>

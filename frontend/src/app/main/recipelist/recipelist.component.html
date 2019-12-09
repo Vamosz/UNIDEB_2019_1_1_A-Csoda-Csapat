@@ -1,35 +1,14 @@
-<div class="row mt-4">
-        <div class="col-md-12">
-                <div class="card md-3 my-3 p-2" *ngFor="let recipe of recipes">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="assets/img/food_placeholder.jpg" class="card-img" alt="food">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h3 class="card-title">{{ recipe.title }}</h3>
-                                <h5 class="card-subtitle">{{ recipe.summary }}</h5>
-                                <p class="card-text py-3">{{ recipe.description.substring(0, 150) }}...</p>
-                                <p class="card-text py-3">Ingredients: 
-                                    <span class="text-capitalize" *ngFor="let ing of recipe.ingredients; let last = last">
-                                        {{ ing + (last ? "" : ", ")}}
-                                    </span>
-                                    </p>
-                                <div class="card-footer">
-                                    <small class="text-muted">
-                                    <i class="material-icons px-1 align-middle">av_timer</i>
-                                    <span class="align-middle">{{ recipe.preparationTime.hours }}:{{ recipe.preparationTime.minutes }}</span>
-                                    </small>
-                                    <ng-template ngFor let-tag [ngForOf]="recipe.tags">
-                                    <small class="text-muted px-2 py-0 my-0">
-                                        <a href="/home#" class="badge badge-secondary align-middle text-center">{{ tag }}</a>
-                                    </small>
-                                    </ng-template>
-                                    <div class="btn btn-outline-dark float-right">View</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="row my-4 justify-content-center container-fluid">
+    <div *ngIf="recipes == null" class="col-md-6 text-center">
+        <h3>No recipes found.</h3>
+    </div>
+    <div class="col-md-4 text-center">
+            <button *ngIf="editable" (click)="createRecipe()" class="btn btn-outline-info btn-lg my-5 create-button">Add new recipe!</button>
         </div>
+    <div class="col-md-12">
+        <div class="card md-3 my-3" *ngFor="let recipe of recipes">
+            <app-recipe [recipe]="recipe" [editable]="editableTo" (onChange)="fetchRecipes($event)"></app-recipe>
+        </div>
+    </div>
+
+</div>
