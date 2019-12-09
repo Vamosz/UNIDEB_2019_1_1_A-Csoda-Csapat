@@ -12,6 +12,8 @@ import { Recipe } from 'src/app/model/Recipe';
 })
 export class HomeComponent implements OnInit {
   recipes: Recipe[];
+  err: boolean;
+  msg: string;
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
@@ -19,13 +21,23 @@ export class HomeComponent implements OnInit {
   }
 
   fetchRecipes(event?) {
-    this.recipeService.getAllRecipes().then(
-      response => {
-        this.recipes = response.body
-        console.log(response.body);
-      }).catch(
-        response => {
-          this.recipes = [];
-        });
+    // this.recipeService.getAllRecipes().then(
+    //   response => {
+    //     this.recipes = response.body
+    //     console.log(response.body);
+    //   }).catch(
+    //     response => {
+    //       this.recipes = [];
+    //     });
+        this.recipeService.getAllRecipesForAuthor().then(
+          response => {
+            this.recipes = response.body
+            this.err = false;
+          }).catch(
+            response => {
+              this.recipes = [];
+              this.err = true;
+              this.msg = response.error.message;
+            });
   }
 }

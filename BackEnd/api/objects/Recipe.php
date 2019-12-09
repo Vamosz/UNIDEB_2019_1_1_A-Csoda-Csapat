@@ -114,11 +114,13 @@ class Recipe {
     }
 
     public function update($data) {
+        $this->id = $data->id;
+      
         if (!$this->exists()) {
             return false;
         }
 
-        $this->id = $data->id;
+      
 
         $tags = $data->tags;
         $ingredients = $data->ingredients;

@@ -10,7 +10,7 @@ import { User } from '../../model/User';
 export class UserService {
 
   // userUrl: string = 'http://localhost/api/user/';
-  userUrl: string = 'http://localhost/cookbook/BackEnd/api/user/';
+  userUrl: string = 'http://localhost/cookbook_legyeljo/UNIDEB_2019_1_1_A-Csoda-Csapat/BackEnd/api/user/';
 
   constructor(private http: HttpClient, private router: Router) { }
 

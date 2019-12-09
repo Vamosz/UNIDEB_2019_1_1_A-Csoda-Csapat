@@ -10,7 +10,7 @@ import { Recipe } from '../../model/Recipe';
 export class RecipeService {
 
   // recipesUrl: string = 'http://localhost/cookbook/api/recipe/';
-  recipesUrl: string = 'http://localhost/cookbook/BackEnd/api/recipe/';
+  recipesUrl: string = 'http://localhost/cookbook_legyeljo/UNIDEB_2019_1_1_A-Csoda-Csapat/BackEnd/api/recipe/';
  // recipesUrl: string = 'http://localhost/api/recipe/';
 
   constructor(private http: HttpClient) { }
@@ -52,14 +52,12 @@ export class RecipeService {
 
   updateRecipe(recipe: Recipe) {
     let json = JSON.stringify(recipe);
-    let response: any;
-    this.http.post(`${this.recipesUrl}update.php`, json, {
+
+    return this.http.post(`${this.recipesUrl}update.php`, json, {
       headers: new HttpHeaders({
         'Content-Type': 'text/plain'
       }),
       observe: 'response'
-    }).subscribe(response => response = response);
-
-    return response;
+    }).toPromise();
   }
 }

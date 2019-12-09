@@ -11,7 +11,7 @@ export class AuthService {
   constructor(public jwtHelper: JwtHelperService, private http: HttpClient, public router: Router) { }
 
   // validateUrl: string = "http://localhost/cookbook/api/user/validate_token.php";
-  validateUrl: string = "http://localhost/cookbook/BackEnd/api/user/validate_token.php";
+  validateUrl: string = "http://localhost/cookbook_legyeljo/UNIDEB_2019_1_1_A-Csoda-Csapat/BackEnd/api/user/validate_token.php";
   // validateUrl: string = "http://localhost/api/user/validate_token.php";
 
   public isAuthenticated(): boolean {
@@ -22,7 +22,8 @@ export class AuthService {
 
       const response = this.http.post(this.validateUrl, json, { observe: 'response' }).toPromise();
       response.then(response => {
-        let data = response.body['data'];;
+        let data = response.body['data'];
+        console.log("asd ",data.user_id);
         localStorage.setItem('name', data.name);
         localStorage.setItem('user_id', data.id);
         localStorage.setItem('email', data.email);

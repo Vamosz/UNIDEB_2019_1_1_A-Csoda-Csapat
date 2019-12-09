@@ -4,6 +4,7 @@ import { MatDialog, MatSnackBar } from '@angular/material';
 import { RecipeDialogComponent } from '../recipe-dialog/recipe-dialog.component';
 import { RecipeService } from 'src/app/service/recipeservice/recipe.service';
 import { EventEmitter } from '@angular/core';
+import { RecipeDialogEditComponent } from '../recipe-dialog-edit/recipe-dialog-edit.component';
 
 @Component({
   selector: 'app-recipe',
@@ -41,8 +42,8 @@ export class RecipeComponent implements OnInit {
       });
   }
   editRecipe(){
-    this.snackBar.open("Ez a funkció nem elérhető jelenleg.", "OK", { duration: 2000 });
-   
+    // this.snackBar.open("Ez a funkció nem elérhető jelenleg.", "OK", { duration: 2000 });
+    this.dialog.open(RecipeDialogEditComponent, { maxHeight: '90vh', data: this.recipe });
   }
 
 
