@@ -101,3 +101,18 @@ Eredmény:   Recipe was created.</br>
 Megjegyzés:  Sikeres teszt </br>
 
 ---
+
+Megnevezés: Feltöltött recept megtekintés tesztelése </br>
+ </br>
+Vizsgáló: Anna</br>
+ </br>
+Bemenő adatok: </br>
+ Már feltöltött recept.</br>
+ </br>
+Elvárt kimenő adatok: Feltöltött adatok pontos megjelenése. </br>
+ </br>
+Eredmény: A receptben megadott hozzávalók többször megjelennek az elvártnál..</br>
+ </br>
+Megjegyzés:  Sikertelen teszt </br>
+
+---
