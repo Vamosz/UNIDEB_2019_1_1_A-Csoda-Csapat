@@ -9,8 +9,9 @@ import { User } from '../../model/User';
 })
 export class UserService {
 
-  userUrl: string = 'http://localhost/api/user/';
-  
+  // userUrl: string = 'http://localhost/api/user/';
+  userUrl: string = 'http://localhost/cookbook/BackEnd/api/user/';
+
   constructor(private http: HttpClient, private router: Router) { }
 
   register(user : User) {

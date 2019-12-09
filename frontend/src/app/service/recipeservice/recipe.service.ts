@@ -10,7 +10,8 @@ import { Recipe } from '../../model/Recipe';
 export class RecipeService {
 
   // recipesUrl: string = 'http://localhost/cookbook/api/recipe/';
-  recipesUrl: string = 'http://localhost/api/recipe/';
+  recipesUrl: string = 'http://localhost/cookbook/BackEnd/api/recipe/';
+ // recipesUrl: string = 'http://localhost/api/recipe/';
 
   constructor(private http: HttpClient) { }
 
@@ -26,7 +27,7 @@ export class RecipeService {
   getRecipe(id: number) : Observable<any> {
     return this.http.get(`${this.recipesUrl}read_one.php?id=${id}`);
   }
-  
+
   createRecipe(recipe: Recipe) {
     let json = JSON.stringify(recipe);
 
@@ -40,7 +41,7 @@ export class RecipeService {
 
   deleteRecipe(id: number) {
     let json = `{ "id": ${id} }`;
-   
+
     return this.http.post(`${this.recipesUrl}delete.php`, json, {
       headers: new HttpHeaders({
         'Content-Type': 'text/plain'
@@ -58,7 +59,7 @@ export class RecipeService {
       }),
       observe: 'response'
     }).subscribe(response => response = response);
-    
+
     return response;
   }
 }

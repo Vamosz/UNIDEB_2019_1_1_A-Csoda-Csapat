@@ -10,7 +10,8 @@ export class AuthService {
   constructor(public jwtHelper: JwtHelperService, private http: HttpClient) { }
 
   // validateUrl: string = "http://localhost/cookbook/api/user/validate_token.php";
-  validateUrl: string = "http://localhost/api/user/validate_token.php";
+  validateUrl: string = "http://localhost/cookbook/BackEnd/api/user/validate_token.php";
+  // validateUrl: string = "http://localhost/api/user/validate_token.php";
 
   public isAuthenticated(): boolean {
     const token = localStorage.getItem('token');
