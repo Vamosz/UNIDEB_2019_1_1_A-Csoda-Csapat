@@ -179,3 +179,16 @@ Elvárt kimenő adatok: Recipe was created. </br>
 Eredmény:   Recipe was created.</br>
  </br>
 Megjegyzés:  Sikeres teszt </br>
+
+------------------------------------
+Megnevezés: Recept törlés tesztelése </br>
+ </br>
+Vizsgáló: Tar Zoltán</br>
+ </br>
+Bemenő adatok: Már meglévő recept (title: Rántott hús). </br>
+
+Elvárt kimenő adatok: Rántott hús was deleted. </br>
+
+Eredmény: Rántott hús was deleted. </br>
+
+Megjegyzés:  Sikeres teszt </br>
