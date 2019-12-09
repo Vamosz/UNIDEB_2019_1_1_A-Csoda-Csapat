@@ -4,7 +4,7 @@ Tesztelési sablon
 ---
 Megnevezés: Regisztráció tesztelése </br>
  </br>
-Vizsgáló: Patrik</br>
+Vizsgáló: Vámosi Patrik</br>
  </br>
 Bemenő adatok: </br>
 Email: vamosipatrik@gmail.com </br>
@@ -23,7 +23,7 @@ Megjegyzés:  Sikeres teszt </br>
 
 Megnevezés: Regisztráció tesztelése </br>
  </br>
-Vizsgáló: Patrik</br>
+Vizsgáló: Vámosi Patrik</br>
  </br>
 Bemenő adatok: </br>
 Email: vamosipatrik@gmail.com </br>
@@ -42,7 +42,7 @@ Megjegyzés:  Sikeres teszt </br>
 
 Megnevezés: Regisztráció tesztelése </br>
  </br>
-Vizsgáló: Patrik</br>
+Vizsgáló: Vámosi Patrik</br>
  </br>
 Bemenő adatok:</br>
 Email: a </br>
@@ -62,7 +62,7 @@ Megjegyzés:  Sikeres teszt </br>
 
 Megnevezés: Regisztráció tesztelése </br>
  </br>
-Vizsgáló: Patrik</br>
+Vizsgáló: Vámosi Patrik</br>
  </br>
 Bemenő adatok:</br>
 Email: a </br>
